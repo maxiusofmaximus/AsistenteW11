@@ -5,7 +5,7 @@ using Microsoft.Extensions.Options;
 
 namespace AsistenteW11.Api.Services;
 
-public sealed class ToastNotificationService : IToastNotificationService
+public sealed class ToastNotificationService
 {
     private readonly BotOptions _options;
     private readonly ILogger<ToastNotificationService> _logger;

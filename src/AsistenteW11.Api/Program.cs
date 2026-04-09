@@ -5,7 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.Configure<BotOptions>(builder.Configuration.GetSection(BotOptions.SectionName));
 builder.Services.AddSingleton<ILogService, FileLogService>();
-builder.Services.AddSingleton<IToastNotificationService, ToastNotificationService>();
+builder.Services.AddSingleton<ToastNotificationService>();
 
 var app = builder.Build();
 
@@ -21,7 +21,7 @@ app.MapGet("/health", () =>
 app.MapPost("/logs", async (
     LogEntryRequest request,
     ILogService logService,
-    IToastNotificationService toastService,
+    ToastNotificationService toastService,
     CancellationToken cancellationToken) =>
 {
     var validationErrors = request.Validate();
