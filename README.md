@@ -12,6 +12,7 @@ Asistente local para Windows 11 en C#/.NET que recibe logs por HTTP, los guarda 
 ## Estructura
 
 - `src/AsistenteW11.Api`: API local en ASP.NET Core Minimal API
+- `src/AsistenteW11.Admin`: interfaz gráfica WinForms para administrar el bot
 - `scripts/install-active.bat`: instalador de `Active.ps1` + tarea programada
 
 ## Ejecutar API local
@@ -28,6 +29,21 @@ dotnet build AsistenteW11.sln
 ```bash
 dotnet run --project src/AsistenteW11.Api
 ```
+
+### Ejecutar interfaz gráfica (Admin)
+
+En otra terminal:
+
+```bash
+dotnet run --project src/AsistenteW11.Admin
+```
+
+Funciones principales de la UI:
+
+- Verificar estado de la API (`/health`)
+- Enviar log de prueba para disparar toast (`/logs`)
+- Ver logs recientes desde archivo local
+- Ver softwares/fuentes detectadas (agrupadas por `source`)
 
 3. Verificar salud:
 
@@ -108,6 +124,9 @@ El instalador realiza:
   - Revisa que Windows permita notificaciones.
   - Revisa errores en salida de la API y en `assistant.log`.
   - Mantén `ToastAppId` en `appsettings.json` como `Microsoft.Windows.Explorer` (o ajusta según política del equipo).
+- UI no muestra logs o fuentes:
+  - Verifica en la UI la ruta de log (`C:\ProgramData\AsistenteW11\logs\assistant.log` por defecto).
+  - Pulsa `Recargar Logs` tras enviar pruebas.
 - Error de permisos sobre `C:\ProgramData`:
   - Ejecuta API/instalador con permisos suficientes o cambia `Bot:LogFilePath` en `appsettings.json`.
 
