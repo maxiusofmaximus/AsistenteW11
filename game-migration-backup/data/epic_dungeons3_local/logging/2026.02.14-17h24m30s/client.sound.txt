@@ -1,8 +1,0 @@
-﻿0#13461 22:28:17.940 [Sound] Warn> Audio Bus ("Master") is already unmuted.
-2607#21378 22:30:37.226 [Sound] Warn> Attempting to play "unit_snore_loop" as a looped playback, the Audio Sample isn't configured as such! Check your clip file names.
-14141#55874 22:40:14.386 [Sound] Warn> Audio Bus ("Effects") is currently working on action ("Pause"), unable to mute.
-0#55883 22:40:14.751 [Sound] Warn> Audio Bus ("Master") is already unmuted.
-0#64334 22:42:36.271 [Sound] Warn> Audio Bus ("Master") is already unmuted.
-156847#536505 00:54:02.175 [Sound] Warn> Audio Bus ("Dialogue2D") is already paused.
-156847#536505 00:54:02.175 [Sound] Warn> Audio Bus ("Dialogue3D") is already paused.
-156847#536505 00:54:02.175 [Sound] Warn> Audio Bus ("Effects") is currently working on action ("Pause"), unable to pause.

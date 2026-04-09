@@ -1,3 +1,0 @@
-﻿216997#573986 05:47:46.765 [Sound] Warn> Audio Bus ("Dialogue2D") is already paused.
-216997#573986 05:47:46.765 [Sound] Warn> Audio Bus ("Dialogue3D") is already paused.
-216997#573986 05:47:46.766 [Sound] Warn> Audio Bus ("Effects") is currently working on action ("Pause"), unable to pause.
