@@ -125,6 +125,6 @@ Conecta remoto y sube:
 
 ```bash
 git branch -M main
-git remote add origin https://github.com/<TU_USUARIO>/<TU_REPO>.git
+git remote add origin https://github.com/maxiusofmaximus/AsistenteW11.git
 git push -u origin main
 ```
