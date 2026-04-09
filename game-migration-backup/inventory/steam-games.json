@@ -1,0 +1,44 @@
+[
+  {
+    "platform": "Steam",
+    "appId": "2399830",
+    "name": "ARK: Survival Ascended",
+    "installPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\ARK Survival Ascended",
+    "manifest": "C:\\Program Files (x86)\\Steam\\steamapps\\appmanifest_2399830.acf"
+  },
+  {
+    "platform": "Steam",
+    "appId": "730",
+    "name": "Counter-Strike 2",
+    "installPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Global Offensive",
+    "manifest": "C:\\Program Files (x86)\\Steam\\steamapps\\appmanifest_730.acf"
+  },
+  {
+    "platform": "Steam",
+    "appId": "1091500",
+    "name": "Cyberpunk 2077",
+    "installPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077",
+    "manifest": "C:\\Program Files (x86)\\Steam\\steamapps\\appmanifest_1091500.acf"
+  },
+  {
+    "platform": "Steam",
+    "appId": "371660",
+    "name": "Far Cry Primal",
+    "installPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Far Cry Primal",
+    "manifest": "C:\\Program Files (x86)\\Steam\\steamapps\\appmanifest_371660.acf"
+  },
+  {
+    "platform": "Steam",
+    "appId": "228980",
+    "name": "Steamworks Common Redistributables",
+    "installPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Steamworks Shared",
+    "manifest": "C:\\Program Files (x86)\\Steam\\steamapps\\appmanifest_228980.acf"
+  },
+  {
+    "platform": "Steam",
+    "appId": "3564740",
+    "name": "Where Winds Meet",
+    "installPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Where Winds Meet",
+    "manifest": "C:\\Program Files (x86)\\Steam\\steamapps\\appmanifest_3564740.acf"
+  }
+]

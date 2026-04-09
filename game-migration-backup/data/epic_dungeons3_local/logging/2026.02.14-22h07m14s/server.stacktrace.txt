@@ -1,0 +1,733 @@
+﻿-1#-1 03:07:17.894 [Default] Info> --- Environment information ---
+                                   Machine: MAX
+                                   Now: 2026-02-15 03:07:17 (UTC)
+                                   Env.OSVersion: Microsoft Windows NT 10.0.26200.0
+                                   Env.Version: 4.0.30319.42000
+                                   MonoVersion: 5.4.1 (Visual Studio built mono)
+                                   WorkingDirectory: C:\Program Files\Epic Games\Dungeons3
+                                   DataDirectory: C:\Program Files\Epic Games\Dungeons3\Dungeons3.app\Contents\Data
+                                   ThreadId: 1
+                                   Log: 2026.02.14-22h07m14s
+                                   Version: v1.7 build13 @c33954b
+                                   game: d3
+                                   buildtarget: StandaloneWindows64
+                                   buildtype: DEPLOY;GOLDMASTER;
+                                   hardwareplatform: WIN;
+                                   softwareplatform: EPICSTORE
+                                   otherdefines:
+                                   unityversion: 5.6.6f2
+                                   builddate: 2020-10-11 21:45:45 (UTC)
+                                   buildmachine: RFBUILD7
+                                   commitdate: 2020-10-08 11:20:12 (UTC)
+                                   githash: c33954b45fd84b3d1a0167a20dc0c89e6947f8b8
+                                   gitsubmodule: dd4167613f283ab73af5d6f0224a592934d74fce	Assets/RawData
+                                   versioninternal: d3-#43477-release_v1.7#7@c33954b
+                                   buildcommand: latest epicstore/goldmaster release/v1.7 --prio=-699
+                                   epic: v11 vcredistfix
+-1#-1 03:07:21.168 [Default] Info> Shutdown server because we've left main loop...
+                                 > LogBuffer.AddLogInternal() in :0
+                                   	LogBuffer.LogInfo() in :0
+                                   	LoggingBase`1.Info() in :0
+                                   	LoggingBase`1.Info() in :0
+                                   	LoggingBase`1.Info() in :0
+                                   	MainClass.Main() in :0
+-1#-1 03:07:34.126 [Default] Info> --- Environment information ---
+                                   Machine: MAX
+                                   Now: 2026-02-15 03:07:34 (UTC)
+                                   Env.OSVersion: Microsoft Windows NT 10.0.26200.0
+                                   Env.Version: 4.0.30319.42000
+                                   MonoVersion: 5.4.1 (Visual Studio built mono)
+                                   WorkingDirectory: C:\Program Files\Epic Games\Dungeons3
+                                   DataDirectory: C:\Program Files\Epic Games\Dungeons3\Dungeons3.app\Contents\Data
+                                   ThreadId: 1
+                                   Log: 2026.02.14-22h07m14s
+                                   Version: v1.7 build13 @c33954b
+                                   game: d3
+                                   buildtarget: StandaloneWindows64
+                                   buildtype: DEPLOY;GOLDMASTER;
+                                   hardwareplatform: WIN;
+                                   softwareplatform: EPICSTORE
+                                   otherdefines:
+                                   unityversion: 5.6.6f2
+                                   builddate: 2020-10-11 21:45:45 (UTC)
+                                   buildmachine: RFBUILD7
+                                   commitdate: 2020-10-08 11:20:12 (UTC)
+                                   githash: c33954b45fd84b3d1a0167a20dc0c89e6947f8b8
+                                   gitsubmodule: dd4167613f283ab73af5d6f0224a592934d74fce	Assets/RawData
+                                   versioninternal: d3-#43477-release_v1.7#7@c33954b
+                                   buildcommand: latest epicstore/goldmaster release/v1.7 --prio=-699
+                                   epic: v11 vcredistfix
+-1#-1 03:07:34.127 [Default] Info> Hello world (of embedded server)!
+                                 > LogBuffer.AddLogInternal() in :0
+                                   	LogBuffer.LogInfo() in :0
+                                   	LoggingBase`1.Info() in :0
+                                   	LoggingBase`1.Info() in :0
+                                   	LoggingBase`1.Info() in :0
+                                   	MainClass.Main() in :0
+-1#-1 03:07:34.127 [Default] Info> cmd args:  --logfolder 2026.02.14-22h07m14s --singleplayer --embedded
+                                 > LogBuffer.AddLogInternal() in :0
+                                   	LogBuffer.LogInfo() in :0
+                                   	LoggingBase`1.Info() in :0
+                                   	LoggingBase`1.Info() in :0
+                                   	LoggingBase`1.Info() in :0
+                                   	MainClass.Main() in :0
+-1#-1 03:07:34.128 [Default] Info> Config loaded: <Entity ID 0>
+                                 > LogBuffer.AddLogInternal() in :0
+                                   	LogBuffer.LogInfo() in :0
+                                   	LoggingBase`1.Info() in :0
+                                   	LoggingBase`1.Info() in :0
+                                   	LoggingBase`1.Info() in :0
+                                   	ConfigManager.LoadAllConfig() in :0
+                                   	MainClass.Main() in :0
+-1#-1 03:07:34.152 [Default] Info> Entering main loop...
+                                 > LogBuffer.AddLogInternal() in :0
+                                   	LogBuffer.LogInfo() in :0
+                                   	LoggingBase`1.Info() in :0
+                                   	LoggingBase`1.Info() in :0
+                                   	LoggingBase`1.Info() in :0
+                                   	MainClass.Main() in :0
+-1#-1 03:07:34.155 [Network] Info> <S> OUT OnClientConnected ??? [1] (Invalid) IsHosting=True
+                                 > LogBuffer.AddLogInternal() in :0
+                                   	LogBuffer.LogInfo() in :0
+                                   	LoggingBase`1.NetworkInfo() in :0
+                                   	NetworkServer.Realmforge.Internal.Shared.INetworkCallbacks.LogInfo() in :0
+                                   	LogWrapper.OnClientConnected() in :0
+                                   	EmbeddedNetwork.Update() in :0
+                                   	NetworkServer.Update() in :0
+                                   	ServerMainHelper.Update() in :0
+                                   	MainClass.Main() in :0
+-1#-1 03:07:34.197 [Default] Info> Config loaded:
+                                   disableddlc =
+                                   sound.volume.master = 0.5
+                                   sound.volume.music = 1
+                                   sound.volume.dialog = 1
+                                   sound.volume.fx = 1
+                                   sound.subtitles = True
+                                   sound.evillaughter = Laughter1
+                                   gameplay.healthbars = WhenChanged
+                                   language = es
+                                   save.autointerval = 30
+                                   campaign.achievements = 0
+                                   campaign.progress = cathedral shadow
+                                   campaign.showevilification =
+                                   showcontinue = True
+                                   firststart = False
+                                   goldeneggs =
+                                   quickslots =
+                                   graphic.resolution = 1366x768
+                                   wasinserverinit = False
+                                   showreviewnag = Show
+                                   <Entity ID 0>
+                                 > LogBuffer.AddLogInternal() in :0
+                                   	LogBuffer.LogInfo() in :0
+                                   	LoggingBase`1.Info() in :0
+                                   	LoggingBase`1.Info() in :0
+                                   	LoggingBase`1.Info() in :0
+                                   	ConfigManager.LoadAllConfig() in :0
+                                   	NetworkServer.ReloadConfig() in :0
+                                   	RemotesServer.NetworkServer_ReloadConfig() in :0
+                                   	RpcPacket.DeserializeAndHandle() in :0
+                                   	NetworkServer.HandleRPCs() in :0
+                                   	NetworkServer.Update() in :0
+                                   	ServerMainHelper.Update() in :0
+                                   	MainClass.Main() in :0
+-1#-1 03:07:34.556 [Network] Info> NetworkServer.ServerState set from [PreBoot] to: [BootingStarted]
+                                 > LogBuffer.AddLogInternal() in :0
+                                   	LogBuffer.LogInfo() in :0
+                                   	LoggingBase`1.NetworkInfo() in :0
+                                   	NetworkServer.set_ServerState() in :0
+                                   	NetworkServer.StartGameWithBootParam() in :0
+                                   	RemotesServer.NetworkServer_StartGameWithBootParam() in :0
+                                   	RpcPacket.DeserializeAndHandle() in :0
+                                   	NetworkServer.HandleRPCs() in :0
+                                   	NetworkServer.Update() in :0
+                                   	ServerMainHelper.Update() in :0
+                                   	MainClass.Main() in :0
+-1#-1 03:07:34.557 [Network] Info> NOMServer created
+                                 > LogBuffer.AddLogInternal() in :0
+                                   	LogBuffer.LogInfo() in :0
+                                   	LoggingBase`1.NetworkInfo() in :0
+                                   	NOMServer..ctor() in :0
+                                   	GameLogicServer..ctor() in :0
+                                   	NetworkServer.StartGameWithBootParam() in :0
+                                   	RemotesServer.NetworkServer_StartGameWithBootParam() in :0
+                                   	RpcPacket.DeserializeAndHandle() in :0
+                                   	NetworkServer.HandleRPCs() in :0
+                                   	NetworkServer.Update() in :0
+                                   	ServerMainHelper.Update() in :0
+                                   	MainClass.Main() in :0
+-1#-1 03:07:34.560 [Default] Info> Booting (server) SceneName 'DemonStones'; FrameCount '24784'; VersionTxt 'v1.7 build13 @c33954b'; OriginalVersionTxt 'v1.7 build13 @c33954b'; SaveDate '02/15/2026 01:15:49'; Playtime '1239.234'; SavedGameMode 'SinglePlayer'; PlayerCount '1'; SavegameName 'DemonStones_20260214_201549'; GameMode 'SinglePlayer'; <Entity ID 0>
+                                 > LogBuffer.AddLogInternal() in :0
+                                   	LogBuffer.LogInfo() in :0
+                                   	LoggingBase`1.Info() in :0
+                                   	LoggingBase`1.Info() in :0
+                                   	LoggingBase`1.Info() in :0
+                                   	Utils.LogBoot() in :0
+                                   	GameLogicServer.BootServer() in :0
+                                   	NetworkServer.StartGameWithBootParam() in :0
+                                   	RemotesServer.NetworkServer_StartGameWithBootParam() in :0
+                                   	RpcPacket.DeserializeAndHandle() in :0
+                                   	NetworkServer.HandleRPCs() in :0
+                                   	NetworkServer.Update() in :0
+                                   	ServerMainHelper.Update() in :0
+                                   	MainClass.Main() in :0
+-1#-1 03:07:34.560 [Network] Info> GameLogicServer.BootServer: file 'DemonStones_20260214_201549' save 'DemonStones' scene 'DemonStones' (1p Main; Ver: 0/9)
+                                 > LogBuffer.AddLogInternal() in :0
+                                   	LogBuffer.LogInfo() in :0
+                                   	LoggingBase`1.NetworkInfo() in :0
+                                   	GameLogicServer.BootServer() in :0
+                                   	NetworkServer.StartGameWithBootParam() in :0
+                                   	RemotesServer.NetworkServer_StartGameWithBootParam() in :0
+                                   	RpcPacket.DeserializeAndHandle() in :0
+                                   	NetworkServer.HandleRPCs() in :0
+                                   	NetworkServer.Update() in :0
+                                   	ServerMainHelper.Update() in :0
+                                   	MainClass.Main() in :0
+-1#-1 03:07:34.566 [Default] Info> DialogsShared.InitAudioLength() has to create a new cache; used languages are: es <Entity ID 0>
+                                 > LogBuffer.AddLogInternal() in :0
+                                   	LogBuffer.LogInfo() in :0
+                                   	LoggingBase`1.Info() in :0
+                                   	LoggingBase`1.Info() in :0
+                                   	LoggingBase`1.Info() in :0
+                                   	DialogsShared.InitAudioLength() in :0
+                                   	NetworkShared.InitPlayerAudioLanguages() in :0
+                                   	GameLogicServer.BootServer() in :0
+                                   	NetworkServer.StartGameWithBootParam() in :0
+                                   	RemotesServer.NetworkServer_StartGameWithBootParam() in :0
+                                   	RpcPacket.DeserializeAndHandle() in :0
+                                   	NetworkServer.HandleRPCs() in :0
+                                   	NetworkServer.Update() in :0
+                                   	ServerMainHelper.Update() in :0
+                                   	MainClass.Main() in :0
+24784#-1 03:07:35.897 [Network] Info> NetworkServer.ServerState set from [BootingStarted] to: [BootingFinished]
+                                    > LogBuffer.AddLogInternal() in :0
+                                      	LogBuffer.LogInfo() in :0
+                                      	LoggingBase`1.NetworkInfo() in :0
+                                      	NetworkServer.set_ServerState() in :0
+                                      	GameLogicServer.BootServer() in :0
+                                      	NetworkServer.StartGameWithBootParam() in :0
+                                      	RemotesServer.NetworkServer_StartGameWithBootParam() in :0
+                                      	RpcPacket.DeserializeAndHandle() in :0
+                                      	NetworkServer.HandleRPCs() in :0
+                                      	NetworkServer.Update() in :0
+                                      	ServerMainHelper.Update() in :0
+                                      	MainClass.Main() in :0
+24784#-1 03:07:35.897 [Network] Info> NetworkServer.ServerState set from [BootingFinished] to: [WaitForClients]
+                                    > LogBuffer.AddLogInternal() in :0
+                                      	LogBuffer.LogInfo() in :0
+                                      	LoggingBase`1.NetworkInfo() in :0
+                                      	NetworkServer.set_ServerState() in :0
+                                      	GameLogicServer.BootServer() in :0
+                                      	NetworkServer.StartGameWithBootParam() in :0
+                                      	RemotesServer.NetworkServer_StartGameWithBootParam() in :0
+                                      	RpcPacket.DeserializeAndHandle() in :0
+                                      	NetworkServer.HandleRPCs() in :0
+                                      	NetworkServer.Update() in :0
+                                      	ServerMainHelper.Update() in :0
+                                      	MainClass.Main() in :0
+24784#-1 03:07:35.900 [Default] Info> Resetting NetworkShared.MemoryStream because length > 64kb: 88898 <Entity ID 0>
+                                    > LogBuffer.AddLogInternal() in :0
+                                      	LogBuffer.LogInfo() in :0
+                                      	LoggingBase`1.Info() in :0
+                                      	LoggingBase`1.Info() in :0
+                                      	NetworkShared.Update() in :0
+                                      	NetworkServer.Update() in :0
+                                      	ServerMainHelper.Update() in :0
+                                      	MainClass.Main() in :0
+24784#-1 03:07:51.318 [Network] Info> NetworkServer.SetServerSpeed: 1
+                                    > LogBuffer.AddLogInternal() in :0
+                                      	LogBuffer.LogInfo() in :0
+                                      	LoggingBase`1.NetworkInfo() in :0
+                                      	NetworkServer.SetServerSpeed() in :0
+                                      	NetworkServer.CheckAllPlayersLoadedMap() in :0
+                                      	NetworkServer.PlayerHasLoadedMap() in :0
+                                      	RemotesServer.NetworkServer_PlayerHasLoadedMap() in :0
+                                      	RpcPacket.DeserializeAndHandle() in :0
+                                      	NetworkServer.HandleRPCs() in :0
+                                      	NetworkServer.Update() in :0
+                                      	ServerMainHelper.Update() in :0
+                                      	MainClass.Main() in :0
+24784#-1 03:07:51.318 [Network] Info> NetworkServer.ServerState set from [WaitForClients] to: [GameHasStarted]
+                                    > LogBuffer.AddLogInternal() in :0
+                                      	LogBuffer.LogInfo() in :0
+                                      	LoggingBase`1.NetworkInfo() in :0
+                                      	NetworkServer.set_ServerState() in :0
+                                      	NetworkServer.CheckAllPlayersLoadedMap() in :0
+                                      	NetworkServer.PlayerHasLoadedMap() in :0
+                                      	RemotesServer.NetworkServer_PlayerHasLoadedMap() in :0
+                                      	RpcPacket.DeserializeAndHandle() in :0
+                                      	NetworkServer.HandleRPCs() in :0
+                                      	NetworkServer.Update() in :0
+                                      	ServerMainHelper.Update() in :0
+                                      	MainClass.Main() in :0
+44733#-1 03:24:28.632 [Network] Info> NetworkServer.SetServerSpeed: 0
+                                    > LogBuffer.AddLogInternal() in :0
+                                      	LogBuffer.LogInfo() in :0
+                                      	LoggingBase`1.NetworkInfo() in :0
+                                      	NetworkServer.SetServerSpeed() in :0
+                                      	RemotesServer.NetworkServer_SetServerSpeed() in :0
+                                      	RpcPacket.DeserializeAndHandle() in :0
+                                      	NetworkServer.HandleRPCs() in :0
+                                      	NetworkServer.Update() in :0
+                                      	ServerMainHelper.Update() in :0
+                                      	MainClass.Main() in :0
+44733#-1 03:24:29.323 [Network] Info> NetworkServer.SetServerSpeed: 1
+                                    > LogBuffer.AddLogInternal() in :0
+                                      	LogBuffer.LogInfo() in :0
+                                      	LoggingBase`1.NetworkInfo() in :0
+                                      	NetworkServer.SetServerSpeed() in :0
+                                      	RemotesServer.NetworkServer_SetServerSpeed() in :0
+                                      	RpcPacket.DeserializeAndHandle() in :0
+                                      	NetworkServer.HandleRPCs() in :0
+                                      	NetworkServer.Update() in :0
+                                      	ServerMainHelper.Update() in :0
+                                      	MainClass.Main() in :0
+55103#-1 03:33:08.368 [Network] Info> NetworkServer.SetServerSpeed: 0
+                                    > LogBuffer.AddLogInternal() in :0
+                                      	LogBuffer.LogInfo() in :0
+                                      	LoggingBase`1.NetworkInfo() in :0
+                                      	NetworkServer.SetServerSpeed() in :0
+                                      	RemotesServer.NetworkServer_SetServerSpeed() in :0
+                                      	RpcPacket.DeserializeAndHandle() in :0
+                                      	NetworkServer.HandleRPCs() in :0
+                                      	NetworkServer.Update() in :0
+                                      	ServerMainHelper.Update() in :0
+                                      	MainClass.Main() in :0
+55103#-1 03:33:09.004 [Network] Info> NetworkServer.SetServerSpeed: 1
+                                    > LogBuffer.AddLogInternal() in :0
+                                      	LogBuffer.LogInfo() in :0
+                                      	LoggingBase`1.NetworkInfo() in :0
+                                      	NetworkServer.SetServerSpeed() in :0
+                                      	RemotesServer.NetworkServer_SetServerSpeed() in :0
+                                      	RpcPacket.DeserializeAndHandle() in :0
+                                      	NetworkServer.HandleRPCs() in :0
+                                      	NetworkServer.Update() in :0
+                                      	ServerMainHelper.Update() in :0
+                                      	MainClass.Main() in :0
+60778#-1 03:37:53.061 [Default] Info> GameLogicServer.PerformSave: autosave
+                                    > LogBuffer.AddLogInternal() in :0
+                                      	LogBuffer.LogInfo() in :0
+                                      	LoggingBase`1.Info() in :0
+                                      	LoggingBase`1.Info() in :0
+                                      	GameLogicServer.PerformSave() in :0
+                                      	GameLogicServer.Update() in :0
+                                      	NetworkServer.Update() in :0
+                                      	ServerMainHelper.Update() in :0
+                                      	MainClass.Main() in :0
+60778#-1 03:37:53.337 [Default] Info> SaveGame memStream: 0 mb (35 kb)
+                                    > LogBuffer.AddLogInternal() in :0
+                                      	LogBuffer.LogInfo() in :0
+                                      	LoggingBase`1.Info() in :0
+                                      	LoggingBase`1.Info() in :0
+                                      	GameLogicServer.PerformSave() in :0
+                                      	GameLogicServer.Update() in :0
+                                      	NetworkServer.Update() in :0
+                                      	ServerMainHelper.Update() in :0
+                                      	MainClass.Main() in :0
+60778#-1 03:37:53.371 [Network] Info> NetworkServer.SetServerSpeed: 1
+                                    > LogBuffer.AddLogInternal() in :0
+                                      	LogBuffer.LogInfo() in :0
+                                      	LoggingBase`1.NetworkInfo() in :0
+                                      	NetworkServer.SetServerSpeed() in :0
+                                      	NetworkServer.OnSaveDataWritten() in :0
+                                      	RemotesServer.NetworkServer_OnSaveDataWritten() in :0
+                                      	RpcPacket.DeserializeAndHandle() in :0
+                                      	NetworkServer.HandleRPCs() in :0
+                                      	NetworkServer.Update() in :0
+                                      	ServerMainHelper.Update() in :0
+                                      	MainClass.Main() in :0
+79940#-1 03:53:52.414 [Default] Info> GameLogicServer.PerformSave: autosave
+                                    > LogBuffer.AddLogInternal() in :0
+                                      	LogBuffer.LogInfo() in :0
+                                      	LoggingBase`1.Info() in :0
+                                      	LoggingBase`1.Info() in :0
+                                      	GameLogicServer.PerformSave() in :0
+                                      	GameLogicServer.Update() in :0
+                                      	NetworkServer.Update() in :0
+                                      	ServerMainHelper.Update() in :0
+                                      	MainClass.Main() in :0
+79940#-1 03:53:52.596 [Default] Info> SaveGame memStream: 0 mb (43 kb)
+                                    > LogBuffer.AddLogInternal() in :0
+                                      	LogBuffer.LogInfo() in :0
+                                      	LoggingBase`1.Info() in :0
+                                      	LoggingBase`1.Info() in :0
+                                      	GameLogicServer.PerformSave() in :0
+                                      	GameLogicServer.Update() in :0
+                                      	NetworkServer.Update() in :0
+                                      	ServerMainHelper.Update() in :0
+                                      	MainClass.Main() in :0
+79940#-1 03:53:52.617 [Network] Info> NetworkServer.SetServerSpeed: 1
+                                    > LogBuffer.AddLogInternal() in :0
+                                      	LogBuffer.LogInfo() in :0
+                                      	LoggingBase`1.NetworkInfo() in :0
+                                      	NetworkServer.SetServerSpeed() in :0
+                                      	NetworkServer.OnSaveDataWritten() in :0
+                                      	RemotesServer.NetworkServer_OnSaveDataWritten() in :0
+                                      	RpcPacket.DeserializeAndHandle() in :0
+                                      	NetworkServer.HandleRPCs() in :0
+                                      	NetworkServer.Update() in :0
+                                      	ServerMainHelper.Update() in :0
+                                      	MainClass.Main() in :0
+92796#-1 04:04:36.054 [Default] Info> GameLogicServer.PerformSave: autosave
+                                    > LogBuffer.AddLogInternal() in :0
+                                      	LogBuffer.LogInfo() in :0
+                                      	LoggingBase`1.Info() in :0
+                                      	LoggingBase`1.Info() in :0
+                                      	GameLogicServer.PerformSave() in :0
+                                      	GameLogicServer.Update() in :0
+                                      	NetworkServer.Update() in :0
+                                      	ServerMainHelper.Update() in :0
+                                      	MainClass.Main() in :0
+92796#-1 04:04:36.238 [Default] Info> SaveGame memStream: 0 mb (46 kb)
+                                    > LogBuffer.AddLogInternal() in :0
+                                      	LogBuffer.LogInfo() in :0
+                                      	LoggingBase`1.Info() in :0
+                                      	LoggingBase`1.Info() in :0
+                                      	GameLogicServer.PerformSave() in :0
+                                      	GameLogicServer.Update() in :0
+                                      	NetworkServer.Update() in :0
+                                      	ServerMainHelper.Update() in :0
+                                      	MainClass.Main() in :0
+92796#-1 04:04:36.264 [Network] Info> NetworkServer.SetServerSpeed: 1
+                                    > LogBuffer.AddLogInternal() in :0
+                                      	LogBuffer.LogInfo() in :0
+                                      	LoggingBase`1.NetworkInfo() in :0
+                                      	NetworkServer.SetServerSpeed() in :0
+                                      	NetworkServer.OnSaveDataWritten() in :0
+                                      	RemotesServer.NetworkServer_OnSaveDataWritten() in :0
+                                      	RpcPacket.DeserializeAndHandle() in :0
+                                      	NetworkServer.HandleRPCs() in :0
+                                      	NetworkServer.Update() in :0
+                                      	ServerMainHelper.Update() in :0
+                                      	MainClass.Main() in :0
+96728#-1 04:07:53.071 [Default] Info> GameLogicServer.PerformSave: autosave
+                                    > LogBuffer.AddLogInternal() in :0
+                                      	LogBuffer.LogInfo() in :0
+                                      	LoggingBase`1.Info() in :0
+                                      	LoggingBase`1.Info() in :0
+                                      	GameLogicServer.PerformSave() in :0
+                                      	GameLogicServer.Update() in :0
+                                      	NetworkServer.Update() in :0
+                                      	ServerMainHelper.Update() in :0
+                                      	MainClass.Main() in :0
+96728#-1 04:07:53.288 [Default] Info> SaveGame memStream: 0 mb (44 kb)
+                                    > LogBuffer.AddLogInternal() in :0
+                                      	LogBuffer.LogInfo() in :0
+                                      	LoggingBase`1.Info() in :0
+                                      	LoggingBase`1.Info() in :0
+                                      	GameLogicServer.PerformSave() in :0
+                                      	GameLogicServer.Update() in :0
+                                      	NetworkServer.Update() in :0
+                                      	ServerMainHelper.Update() in :0
+                                      	MainClass.Main() in :0
+96728#-1 04:07:53.316 [Network] Info> NetworkServer.SetServerSpeed: 1
+                                    > LogBuffer.AddLogInternal() in :0
+                                      	LogBuffer.LogInfo() in :0
+                                      	LoggingBase`1.NetworkInfo() in :0
+                                      	NetworkServer.SetServerSpeed() in :0
+                                      	NetworkServer.OnSaveDataWritten() in :0
+                                      	RemotesServer.NetworkServer_OnSaveDataWritten() in :0
+                                      	RpcPacket.DeserializeAndHandle() in :0
+                                      	NetworkServer.HandleRPCs() in :0
+                                      	NetworkServer.Update() in :0
+                                      	ServerMainHelper.Update() in :0
+                                      	MainClass.Main() in :0
+109222#-1 04:18:17.911 [Default] Info> GameLogicServer.PerformSave: autosave
+                                     > LogBuffer.AddLogInternal() in :0
+                                       	LogBuffer.LogInfo() in :0
+                                       	LoggingBase`1.Info() in :0
+                                       	LoggingBase`1.Info() in :0
+                                       	GameLogicServer.PerformSave() in :0
+                                       	GameLogicServer.Update() in :0
+                                       	NetworkServer.Update() in :0
+                                       	ServerMainHelper.Update() in :0
+                                       	MainClass.Main() in :0
+109222#-1 04:18:18.071 [Default] Info> SaveGame memStream: 0 mb (42 kb)
+                                     > LogBuffer.AddLogInternal() in :0
+                                       	LogBuffer.LogInfo() in :0
+                                       	LoggingBase`1.Info() in :0
+                                       	LoggingBase`1.Info() in :0
+                                       	GameLogicServer.PerformSave() in :0
+                                       	GameLogicServer.Update() in :0
+                                       	NetworkServer.Update() in :0
+                                       	ServerMainHelper.Update() in :0
+                                       	MainClass.Main() in :0
+109222#-1 04:18:18.097 [Network] Info> NetworkServer.SetServerSpeed: 1
+                                     > LogBuffer.AddLogInternal() in :0
+                                       	LogBuffer.LogInfo() in :0
+                                       	LoggingBase`1.NetworkInfo() in :0
+                                       	NetworkServer.SetServerSpeed() in :0
+                                       	NetworkServer.OnSaveDataWritten() in :0
+                                       	RemotesServer.NetworkServer_OnSaveDataWritten() in :0
+                                       	RpcPacket.DeserializeAndHandle() in :0
+                                       	NetworkServer.HandleRPCs() in :0
+                                       	NetworkServer.Update() in :0
+                                       	ServerMainHelper.Update() in :0
+                                       	MainClass.Main() in :0
+132813#-1 04:37:53.081 [Default] Info> GameLogicServer.PerformSave: autosave
+                                     > LogBuffer.AddLogInternal() in :0
+                                       	LogBuffer.LogInfo() in :0
+                                       	LoggingBase`1.Info() in :0
+                                       	LoggingBase`1.Info() in :0
+                                       	GameLogicServer.PerformSave() in :0
+                                       	GameLogicServer.Update() in :0
+                                       	NetworkServer.Update() in :0
+                                       	ServerMainHelper.Update() in :0
+                                       	MainClass.Main() in :0
+132813#-1 04:37:53.257 [Default] Info> SaveGame memStream: 0 mb (44 kb)
+                                     > LogBuffer.AddLogInternal() in :0
+                                       	LogBuffer.LogInfo() in :0
+                                       	LoggingBase`1.Info() in :0
+                                       	LoggingBase`1.Info() in :0
+                                       	GameLogicServer.PerformSave() in :0
+                                       	GameLogicServer.Update() in :0
+                                       	NetworkServer.Update() in :0
+                                       	ServerMainHelper.Update() in :0
+                                       	MainClass.Main() in :0
+132813#-1 04:37:53.283 [Network] Info> NetworkServer.SetServerSpeed: 1
+                                     > LogBuffer.AddLogInternal() in :0
+                                       	LogBuffer.LogInfo() in :0
+                                       	LoggingBase`1.NetworkInfo() in :0
+                                       	NetworkServer.SetServerSpeed() in :0
+                                       	NetworkServer.OnSaveDataWritten() in :0
+                                       	RemotesServer.NetworkServer_OnSaveDataWritten() in :0
+                                       	RpcPacket.DeserializeAndHandle() in :0
+                                       	NetworkServer.HandleRPCs() in :0
+                                       	NetworkServer.Update() in :0
+                                       	ServerMainHelper.Update() in :0
+                                       	MainClass.Main() in :0
+168950#-1 05:07:53.095 [Default] Info> GameLogicServer.PerformSave: autosave
+                                     > LogBuffer.AddLogInternal() in :0
+                                       	LogBuffer.LogInfo() in :0
+                                       	LoggingBase`1.Info() in :0
+                                       	LoggingBase`1.Info() in :0
+                                       	GameLogicServer.PerformSave() in :0
+                                       	GameLogicServer.Update() in :0
+                                       	NetworkServer.Update() in :0
+                                       	ServerMainHelper.Update() in :0
+                                       	MainClass.Main() in :0
+168950#-1 05:07:53.290 [Default] Info> SaveGame memStream: 0 mb (45 kb)
+                                     > LogBuffer.AddLogInternal() in :0
+                                       	LogBuffer.LogInfo() in :0
+                                       	LoggingBase`1.Info() in :0
+                                       	LoggingBase`1.Info() in :0
+                                       	GameLogicServer.PerformSave() in :0
+                                       	GameLogicServer.Update() in :0
+                                       	NetworkServer.Update() in :0
+                                       	ServerMainHelper.Update() in :0
+                                       	MainClass.Main() in :0
+168950#-1 05:07:53.311 [Network] Info> NetworkServer.SetServerSpeed: 1
+                                     > LogBuffer.AddLogInternal() in :0
+                                       	LogBuffer.LogInfo() in :0
+                                       	LoggingBase`1.NetworkInfo() in :0
+                                       	NetworkServer.SetServerSpeed() in :0
+                                       	NetworkServer.OnSaveDataWritten() in :0
+                                       	RemotesServer.NetworkServer_OnSaveDataWritten() in :0
+                                       	RpcPacket.DeserializeAndHandle() in :0
+                                       	NetworkServer.HandleRPCs() in :0
+                                       	NetworkServer.Update() in :0
+                                       	ServerMainHelper.Update() in :0
+                                       	MainClass.Main() in :0
+205086#-1 05:37:53.106 [Default] Info> GameLogicServer.PerformSave: autosave
+                                     > LogBuffer.AddLogInternal() in :0
+                                       	LogBuffer.LogInfo() in :0
+                                       	LoggingBase`1.Info() in :0
+                                       	LoggingBase`1.Info() in :0
+                                       	GameLogicServer.PerformSave() in :0
+                                       	GameLogicServer.Update() in :0
+                                       	NetworkServer.Update() in :0
+                                       	ServerMainHelper.Update() in :0
+                                       	MainClass.Main() in :0
+205086#-1 05:37:53.356 [Default] Info> SaveGame memStream: 0 mb (46 kb)
+                                     > LogBuffer.AddLogInternal() in :0
+                                       	LogBuffer.LogInfo() in :0
+                                       	LoggingBase`1.Info() in :0
+                                       	LoggingBase`1.Info() in :0
+                                       	GameLogicServer.PerformSave() in :0
+                                       	GameLogicServer.Update() in :0
+                                       	NetworkServer.Update() in :0
+                                       	ServerMainHelper.Update() in :0
+                                       	MainClass.Main() in :0
+205086#-1 05:37:53.388 [Network] Info> NetworkServer.SetServerSpeed: 1
+                                     > LogBuffer.AddLogInternal() in :0
+                                       	LogBuffer.LogInfo() in :0
+                                       	LoggingBase`1.NetworkInfo() in :0
+                                       	NetworkServer.SetServerSpeed() in :0
+                                       	NetworkServer.OnSaveDataWritten() in :0
+                                       	RemotesServer.NetworkServer_OnSaveDataWritten() in :0
+                                       	RpcPacket.DeserializeAndHandle() in :0
+                                       	NetworkServer.HandleRPCs() in :0
+                                       	NetworkServer.Update() in :0
+                                       	ServerMainHelper.Update() in :0
+                                       	MainClass.Main() in :0
+215392#-1 05:46:26.681 [Default] Info> GameOver: SinglePlayer wins
+                                     > LogBuffer.AddLogInternal() in :0
+                                       	LogBuffer.LogInfo() in :0
+                                       	LoggingBase`1.Info() in :0
+                                       	LoggingBase`1.Info() in :0
+                                       	GameOverManager.Win() in :0
+                                       	GameOver.Perform() in :0
+                                       	ScriptActivity.NextInstruction() in :0
+                                       	ScriptActivity.Perform() in :0
+                                       	ScriptActivity.Run() in :0
+                                       	SimpleActionWrapper._Callback() in :0
+                                       	Updater.HandleCall() in :0
+                                       	Updater.AdvanceTime() in :0
+                                       	ServerMainLoop.Tick() in :0
+                                       	GameLogicServer.Step() in :0
+                                       	GameLogicServer.Update() in :0
+                                       	NetworkServer.Update() in :0
+                                       	ServerMainHelper.Update() in :0
+                                       	MainClass.Main() in :0
+216995#-1 05:47:46.535 [Default] Info> Config loaded:
+                                       disableddlc =
+                                       sound.volume.master = 0.5
+                                       sound.volume.music = 1
+                                       sound.volume.dialog = 1
+                                       sound.volume.fx = 1
+                                       sound.subtitles = True
+                                       sound.evillaughter = Laughter1
+                                       gameplay.healthbars = WhenChanged
+                                       language = es
+                                       save.autointerval = 30
+                                       campaign.achievements = 0
+                                       campaign.progress = cathedral shadow
+                                       campaign.showevilification =
+                                       showcontinue = False
+                                       firststart = False
+                                       goldeneggs =
+                                       quickslots =
+                                       graphic.resolution = 1366x768
+                                       wasinserverinit = False
+                                       showreviewnag = Show
+                                       <Entity ID 0>
+                                     > LogBuffer.AddLogInternal() in :0
+                                       	LogBuffer.LogInfo() in :0
+                                       	LoggingBase`1.Info() in :0
+                                       	LoggingBase`1.Info() in :0
+                                       	LoggingBase`1.Info() in :0
+                                       	ConfigManager.LoadAllConfig() in :0
+                                       	NetworkServer.ReloadConfig() in :0
+                                       	RemotesServer.NetworkServer_ReloadConfig() in :0
+                                       	RpcPacket.DeserializeAndHandle() in :0
+                                       	NetworkServer.HandleRPCs() in :0
+                                       	NetworkServer.Update() in :0
+                                       	ServerMainHelper.Update() in :0
+                                       	MainClass.Main() in :0
+216995#-1 05:47:46.549 [Default] Info> Config loaded:
+                                       disableddlc =
+                                       sound.volume.master = 0.5
+                                       sound.volume.music = 1
+                                       sound.volume.dialog = 1
+                                       sound.volume.fx = 1
+                                       sound.subtitles = True
+                                       sound.evillaughter = Laughter1
+                                       gameplay.healthbars = WhenChanged
+                                       language = es
+                                       save.autointerval = 30
+                                       campaign.achievements = 0
+                                       campaign.progress = cathedral demonstones shadow
+                                       campaign.showevilification = DemonStones
+                                       showcontinue = False
+                                       firststart = False
+                                       goldeneggs =
+                                       quickslots =
+                                       graphic.resolution = 1366x768
+                                       wasinserverinit = False
+                                       showreviewnag = Show
+                                       <Entity ID 0>
+                                     > LogBuffer.AddLogInternal() in :0
+                                       	LogBuffer.LogInfo() in :0
+                                       	LoggingBase`1.Info() in :0
+                                       	LoggingBase`1.Info() in :0
+                                       	LoggingBase`1.Info() in :0
+                                       	ConfigManager.LoadAllConfig() in :0
+                                       	NetworkServer.ReloadConfig() in :0
+                                       	RemotesServer.NetworkServer_ReloadConfig() in :0
+                                       	RpcPacket.DeserializeAndHandle() in :0
+                                       	NetworkServer.HandleRPCs() in :0
+                                       	NetworkServer.Update() in :0
+                                       	ServerMainHelper.Update() in :0
+                                       	MainClass.Main() in :0
+216998#-1 05:47:46.699 [Network] Info> NetworkServer.SetServerSpeed: 0
+                                     > LogBuffer.AddLogInternal() in :0
+                                       	LogBuffer.LogInfo() in :0
+                                       	LoggingBase`1.NetworkInfo() in :0
+                                       	NetworkServer.SetServerSpeed() in :0
+                                       	RemotesServer.NetworkServer_SetServerSpeed() in :0
+                                       	RpcPacket.DeserializeAndHandle() in :0
+                                       	NetworkServer.HandleRPCs() in :0
+                                       	NetworkServer.Update() in :0
+                                       	ServerMainHelper.Update() in :0
+                                       	MainClass.Main() in :0
+216998#-1 05:47:46.766 [Network] Info> NetworkServer.SetServerSpeed: 0
+                                     > LogBuffer.AddLogInternal() in :0
+                                       	LogBuffer.LogInfo() in :0
+                                       	LoggingBase`1.NetworkInfo() in :0
+                                       	NetworkServer.SetServerSpeed() in :0
+                                       	RemotesServer.NetworkServer_SetServerSpeed() in :0
+                                       	RpcPacket.DeserializeAndHandle() in :0
+                                       	NetworkServer.HandleRPCs() in :0
+                                       	NetworkServer.Update() in :0
+                                       	ServerMainHelper.Update() in :0
+                                       	MainClass.Main() in :0
+216998#-1 05:47:54.519 [Network] Info> NetworkServer.ServerState set from [GameHasStarted] to: [ShutdownStarted]
+                                     > LogBuffer.AddLogInternal() in :0
+                                       	LogBuffer.LogInfo() in :0
+                                       	LoggingBase`1.NetworkInfo() in :0
+                                       	NetworkServer.set_ServerState() in :0
+                                       	NetworkServer.DoShutdownServer() in :0
+                                       	NetworkServer.ShutdownServer() in :0
+                                       	RemotesServer.NetworkServer_ShutdownServer() in :0
+                                       	RpcPacket.DeserializeAndHandle() in :0
+                                       	NetworkServer.HandleRPCs() in :0
+                                       	NetworkServer.Update() in :0
+                                       	ServerMainHelper.Update() in :0
+                                       	MainClass.Main() in :0
+216998#-1 05:47:54.520 [Network] Info> GameLogicServer.ShutdownServer() called...
+                                     > LogBuffer.AddLogInternal() in :0
+                                       	LogBuffer.LogInfo() in :0
+                                       	LoggingBase`1.NetworkInfo() in :0
+                                       	GameLogicServer.ShutdownServer() in :0
+                                       	NetworkServer.DoShutdownServer() in :0
+                                       	NetworkServer.ShutdownServer() in :0
+                                       	RemotesServer.NetworkServer_ShutdownServer() in :0
+                                       	RpcPacket.DeserializeAndHandle() in :0
+                                       	NetworkServer.HandleRPCs() in :0
+                                       	NetworkServer.Update() in :0
+                                       	ServerMainHelper.Update() in :0
+                                       	MainClass.Main() in :0
+-1#-1 05:47:54.523 [Network] Info> NOMServer disposed
+                                 > LogBuffer.AddLogInternal() in :0
+                                   	LogBuffer.LogInfo() in :0
+                                   	LoggingBase`1.NetworkInfo() in :0
+                                   	NOMServer.Dispose() in :0
+                                   	GameLogicServer.Dispose() in :0
+                                   	NetworkServer.DoShutdownServer() in :0
+                                   	NetworkServer.ShutdownServer() in :0
+                                   	RemotesServer.NetworkServer_ShutdownServer() in :0
+                                   	RpcPacket.DeserializeAndHandle() in :0
+                                   	NetworkServer.HandleRPCs() in :0
+                                   	NetworkServer.Update() in :0
+                                   	ServerMainHelper.Update() in :0
+                                   	MainClass.Main() in :0
+-1#-1 05:47:54.523 [Network] Info> NetworkServer.ServerState set from [ShutdownStarted] to: [ShutdownFinished]
+                                 > LogBuffer.AddLogInternal() in :0
+                                   	LogBuffer.LogInfo() in :0
+                                   	LoggingBase`1.NetworkInfo() in :0
+                                   	NetworkServer.set_ServerState() in :0
+                                   	NetworkServer.DoShutdownServer() in :0
+                                   	NetworkServer.ShutdownServer() in :0
+                                   	RemotesServer.NetworkServer_ShutdownServer() in :0
+                                   	RpcPacket.DeserializeAndHandle() in :0
+                                   	NetworkServer.HandleRPCs() in :0
+                                   	NetworkServer.Update() in :0
+                                   	ServerMainHelper.Update() in :0
+                                   	MainClass.Main() in :0
+-1#-1 05:47:54.524 [Default] Info> Shutdown server because we've left main loop...
+                                 > LogBuffer.AddLogInternal() in :0
+                                   	LogBuffer.LogInfo() in :0
+                                   	LoggingBase`1.Info() in :0
+                                   	LoggingBase`1.Info() in :0
+                                   	LoggingBase`1.Info() in :0
+                                   	MainClass.Main() in :0

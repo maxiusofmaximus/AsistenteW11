@@ -1,0 +1,44 @@
+[
+  {
+    "platform": "Epic",
+    "name": "Dungeons 3",
+    "appId": "78fafe7a43344aff820d0c8dc218df2a",
+    "installPath": "C:/Program Files/Epic Games/Dungeons3",
+    "manifest": "C:\\ProgramData\\Epic\\EpicGamesLauncher\\Data\\Manifests\\C648F284466B015B9AAEEDB8E73A1262.item"
+  },
+  {
+    "platform": "Epic",
+    "name": "Fab UE Plugin",
+    "appId": "c5c30696e4e0482f9c0a170873975230",
+    "installPath": "C:\\Program Files\\Epic Games\\UE_5.7",
+    "manifest": "C:\\ProgramData\\Epic\\EpicGamesLauncher\\Data\\Manifests\\8715D56846C0A7EBABCDA59B7F7D870F.item"
+  },
+  {
+    "platform": "Epic",
+    "name": "Hogwarts Legacy",
+    "appId": "864c7bc2c2394f7dbd1b534aa068ff56",
+    "installPath": "C:/Program Files/Epic Games/HogwartsLegacy",
+    "manifest": "C:\\ProgramData\\Epic\\EpicGamesLauncher\\Data\\Manifests\\8AC51E3D4E911A4D25BAFA996EB5C85F.item"
+  },
+  {
+    "platform": "Epic",
+    "name": "My Time at Portia",
+    "appId": "6efea4a9591045ae82c5beed63e59327",
+    "installPath": "C:/Program Files/Epic Games/MyTimeAtPortia",
+    "manifest": "C:\\ProgramData\\Epic\\EpicGamesLauncher\\Data\\Manifests\\71C39BD045BB30B3A24A83A2D1D3183A.item"
+  },
+  {
+    "platform": "Epic",
+    "name": "Quixel Bridge",
+    "appId": "1ce536b653df463bb2492f529d832b71",
+    "installPath": "C:\\Program Files\\Epic Games\\UE_5.7",
+    "manifest": "C:\\ProgramData\\Epic\\EpicGamesLauncher\\Data\\Manifests\\26A8F4C546A30A2C1CAB41B3E8875043.item"
+  },
+  {
+    "platform": "Epic",
+    "name": "Unreal Engine",
+    "appId": "7299c1cd206b4bb58658a98199b66860",
+    "installPath": "C:\\Program Files\\Epic Games\\UE_5.7",
+    "manifest": "C:\\ProgramData\\Epic\\EpicGamesLauncher\\Data\\Manifests\\4BDF792849972056D5FF499040EA0E88.item"
+  }
+]

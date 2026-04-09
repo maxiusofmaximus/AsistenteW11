@@ -1,0 +1,68 @@
+[
+  {
+    "key": "epic_dungeons3_local",
+    "backup": "C:\\Users\\maxli\\OneDrive\\Documentos\\Projects\\AsistenteW11\\game-migration-backup\\data\\epic_dungeons3_local",
+    "files": 36,
+    "sizeMB": 3.57
+  },
+  {
+    "key": "epic_dungeons3_roaming",
+    "backup": "C:\\Users\\maxli\\OneDrive\\Documentos\\Projects\\AsistenteW11\\game-migration-backup\\data\\epic_dungeons3_roaming",
+    "files": 7,
+    "sizeMB": 0.35
+  },
+  {
+    "key": "epic_hogwarts_local",
+    "backup": "C:\\Users\\maxli\\OneDrive\\Documentos\\Projects\\AsistenteW11\\game-migration-backup\\data\\epic_hogwarts_local",
+    "files": 2,
+    "sizeMB": 0.0
+  },
+  {
+    "key": "epic_portia_locallow",
+    "backup": "C:\\Users\\maxli\\OneDrive\\Documentos\\Projects\\AsistenteW11\\game-migration-backup\\data\\epic_portia_locallow",
+    "files": 8,
+    "sizeMB": 1.25
+  },
+  {
+    "key": "farcryprimal_ubisoft_saves",
+    "backup": "C:\\Users\\maxli\\OneDrive\\Documentos\\Projects\\AsistenteW11\\game-migration-backup\\data\\farcryprimal_ubisoft_saves",
+    "files": 8,
+    "sizeMB": 0.54
+  },
+  {
+    "key": "steam_ark_config",
+    "backup": "C:\\Users\\maxli\\OneDrive\\Documentos\\Projects\\AsistenteW11\\game-migration-backup\\data\\steam_ark_config",
+    "files": 5,
+    "sizeMB": 0.03
+  },
+  {
+    "key": "steam_ark_savedarkslocal",
+    "backup": "C:\\Users\\maxli\\OneDrive\\Documentos\\Projects\\AsistenteW11\\game-migration-backup\\data\\steam_ark_savedarkslocal",
+    "files": 7,
+    "sizeMB": 48.1
+  },
+  {
+    "key": "steam_ark_savegames",
+    "backup": "C:\\Users\\maxli\\OneDrive\\Documentos\\Projects\\AsistenteW11\\game-migration-backup\\data\\steam_ark_savegames",
+    "files": 12,
+    "sizeMB": 0.11
+  },
+  {
+    "key": "steam_cs2_cfg_local",
+    "backup": "C:\\Users\\maxli\\OneDrive\\Documentos\\Projects\\AsistenteW11\\game-migration-backup\\data\\steam_cs2_cfg_local",
+    "files": 11,
+    "sizeMB": 0.03
+  },
+  {
+    "key": "steam_cs2_remote",
+    "backup": "C:\\Users\\maxli\\OneDrive\\Documentos\\Projects\\AsistenteW11\\game-migration-backup\\data\\steam_cs2_remote",
+    "files": 7,
+    "sizeMB": 0.01
+  },
+  {
+    "key": "steam_cyberpunk_saves",
+    "backup": "C:\\Users\\maxli\\OneDrive\\Documentos\\Projects\\AsistenteW11\\game-migration-backup\\data\\steam_cyberpunk_saves",
+    "files": 68,
+    "sizeMB": 39.25
+  }
+]

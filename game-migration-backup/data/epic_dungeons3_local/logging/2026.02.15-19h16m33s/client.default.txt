@@ -1,0 +1,511 @@
+﻿0#0 00:16:34.182 [Default] Info> --- Environment information ---
+                                 Machine: MAX
+                                 Now: 2026-02-16 00:16:34 (UTC)
+                                 Env.OSVersion: Microsoft Windows NT 10.0.26200.0
+                                 Env.Version: 2.0.50727.1433
+                                 MonoVersion: 2.0 (Visual Studio built mono)
+                                 WorkingDirectory: C:\Program Files\Epic Games\Dungeons3
+                                 DataDirectory: C:\Program Files\Epic Games\Dungeons3\Dungeons3.app\Contents\Data
+                                 ThreadId: 1
+                                 Log: 2026.02.15-19h16m33s
+                                 Version: v1.7 build13 @c33954b
+                                 game: d3
+                                 buildtarget: StandaloneWindows64
+                                 buildtype: DEPLOY;GOLDMASTER;
+                                 hardwareplatform: WIN;
+                                 softwareplatform: EPICSTORE
+                                 otherdefines:
+                                 unityversion: 5.6.6f2
+                                 builddate: 2020-10-11 21:45:45 (UTC)
+                                 buildmachine: RFBUILD7
+                                 commitdate: 2020-10-08 11:20:12 (UTC)
+                                 githash: c33954b45fd84b3d1a0167a20dc0c89e6947f8b8
+                                 gitsubmodule: dd4167613f283ab73af5d6f0224a592934d74fce	Assets/RawData
+                                 versioninternal: d3-#43477-release_v1.7#7@c33954b
+                                 buildcommand: latest epicstore/goldmaster release/v1.7 --prio=-699
+                                 epic: v11 vcredistfix
+0#0 00:16:34.203 [Default] Info> --- System information ---
+                                 SystemInfo.deviceModel: MS-7E32 (Micro-Star International Co., Ltd.)
+                                 SystemInfo.deviceName: MAX
+                                 SystemInfo.graphicsDeviceName: NVIDIA GeForce RTX 5070
+                                 SystemInfo.graphicsDeviceType: Direct3D11
+                                 SystemInfo.graphicsDeviceVendor: NVIDIA
+                                 SystemInfo.graphicsDeviceVersion: Direct3D 11.0 [level 11.1]
+                                 SystemInfo.graphicsMemorySize: 11943
+                                 SystemInfo.graphicsMultiThreaded: True
+                                 SystemInfo.graphicsShaderLevel: 50
+                                 SystemInfo.operatingSystem: Windows 10  (10.0.0) 64bit
+                                 SystemInfo.processorCount: 20
+                                 SystemInfo.processorFrequency: 3878
+                                 SystemInfo.processorType: Intel(R) Core(TM) Ultra 7 265K
+                                 SystemInfo.supportsInstancing: True
+                                 SystemInfo.graphicsUVStartsAtTop: True
+                                 SystemInfo.supportsComputeShaders: True
+                                 SystemInfo.SupportsRenderTextureFormat(UnityEngine.RenderTextureFormat.R8): True
+                                 SystemInfo.SupportsRenderTextureFormat(UnityEngine.RenderTextureFormat.RFloat): True
+                                 SystemInfo.SupportsRenderTextureFormat(UnityEngine.RenderTextureFormat.ARGB32): True
+                                 SystemInfo.SupportsRenderTextureFormat(UnityEngine.RenderTextureFormat.ARGBHalf): True
+0#0 00:16:34.253 [Default] Info> Config loaded:
+                                 disableddlc =
+                                 sound.volume.master = 0.5
+                                 sound.volume.music = 1
+                                 sound.volume.dialog = 1
+                                 sound.volume.fx = 1
+                                 sound.subtitles = True
+                                 sound.evillaughter = Laughter1
+                                 gameplay.healthbars = WhenChanged
+                                 language = es
+                                 save.autointerval = 30
+                                 campaign.achievements = 0
+                                 campaign.progress = cathedral demonstones shadow
+                                 campaign.showevilification =
+                                 showcontinue = False
+                                 firststart = False
+                                 goldeneggs =
+                                 quickslots =
+                                 graphic.resolution = 1366x768
+                                 wasinserverinit = False
+                                 showreviewnag = Show
+                                 <Entity ID 0>
+0#2 00:16:35.547 [Default] Info> AssetManager.OnEnable: 466.1764 ms
+0#86 00:16:36.945 [Default] Info> Patching tmpro font Combined_Arial for es with Assets/CoreAssets/Fonts/Localized/Combined_Arial_common.asset (loaded)
+0#86 00:16:36.946 [Default] Info> Patching tmpro font Combined_Dungeons for es with Assets/CoreAssets/Fonts/Localized/Combined_Dungeons_common.asset (loaded)
+0#87 00:16:37.374 [Default] Info> [GlobalsApp] Initializing managers.
+0#87 00:16:37.380 [Default] Info> Enabling PlatformManager/SaveGameManager instances of types: EpicstorePlatformManager/FileBasedSaveGameManager.
+0#87 00:16:37.381 [Default] Info> Epic set log level and install epic log writer
+0#87 00:16:37.388 [Default] Info> Epic manual marshaling of platform handle
+0#87 00:16:37.852 [Default] Info> GetAllSaveGameNames() found 6 savegame names:
+                                  	autosave_20260215_000753
+                                  	autosave_20260215_003753
+                                  	DemonStones_20260214_201549
+                                  	Hungry_20220411_203405
+                                  	quicksave_20220416_140246
+                                  	quicksave_20220416_140314
+0#87 00:16:37.852 [Default] Info> StartRescanSaveGamesAsync() called with a list of 6 save game names
+0#88 00:16:38.233 [Default] Info> EPIC Probing swap chain to determine device version
+0#88 00:16:38.233 [Default] Info> EPIC Probe complete, determined: D3D11
+0#88 00:16:38.233 [Default] Info> EPIC Window subclass attached to 00000000001A0A2A
+0#88 00:16:38.233 [Default] Info> EPIC Creating overlay widget manager
+0#88 00:16:38.233 [Default] Info> EPIC Overlay ready. Firing 1 OnReady handlers
+0#88 00:16:38.233 [Default] Info> EPIC Enabling shared texture updates
+0#88 00:16:38.234 [Default] Info> EPIC Updating Platform SDK Config, Time: 9.019695
+0#89 00:16:38.249 [Default] Info> Init GameResolution; Ratio 1 -> 1366x768
+0#89 00:16:38.251 [Default] Info> Setting unity quality level 13 'ENG_HIGH_SP'
+0#89 00:16:38.269 [Default] Info> DialogsShared.InitAudioLength() has to create a new cache; used languages are: es <Entity ID 0>
+0#90 00:16:38.613 [Default] Info> Calling SetServerPaths([C:\Users\maxli\AppData\Local\Kalypso Media\Dungeons 3\logging\2026.02.15-19h16m33s], [Dungeons3.app/Contents/Data/server/DedicatedServer.exe], [Dungeons3.app/Contents/Data/server/mono/lib], 1, [nursery-size=16m,major=marksweep-conc])
+0#90 00:16:38.618 [Default] Info> Initializing ServerThread of type: EmbeddedServerThreadCsharp (isDebug: False)
+0#98 00:16:39.100 [Default] Info> EPIC SDK Config Platform Update Request Successful, Time: 9.767321
+0#98 00:16:39.103 [Default] Info> EPIC Start Session (User: ...)
+0#98 00:16:39.105 [Default] Info> EPIC Updating Product SDK Config, Time: 9.887260
+0#116 00:16:40.152 [Default] Info> EPIC SDK Config Product Update Request Successful, Time: 10.826121
+0#116 00:16:40.155 [Default] Info> EPIC SDK Config Data - Watermark: -287380011
+0#116 00:16:40.155 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 10.826121, Update Interval: 325.910217
+0#125 00:16:40.781 [Default] Info> EPIC NewUserToken: User ClientId: xyz...6oK AccountId: 7b9...b7b Access[Expires: 2026.02.16-02.16.41 Remaining: 7200.17] Refresh[Expires: 2026-02-16T08:16:41.168Z Remaining: 28800.17] State: Valid
+0#127 00:16:40.895 [Default] Info> EPIC GenerateUserAuth success
+0#149 00:16:41.288 [Default] Info> EPIC login/queryuserinfo success
+0#149 00:16:41.289 [Default] Info> EPIC Login Tasks Complete: 0
+0#149 00:16:41.293 [Default] Info> Epicstore auth success: 7b995abe94814e5fb7b94390b787db7b
+0#149 00:16:41.297 [Default] Info> Epic connect start
+0#181 00:16:41.829 [Default] Info> EPIC Attempting connection to Stomp. LocalUserId=[000...365] Url=[<Redacted>]
+0#187 00:16:41.930 [Default] Info> Epicstore connected
+0#191 00:16:41.997 [Default] Info> AssetBundleIndexLoads done: 3365.441 ms for 412 AssetBundles (and preloading main scene assets) <Entity ID 0>
+0#218 00:16:42.432 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[]
+0#225 00:16:42.569 [Default] Info> EPIC Succesfully connected to Stomp. LocalUserId=[000...365]
+0#265 00:16:43.235 [Default] Info> Epicstore stats queried
+0#265 00:16:43.241 [Default] Info> Achievement ACH_D3_Campaign_Fire_Completed 'Ángel de fuego', unlocked:
+0#265 00:16:43.242 [Default] Info> Achievement ACH_D3_Campaign_Renegade_Completed 'Por un puñado de catapultas', unlocked: 04/11/2022 16:55:02 +00:00
+0#265 00:16:43.244 [Default] Info> Achievement ACH_D3_Campaign_Sacrifice_2 'Un pequeño bonus', unlocked:
+0#265 00:16:43.244 [Default] Info> Achievement ACH_D3_Campaign_Cathedral_1 'El Mal Más Maligno', unlocked: 03/22/2022 09:50:05 +00:00
+0#265 00:16:43.244 [Default] Info> Achievement ACH_D3_Campaign_FancyFoods_1 'Gobot masivos', unlocked:
+0#265 00:16:43.244 [Default] Info> Achievement ACH_D3_Campaign_Pain_2 'La gran evasión', unlocked:
+0#265 00:16:43.244 [Default] Info> Achievement ACH_D3_Campaign_FancyFoods_Completed 'La última glotonería', unlocked:
+0#265 00:16:43.244 [Default] Info> Achievement ACH_D3_Campaign_Fire_1 'Prepara la tumba', unlocked:
+0#265 00:16:43.244 [Default] Info> Achievement ACH_D3_Campaign_Graves_2 'La noche de los muertos vivientes (chutados)', unlocked:
+0#265 00:16:43.244 [Default] Info> Achievement ACH_D3_Campaign_Water_2 '¡No me interrumpas!', unlocked:
+0#265 00:16:43.245 [Default] Info> Achievement ACH_D3_Campaign_Renegade_2 '¡Me encanta el olor a catapulta!', unlocked:
+0#265 00:16:43.245 [Default] Info> Achievement ACH_D3_Campaign_DemonStones_2 'El caballero blanco', unlocked:
+0#265 00:16:43.245 [Default] Info> Achievement ACH_D3_Campaign_ColdLight_1 'Usa el terreno', unlocked:
+0#265 00:16:43.245 [Default] Info> Achievement ACH_D3_Campaign_Shadow_2 'Cazador de sombras', unlocked:
+0#265 00:16:43.245 [Default] Info> Achievement ACH_D3_Campaign_DemonStones_Completed 'Las piedras de Gehena', unlocked: 03/22/2022 13:15:09 +00:00
+0#265 00:16:43.245 [Default] Info> Achievement ACH_D3_Campaign_Graves_Completed 'Los cenagosos de las ciénagas', unlocked: 03/23/2022 22:58:28 +00:00
+0#265 00:16:43.245 [Default] Info> Achievement ACH_D3_Campaign_Fire_2 'Ni un rasguño', unlocked:
+0#265 00:16:43.245 [Default] Info> Achievement ACH_D3_Campaign_Infested_1 'Salvavidas', unlocked:
+0#265 00:16:43.245 [Default] Info> Achievement ACH_D3_Campaign_Hungry_1 'Saciador de la sed', unlocked: 04/12/2022 00:13:00 +00:00
+0#265 00:16:43.245 [Default] Info> Achievement ACH_D3_Campaign_Sacrifice_Completed 'Condenadamente bueno', unlocked: 04/09/2022 21:09:28 +00:00
+0#265 00:16:43.245 [Default] Info> Achievement ACH_D3_Campaign_Sacrifice_1 'Granja factoría', unlocked: 04/09/2022 18:00:39 +00:00
+0#265 00:16:43.245 [Default] Info> Achievement ACH_D3_Campaign_Demonicon_Completed 'Crac financiero', unlocked: 04/10/2022 11:51:21 +00:00
+0#265 00:16:43.246 [Default] Info> Achievement ACH_D3_Campaign_Hammer_1 'El Mal Reclutador De Grandes Ejércitos', unlocked: 03/29/2022 05:30:47 +00:00
+0#265 00:16:43.246 [Default] Info> Achievement ACH_D3_Campaign_Pain_1 '¡Héroes del Silencio!', unlocked:
+0#265 00:16:43.246 [Default] Info> Achievement ACH_D3_Campaign_Warlock_Completed 'No tan supercreída', unlocked: 04/11/2022 14:00:26 +00:00
+0#265 00:16:43.246 [Default] Info> Achievement ACH_D3_Campaign_Warlock_1 '¡No tenemos tiempo!', unlocked:
+0#265 00:16:43.246 [Default] Info> Achievement ACH_D3_Campaign_Darksword_1 '¡Qué divertido, voy a seguir así!', unlocked:
+0#265 00:16:43.246 [Default] Info> Achievement ACH_D3_Campaign_DayNight_1 'Maestro trampero', unlocked:
+0#265 00:16:43.246 [Default] Info> Achievement ACH_D3_Campaign_Hammer_2 '¡Fuera del corazón de la mazmorra!', unlocked:
+0#265 00:16:43.246 [Default] Info> Achievement ACH_D3_Campaign_Shadow_Completed 'La sombra ataca', unlocked: 03/22/2022 09:00:17 +00:00
+0#265 00:16:43.246 [Default] Info> Achievement ACH_D3_Campaign_Hungry_2 'No soporto ver a un ogro sangrando', unlocked:
+0#265 00:16:43.246 [Default] Info> Achievement ACH_D3_Campaign_Hammer_Completed 'Acero oxidado', unlocked:
+0#265 00:16:43.246 [Default] Info> Achievement ACH_D3_Campaign_Infested_2 'Coro de condenación', unlocked: 04/13/2022 16:34:18 +00:00
+0#265 00:16:43.246 [Default] Info> Achievement ACH_D3_Campaign_Demonicon_2 'Tormenta e ímpetu', unlocked:
+0#265 00:16:43.246 [Default] Info> Achievement ACH_D3_Campaign_DayNight_2 'Ignora los planes del diseñador del nivel', unlocked:
+0#265 00:16:43.247 [Default] Info> Achievement ACH_D3_Campaign_Graves_1 '¡Cerebroooos!', unlocked: 03/23/2022 22:20:57 +00:00
+0#265 00:16:43.247 [Default] Info> Achievement ACH_D3_Campaign_Darksword_Completed 'Relaciones familiares complicadas', unlocked: 04/21/2022 04:49:04 +00:00
+0#265 00:16:43.247 [Default] Info> Achievement ACH_D3_Campaign_Ritual_1 'No aguanto ver sangre de elfa oscura', unlocked:
+0#265 00:16:43.247 [Default] Info> Achievement ACH_D3_Campaign_Pain_Completed 'Donde hay Luz, también hay Oscuridad', unlocked:
+0#265 00:16:43.247 [Default] Info> Achievement ACH_D3_Campaign_ColdLight_Completed 'En la ladera del Monte del Destino', unlocked:
+0#265 00:16:43.247 [Default] Info> Achievement ACH_D3_Campaign_Infested_Completed 'Destruye ese chisme', unlocked: 04/13/2022 16:39:19 +00:00
+0#265 00:16:43.248 [Default] Info> Achievement ACH_D3_Campaign_TheLast_Completed 'El Mal Victorioso', unlocked:
+0#265 00:16:43.248 [Default] Info> Achievement ACH_D3_Campaign_Shadow_1 '¡Muerte y destrucción!', unlocked:
+0#265 00:16:43.248 [Default] Info> Achievement ACH_D3_Campaign_Ritual_Completed 'La Fuerza, perturbada', unlocked:
+0#265 00:16:43.248 [Default] Info> Achievement ACH_D3_Campaign_TheLast_1 'El Mal Benévolo', unlocked:
+0#265 00:16:43.248 [Default] Info> Achievement ACH_D3_Campaign_DemonStones_1 'El poder de las piedras', unlocked:
+0#265 00:16:43.248 [Default] Info> Achievement ACH_D3_Campaign_Warlock_2 'Los corazones mandan', unlocked:
+0#265 00:16:43.248 [Default] Info> Achievement ACH_D3_Campaign_Hungry_Completed '¡Solo de ogro!', unlocked: 04/12/2022 15:48:52 +00:00
+0#265 00:16:43.248 [Default] Info> Achievement ACH_D3_Campaign_Darksword_2 'Corazones de hierro', unlocked:
+0#265 00:16:43.248 [Default] Info> Achievement ACH_D3_Campaign_DayNight_Completed 'Un viaje por mar, qué divertido', unlocked: 04/03/2022 04:24:35 +00:00
+0#265 00:16:43.248 [Default] Info> Achievement ACH_D3_Campaign_Cathedral_2 '¡Hoy no tiene por qué morir nadie!', unlocked: 03/22/2022 10:08:54 +00:00
+0#265 00:16:43.248 [Default] Info> Achievement ACH_D3_Campaign_ColdLight_2 'Explorador', unlocked:
+0#265 00:16:43.248 [Default] Info> Achievement ACH_D3_Campaign_FancyFoods_2 '¡Pues que coman pasteles!', unlocked:
+0#265 00:16:43.249 [Default] Info> Achievement ACH_D3_Campaign_Water_1 'Socorrista', unlocked:
+0#265 00:16:43.249 [Default] Info> Achievement ACH_D3_Campaign_Ritual_2 '¡Sacrificios!', unlocked:
+0#265 00:16:43.249 [Default] Info> Achievement ACH_D3_Campaign_Renegade_1 'Planos como tablas', unlocked:
+0#265 00:16:43.249 [Default] Info> Achievement ACH_D3_Campaign_Demonicon_1 'Exterminador', unlocked:
+0#265 00:16:43.249 [Default] Info> Achievement ACH_D3_Campaign_Cathedral_Completed 'Tristrás ha quedado desolada', unlocked: 03/22/2022 10:08:54 +00:00
+0#265 00:16:43.249 [Default] Info> Achievement ACH_D3_Campaign_TheLast_2 'Hermanos de sangre', unlocked:
+0#265 00:16:43.249 [Default] Info> Achievement ACH_D3_Campaign_Water_Completed 'Maestro de mareas', unlocked: 04/12/2022 18:47:15 +00:00
+0#284 00:16:43.556 [Default] Info> EPIC Social Overlay: Loading: <Redacted>
+0#284 00:16:43.556 [Default] Info> EPIC Overlay loading <Redacted> in instance 17151632
+0#287 00:16:43.592 [Default] Info> EvilSceneManager.SwitchScene(MainMenu) (active: FirstScene)
+0#289 00:16:43.619 [Default] Info> EvilSceneManager: UnloadSceneAsync took: 1.0053 ms (FirstScene -> MainMenu))
+0#290 00:16:43.726 [Default] Info> EvilSceneManager: UnloadUnusedAssets took: 105.4453 ms (FirstScene -> MainMenu))
+0#291 00:16:43.739 [Default] Info> EPIC LoadURL result received. [Success=1, BrowserID=1]
+0#291 00:16:43.751 [Default] Warn> EPIC Error response received from backend. ServiceName=[Leaderboards], OperationName=[GetAllLeaderboards], Url=[<Redacted>], HttpStatus=[404], ErrorCode=[errors.com.epicgames.leaderboard.leaderboard_definition_not_found], NumericErrorCode=[UNSET], ErrorMessage=[No leaderboard definitions found], CorrId=[EOS-H8bZ9w1yGEWmZ4OThn8FdA-hXma9Ee6nE2TShZ3h2b9mA-r1gZxlhp4k2KVy26ToP08Q]
+0#299 00:16:43.856 [Default] Warn> EPIC Failed to get leaderboards definitions. Error=EOS_NotFound
+0#299 00:16:43.856 [Default] Error> EPIC Social Overlay: Failed to get leaderboard definitions: EOS_NotFound
+0#319 00:16:44.182 [Default] Info> EPIC Social Overlay: Initial setup of friends overlay: EOS_Success
+0#343 00:16:44.678 [Default] Info> EvilSceneManager: PreloadScene took: 952.0246 ms (FirstScene -> MainMenu))
+0#344 00:16:44.709 [Default] Info> Setting unity quality level 13 'ENG_HIGH_SP'
+0#344 00:16:44.727 [Default] Info> EvilSceneManager: Instantiating new scene took: 48.8411 ms (FirstScene -> MainMenu))
+0#344 00:16:44.730 [Default] Info> Set RichPresence PlayingDungeons3
+0#344 00:16:44.740 [Default] Info> LoadAllPartitionsAsync(1) took: 4.0075 ms for 43 bundles.
+0#344 00:16:44.740 [Default] Info> MainState.Update: PreloadWorldMap: 5.0164 (total: 5.0164)
+0#344 00:16:44.766 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#344 00:16:44.767 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#344 00:16:44.768 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#345 00:16:44.800 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - En el menú principal]
+0#345 00:16:44.807 [Default] Info> MainState.Update: CameraPoiAndLoop: 67.3914 (total: 72.4078)
+0#345 00:16:44.810 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#345 00:16:44.810 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#345 00:16:44.810 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#376 00:16:45.294 [Default] Info> MainState.Update: WaitForPreloading: 486.3509 (total: 558.7587)
+0#377 00:16:45.363 [Default] Info> ObjectEvilificationInitRequired
+0#377 00:16:45.367 [Default] Info> Creating 3 HeightLevels out of 23 polygons:
+0#377 00:16:45.382 [Default] Info> Created HeightLevel mesh 1 with 67 vertices
+0#377 00:16:45.382 [Default] Info> Created 1 HeightLevel meshes
+0#377 00:16:45.466 [Default] Info> loading: SetupRegions: 158.3781 ms
+0#377 00:16:45.466 [Default] Info> MainState.Update: SetupRegions: 172.436 (total: 731.1947)
+0#377 00:16:45.469 [Default] Info> Recreating BlockCopyTextures: Alpha8 (128 x 128)
+0#378 00:16:45.515 [Default] Info> AdditionalObjectCsvLoader.Parse took: 28.1953 ms
+0#392 00:16:46.025 [Default] Info> MainState.Update: AdditionalObjectCsvLoader: 558.391 (total: 1289.5857)
+0#393 00:16:46.037 [Default] Info> MainState.Update: InitEvilTerrains: 12.5677 (total: 1302.1534)
+0#1774 00:17:09.183 [Default] Info> EmbeddedServerThreadCsharp.Start(Dungeons3.app/Contents/Data/server/DedicatedServer.exe --logfolder 2026.02.15-19h16m33s --use-masterserver --embedded) called; current State: ReadyToStart
+0#1784 00:17:09.503 [Default] Info> Config loaded:
+                                    disableddlc =
+                                    sound.volume.master = 0.5
+                                    sound.volume.music = 1
+                                    sound.volume.dialog = 1
+                                    sound.volume.fx = 1
+                                    sound.subtitles = True
+                                    sound.evillaughter = Laughter1
+                                    gameplay.healthbars = WhenChanged
+                                    language = es
+                                    save.autointerval = 30
+                                    campaign.achievements = 0
+                                    campaign.progress = cathedral demonstones shadow
+                                    campaign.showevilification =
+                                    showcontinue = False
+                                    firststart = False
+                                    goldeneggs =
+                                    quickslots =
+                                    graphic.resolution = 1366x768
+                                    wasinserverinit = False
+                                    showreviewnag = Show
+                                    <Entity ID 0>
+0#1982 00:17:15.009 [Default] Info> Set RichPresence WaitingForPlayersCoop
+0#1983 00:17:15.084 [Default] Warn> Some component accesses GlobalsGame before GlobalsManager was done with it.
+0#1984 00:17:15.127 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Esperando a otro jugador.]
+0#3304 00:17:37.431 [Default] Warn> Some component accesses GlobalsGame before GlobalsManager was done with it.
+0#3306 00:17:37.755 [Default] Info> Set RichPresence PlayingDungeons3
+0#3315 00:17:37.861 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - En el menú principal]
+0#3745 00:17:45.049 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#3745 00:17:45.049 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#3745 00:17:45.049 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#3859 00:17:47.136 [Default] Warn> Some component accesses GlobalsGame before GlobalsManager was done with it.
+0#5301 00:18:11.201 [Default] Info> Set RichPresence WaitingForPlayersCoop
+0#5304 00:18:11.260 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Esperando a otro jugador.]
+0#5733 00:18:18.721 [Default] Warn> Some component accesses GlobalsGame before GlobalsManager was done with it.
+0#17163 00:21:30.090 [Default] Info> EvilSceneManager.SwitchScene(Shadow) (active: MainMenu)
+0#17165 00:21:30.150 [Default] Info> EvilSceneManager: UnloadSceneAsync took: 42.9504 ms (MainMenu -> Shadow))
+0#17166 00:21:30.293 [Default] Info> EvilSceneManager: UnloadUnusedAssets took: 142.8039 ms (MainMenu -> Shadow))
+0#17166 00:21:30.337 [Default] Info> LoadAllPartitionsAsync(4) took: 41.6026 ms for 54 bundles.
+0#17167 00:21:30.383 [Default] Info> BootServer IsHostingPlayer=False Player=MaxiusOfMaximus [684547478921501981] (SinglePlayer) IsHosting=False NetworkClient=Realmforge.Internal.Client.NetworkClient
+                                     Realmforge.Internal.Shared.RakNetClient
+0#17168 00:21:30.391 [Default] Info> Setting unity quality level 13 'ENG_HIGH_SP'
+0#17168 00:21:30.439 [Default] Info> ObjectEvilificationInitRequired
+0#17168 00:21:30.633 [Default] Info> Creating 3 HeightLevels out of 19 polygons:
+0#17168 00:21:30.635 [Default] Info> Created HeightLevel mesh 1 with 91 vertices
+0#17168 00:21:30.635 [Default] Info> Created HeightLevel mesh 2 with 21 vertices
+0#17168 00:21:30.636 [Default] Info> Created 2 HeightLevel meshes
+0#17168 00:21:30.655 [Default] Info> loading: SetupRegions: 255.9216 ms
+0#17266 00:21:36.570 [Default] Info> EvilSceneManager: PreloadScene took: 6276.9264 ms (MainMenu -> Shadow))
+0#17267 00:21:36.628 [Default] Info> Booting (client) SceneName 'Shadow'; PlayerCount '1'; GameMode 'CoopOneDungeon'; <Entity ID 0>
+0#17267 00:21:36.682 [Default] Info> EvilSceneManager: Instantiating new scene took: 111.9031 ms (MainMenu -> Shadow))
+6#17298 00:21:38.859 [Default] Info> Set RichPresence PlayingCoopCampaign
+6#17299 00:21:38.874 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión La sombra del Mal Absoluto en cooperativo.]
+551#18929 00:22:06.138 [Default] Info> EPIC Updating Product SDK Config, Time: 336.924835
+560#18955 00:22:06.570 [Default] Info> EPIC SDK Config Product Update Request Completed - No Change
+560#18955 00:22:06.571 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 337.235046, Update Interval: 346.847137
+7009#38226 00:27:28.986 [Default] Info> OnSavingGameStarted
+7010#38243 00:27:29.264 [Default] Info> OnSavingGameFinished
+7010#38243 00:27:29.264 [Default] Info> OnSavingGameFinished done
+7538#39821 00:27:55.655 [Default] Info> EPIC Updating Product SDK Config, Time: 686.440613
+7546#39846 00:27:56.082 [Default] Info> EPIC SDK Config Product Update Request Completed - No Change
+7546#39846 00:27:56.082 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 686.767151, Update Interval: 301.567444
+8461#42584 00:28:41.874 [Default] Info> OnSavingGameStarted
+8462#42596 00:28:42.074 [Default] Info> OnSavingGameFinished
+8462#42596 00:28:42.075 [Default] Info> OnSavingGameFinished done
+10516#48735 00:30:24.787 [Default] Info> OnSavingGameStarted
+10517#48743 00:30:24.921 [Default] Info> OnSavingGameFinished
+10517#48743 00:30:24.921 [Default] Info> OnSavingGameFinished done
+11241#50904 00:31:01.106 [Default] Info> Set Achievement ACH_D3_Campaign_Shadow_Completed
+11280#51023 00:31:03.104 [Default] Info> We've won, hurray: scene 'Shadow' (1p; Main; Ver: 0/0)
+11382#51375 00:31:09.031 [Default] Info> EvilSceneManager.SwitchScene(MainMenu) (active: Shadow)
+0#51377 00:31:09.157 [Default] Info> EvilSceneManager: UnloadSceneAsync took: 101.2177 ms (Shadow -> MainMenu))
+0#51378 00:31:09.358 [Default] Info> EvilSceneManager: UnloadUnusedAssets took: 200.7802 ms (Shadow -> MainMenu))
+0#51379 00:31:09.360 [Default] Info> EvilSceneManager: PreloadScene took: 2.0046 ms (Shadow -> MainMenu))
+0#51380 00:31:09.375 [Default] Info> Setting unity quality level 13 'ENG_HIGH_SP'
+0#51380 00:31:09.385 [Default] Info> EvilSceneManager: Instantiating new scene took: 25.6992 ms (Shadow -> MainMenu))
+0#51380 00:31:09.388 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#51380 00:31:09.389 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#51380 00:31:09.389 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#51381 00:31:09.394 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#51381 00:31:09.394 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#51381 00:31:09.394 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#51383 00:31:09.650 [Default] Info> Set RichPresence PlayingDungeons3
+0#51383 00:31:09.653 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - En el menú principal]
+0#58086 00:33:01.801 [Default] Info> EPIC Updating Product SDK Config, Time: 992.585938
+0#58112 00:33:02.236 [Default] Info> EPIC SDK Config Product Update Request Completed - No Change
+0#58112 00:33:02.236 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 992.894775, Update Interval: 331.348602
+0#59835 00:33:31.185 [Default] Info> Set RichPresence PlayingDungeons3
+0#59836 00:33:31.212 [Default] Info> LoadAllPartitionsAsync(1) took: 3.0074 ms for 25 bundles.
+0#59836 00:33:31.212 [Default] Info> MainState.Update: PreloadWorldMap: 3.0074 (total: 3.0074)
+0#59837 00:33:31.234 [Default] Info> MainState.Update: CameraPoiAndLoop: 22.0409 (total: 25.0483)
+0#59841 00:33:31.302 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - En el menú principal]
+0#59853 00:33:31.486 [Default] Info> MainState.Update: WaitForPreloading: 251.919 (total: 276.9673)
+0#59854 00:33:31.543 [Default] Info> ObjectEvilificationInitRequired
+0#59854 00:33:31.544 [Default] Info> Creating 3 HeightLevels out of 23 polygons:
+0#59854 00:33:31.545 [Default] Info> Created HeightLevel mesh 1 with 67 vertices
+0#59854 00:33:31.545 [Default] Info> Created 1 HeightLevel meshes
+0#59854 00:33:31.572 [Default] Info> loading: SetupRegions: 69.8009 ms
+0#59854 00:33:31.572 [Default] Info> MainState.Update: SetupRegions: 86.8573 (total: 363.8246)
+0#59855 00:33:31.602 [Default] Info> AdditionalObjectCsvLoader.Parse took: 12.914 ms
+0#59866 00:33:31.967 [Default] Info> MainState.Update: AdditionalObjectCsvLoader: 394.0889 (total: 757.9135)
+0#59867 00:33:31.991 [Default] Info> MainState.Update: InitEvilTerrains: 24.0128 (total: 781.9263)
+0#60112 00:33:36.177 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#60112 00:33:36.177 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#60112 00:33:36.177 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#60334 00:33:39.940 [Default] Warn> Some component accesses GlobalsGame before GlobalsManager was done with it.
+0#61841 00:34:05.096 [Default] Info> Set RichPresence WaitingForPlayersCoop
+0#61841 00:34:05.097 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Esperando a otro jugador.]
+0#65712 00:35:10.127 [Default] Warn> Some component accesses GlobalsGame before GlobalsManager was done with it.
+0#65716 00:35:10.185 [Default] Info> EvilSceneManager.SwitchScene(Cathedral) (active: MainMenu)
+0#65718 00:35:10.223 [Default] Info> EvilSceneManager: UnloadSceneAsync took: 22.0381 ms (MainMenu -> Cathedral))
+0#65719 00:35:10.420 [Default] Info> EvilSceneManager: UnloadUnusedAssets took: 197.8907 ms (MainMenu -> Cathedral))
+0#65719 00:35:10.443 [Default] Info> LoadAllPartitionsAsync(8) took: 22.0468 ms for 15 bundles.
+0#65720 00:35:10.470 [Default] Info> BootServer IsHostingPlayer=False Player=MaxiusOfMaximus [454863898879643648] (SinglePlayer) IsHosting=False NetworkClient=Realmforge.Internal.Client.NetworkClient
+                                     Realmforge.Internal.Shared.RakNetClient
+0#65722 00:35:10.535 [Default] Info> Setting unity quality level 13 'ENG_HIGH_SP'
+0#65722 00:35:10.588 [Default] Info> ObjectEvilificationInitRequired
+0#65722 00:35:10.732 [Default] Info> Creating 3 HeightLevels out of 19 polygons:
+0#65722 00:35:10.733 [Default] Info> Created HeightLevel mesh 1 with 91 vertices
+0#65722 00:35:10.734 [Default] Info> Created HeightLevel mesh 2 with 21 vertices
+0#65722 00:35:10.734 [Default] Info> Created 2 HeightLevel meshes
+0#65722 00:35:10.784 [Default] Info> loading: SetupRegions: 240.1656 ms
+0#65817 00:35:15.499 [Default] Info> EvilSceneManager: PreloadScene took: 5078.4009 ms (MainMenu -> Cathedral))
+0#65818 00:35:16.059 [Default] Info> Booting (client) SceneName 'Cathedral'; PlayerCount '1'; GameMode 'CoopOneDungeon'; <Entity ID 0>
+0#65818 00:35:16.094 [Default] Info> EvilSceneManager: Instantiating new scene took: 594.7142 ms (MainMenu -> Cathedral))
+8#66093 00:35:23.534 [Default] Info> Set RichPresence PlayingCoopCampaign
+8#66093 00:35:23.535 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás en cooperativo.]
+4016#78080 00:38:44.153 [Default] Info> EPIC Updating Product SDK Config, Time: 1334.938232
+4025#78105 00:38:44.565 [Default] Info> EPIC SDK Config Product Update Request Completed - No Change
+4025#78105 00:38:44.565 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 1335.247925, Update Interval: 332.372192
+11195#99546 00:44:43.441 [Default] Info> EPIC Updating Product SDK Config, Time: 1694.225220
+11204#99571 00:44:43.867 [Default] Info> EPIC SDK Config Product Update Request Completed - No Change
+11204#99571 00:44:43.867 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 1694.551636, Update Interval: 315.363007
+18154#120340 00:50:31.686 [Default] Info> EPIC Updating Product SDK Config, Time: 2042.470581
+18162#120366 00:50:32.121 [Default] Info> EPIC SDK Config Product Update Request Completed - No Change
+18162#120366 00:50:32.121 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 2042.804199, Update Interval: 317.424835
+25565#142496 00:56:42.612 [Default] Info> EPIC Updating Product SDK Config, Time: 2413.398438
+25573#142521 00:56:43.039 [Default] Info> EPIC SDK Config Product Update Request Completed - No Change
+25573#142521 00:56:43.039 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 2413.724365, Update Interval: 332.831818
+33095#165013 01:02:59.491 [Default] Info> EPIC Updating Product SDK Config, Time: 2790.281006
+33103#165038 01:02:59.953 [Default] Info> EPIC SDK Config Product Update Request Completed - No Change
+33103#165038 01:02:59.953 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 2790.581787, Update Interval: 328.120361
+40138#186061 01:08:52.026 [Default] Info> OnSavingGameStarted
+40139#186077 01:08:52.295 [Default] Info> OnSavingGameFinished
+40139#186077 01:08:52.296 [Default] Info> OnSavingGameFinished done
+40701#187767 01:09:20.554 [Default] Info> EPIC Updating Product SDK Config, Time: 3171.348145
+40714#187806 01:09:21.212 [Default] Info> EPIC SDK Config Product Update Request Completed - No Change
+40714#187806 01:09:21.212 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 3171.905518, Update Interval: 359.588013
+48298#210479 01:15:40.782 [Default] Info> Epic auth expiration imminent. Reconnecting.
+48298#210479 01:15:40.782 [Default] Info> Epic reconnect start
+48310#210515 01:15:41.382 [Default] Info> Epicstore connected
+48785#211934 01:16:05.182 [Default] Info> EPIC Updating Product SDK Config, Time: 3575.986328
+48794#211958 01:16:05.586 [Default] Info> EPIC SDK Config Product Update Request Completed - No Change
+48794#211958 01:16:05.586 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 3576.287109, Update Interval: 326.289246
+49906#215289 01:17:01.296 [Default] Info> OnSavingGameStarted
+49907#215301 01:17:01.488 [Default] Info> OnSavingGameFinished
+49907#215301 01:17:01.488 [Default] Info> OnSavingGameFinished done
+52170#222068 01:18:54.746 [Default] Info> Set Achievement ACH_D3_Campaign_Cathedral_1
+52643#223482 01:19:18.474 [Default] Info> OnSavingGameStarted
+52644#223491 01:19:18.626 [Default] Info> OnSavingGameFinished
+52644#223491 01:19:18.626 [Default] Info> OnSavingGameFinished done
+56044#233657 01:22:08.823 [Default] Info> EPIC Updating Product SDK Config, Time: 3939.627686
+56062#233711 01:22:09.726 [Default] Info> EPIC SDK Config Product Update Request Completed - No Change
+56062#233711 01:22:09.726 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 3940.430176, Update Interval: 346.281311
+56563#235207 01:22:34.829 [Default] Info> OnSavingGameStarted
+56564#235216 01:22:34.982 [Default] Info> OnSavingGameFinished
+56564#235216 01:22:34.982 [Default] Info> OnSavingGameFinished done
+59133#242890 01:24:43.632 [Default] Info> OnSavingGameStarted
+59134#242897 01:24:43.766 [Default] Info> OnSavingGameFinished
+59134#242897 01:24:43.766 [Default] Info> OnSavingGameFinished done
+60605#247302 01:25:57.423 [Default] Info> OnSavingGameStarted
+60606#247312 01:25:57.591 [Default] Info> OnSavingGameFinished
+60606#247312 01:25:57.592 [Default] Info> OnSavingGameFinished done
+64089#257668 01:28:51.079 [Default] Info> EPIC Updating Product SDK Config, Time: 4341.891113
+64098#257696 01:28:51.517 [Default] Info> EPIC SDK Config Product Update Request Completed - No Change
+64098#257696 01:28:51.517 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 4342.215332, Update Interval: 355.623657
+64591#259161 01:29:16.056 [Default] Info> Set Achievement ACH_D3_Campaign_Cathedral_Completed
+64591#259161 01:29:16.056 [Default] Info> Set Achievement ACH_D3_Campaign_Cathedral_2
+64614#259232 01:29:17.373 [Default] Warn> Trying to play a disabled audioSource: skill_heal_beam_loop [57]
+64614#259232 01:29:17.373 [Default] Warn> Trying to play a disabled audioSource: skill_heal_beam_loop [69]
+64614#259232 01:29:17.373 [Default] Warn> Trying to play a disabled audioSource: skill_heal_beam_loop [41]
+66499#264828 01:30:51.123 [Default] Info> We've won, hurray: scene 'Cathedral' (1p; Main; Ver: 0/0)
+66591#265102 01:30:55.778 [Default] Info> EvilSceneManager.SwitchScene(MainMenu) (active: Cathedral)
+0#265104 01:30:56.059 [Default] Info> EvilSceneManager: UnloadSceneAsync took: 257.2792 ms (Cathedral -> MainMenu))
+0#265105 01:30:56.326 [Default] Info> EvilSceneManager: UnloadUnusedAssets took: 267.4926 ms (Cathedral -> MainMenu))
+0#265106 01:30:56.329 [Default] Info> EvilSceneManager: PreloadScene took: 3.0068 ms (Cathedral -> MainMenu))
+0#265107 01:30:56.346 [Default] Info> Setting unity quality level 13 'ENG_HIGH_SP'
+0#265107 01:30:56.356 [Default] Info> EvilSceneManager: Instantiating new scene took: 26.5757 ms (Cathedral -> MainMenu))
+0#265107 01:30:56.358 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#265107 01:30:56.359 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#265107 01:30:56.360 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#265108 01:30:56.365 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#265108 01:30:56.365 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#265108 01:30:56.365 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#265110 01:30:56.658 [Default] Info> Set RichPresence PlayingDungeons3
+0#265110 01:30:56.658 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - En el menú principal]
+0#265111 01:30:56.680 [Default] Info> LoadAllPartitionsAsync(1) took: 3.5136 ms for 27 bundles.
+0#265111 01:30:56.680 [Default] Info> MainState.Update: PreloadWorldMap: 4.514 (total: 4.514)
+0#265112 01:30:56.700 [Default] Info> MainState.Update: CameraPoiAndLoop: 20.0656 (total: 24.5796)
+0#265127 01:30:56.954 [Default] Info> MainState.Update: WaitForPreloading: 253.8401 (total: 278.4197)
+0#265128 01:30:56.996 [Default] Info> ObjectEvilificationInitRequired
+0#265128 01:30:56.996 [Default] Info> Creating 3 HeightLevels out of 23 polygons:
+0#265128 01:30:56.997 [Default] Info> Created HeightLevel mesh 1 with 67 vertices
+0#265128 01:30:56.997 [Default] Info> Created 1 HeightLevel meshes
+0#265128 01:30:57.032 [Default] Info> loading: SetupRegions: 75.7352 ms
+0#265128 01:30:57.032 [Default] Info> MainState.Update: SetupRegions: 77.7739 (total: 356.1936)
+0#265129 01:30:57.062 [Default] Info> AdditionalObjectCsvLoader.Parse took: 13.0117 ms
+0#265140 01:30:57.438 [Default] Info> MainState.Update: AdditionalObjectCsvLoader: 405.26 (total: 761.4536)
+0#265141 01:30:57.450 [Default] Info> MainState.Update: InitEvilTerrains: 12.0158 (total: 774.4792)
+0#266032 01:31:12.402 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#266032 01:31:12.402 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#266032 01:31:12.402 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#266153 01:31:14.664 [Default] Warn> Some component accesses GlobalsGame before GlobalsManager was done with it.
+0#268057 01:31:46.547 [Default] Info> Set RichPresence WaitingForPlayersCoop
+0#268061 01:31:46.615 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Esperando a otro jugador.]
+0#273933 01:33:25.236 [Default] Warn> Some component accesses GlobalsGame before GlobalsManager was done with it.
+0#273937 01:33:25.294 [Default] Info> EvilSceneManager.SwitchScene(DemonStones) (active: MainMenu)
+0#273939 01:33:25.333 [Default] Info> EvilSceneManager: UnloadSceneAsync took: 32.1124 ms (MainMenu -> DemonStones))
+0#273940 01:33:25.525 [Default] Info> EvilSceneManager: UnloadUnusedAssets took: 192.0664 ms (MainMenu -> DemonStones))
+0#273940 01:33:25.541 [Default] Info> LoadAllPartitionsAsync(10) took: 15.0161 ms for 12 bundles.
+0#273941 01:33:26.264 [Default] Info> BootServer IsHostingPlayer=False Player=MaxiusOfMaximus [1053842652781076074] (SinglePlayer) IsHosting=False NetworkClient=Realmforge.Internal.Client.NetworkClient
+                                      Realmforge.Internal.Shared.RakNetClient
+0#273942 01:33:26.279 [Default] Info> Setting unity quality level 13 'ENG_HIGH_SP'
+0#273942 01:33:26.359 [Default] Info> ObjectEvilificationInitRequired
+0#273942 01:33:26.446 [Default] Info> Creating 3 HeightLevels out of 10 polygons:
+0#273942 01:33:26.449 [Default] Info> Created HeightLevel mesh 1 with 84 vertices
+0#273942 01:33:26.449 [Default] Info> Created HeightLevel mesh 2 with 13 vertices
+0#273942 01:33:26.449 [Default] Info> Created 2 HeightLevel meshes
+0#273942 01:33:26.472 [Default] Info> loading: SetupRegions: 184.354 ms
+0#274025 01:33:29.768 [Default] Info> EvilSceneManager: PreloadScene took: 4243.4716 ms (MainMenu -> DemonStones))
+0#274026 01:33:30.627 [Default] Info> Booting (client) SceneName 'DemonStones'; PlayerCount '1'; GameMode 'CoopOneDungeon'; <Entity ID 0>
+0#274026 01:33:30.665 [Default] Info> EvilSceneManager: Instantiating new scene took: 896.7186 ms (MainMenu -> DemonStones))
+3#274300 01:33:39.589 [Default] Info> Set RichPresence PlayingCoopCampaign
+5#274304 01:33:39.644 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las piedras de Gehena en cooperativo.]
+2304#281145 01:35:34.146 [Default] Info> EPIC Updating Product SDK Config, Time: 4744.972168
+2312#281171 01:35:34.582 [Default] Info> EPIC SDK Config Product Update Request Completed - No Change
+2312#281171 01:35:34.582 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 4745.291016, Update Interval: 336.294434
+9896#303729 01:41:52.275 [Default] Info> EPIC Updating Product SDK Config, Time: 5123.108887
+9904#303754 01:41:52.684 [Default] Info> EPIC SDK Config Product Update Request Completed - No Change
+9904#303754 01:41:52.684 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 5123.417480, Update Interval: 357.764221
+17740#327058 01:48:22.977 [Default] Info> EPIC Updating Product SDK Config, Time: 5513.800781
+17749#327084 01:48:23.412 [Default] Info> EPIC SDK Config Product Update Request Completed - No Change
+17749#327084 01:48:23.412 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 5514.113281, Update Interval: 325.461578
+25192#349203 01:54:34.071 [Default] Info> EPIC Updating Product SDK Config, Time: 5884.914062
+25199#349227 01:54:34.473 [Default] Info> EPIC SDK Config Product Update Request Completed - No Change
+25199#349227 01:54:34.473 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 5885.214355, Update Interval: 304.900055
+32057#369620 02:00:16.043 [Default] Info> EPIC Updating Product SDK Config, Time: 6226.895508
+32066#369645 02:00:16.454 [Default] Info> EPIC SDK Config Product Update Request Completed - No Change
+32066#369645 02:00:16.454 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 6227.196289, Update Interval: 330.522766
+39680#392276 02:06:35.675 [Default] Info> EPIC Updating Product SDK Config, Time: 6606.530273
+39689#392302 02:06:36.111 [Default] Info> EPIC SDK Config Product Update Request Completed - No Change
+39689#392302 02:06:36.111 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 6606.864258, Update Interval: 350.785858
+47463#415388 02:13:03.281 [Default] Info> EPIC Updating Product SDK Config, Time: 6994.116211
+47472#415413 02:13:03.739 [Default] Info> EPIC SDK Config Product Update Request Completed - No Change
+47472#415413 02:13:03.739 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 6994.473633, Update Interval: 323.148895
+49410#421178 02:14:40.271 [Default] Info> Epic auth expiration imminent. Reconnecting.
+49410#421178 02:14:40.271 [Default] Info> Epic reconnect start
+49423#421217 02:14:40.928 [Default] Info> Epicstore connected
+49850#422486 02:15:02.184 [Default] Info> EPIC NewUserToken: User ClientId: xyz...6oK AccountId: 7b9...b7b Access[Expires: 2026.02.16-04.15.02 Remaining: 7200.71] Refresh[Expires: 2026-02-16T10:15:02.711Z Remaining: 28800.71] State: Valid
+53075#432070 02:17:42.816 [Default] Warn> EPIC Received Stomp ERROR. Message=[{"correlationId":"ca6d1c8a-8e89-467a-b955-4380698c3557","timestamp":1771208263484,"statusCode":4019,"message":"The authentication token used for subscribing is no longer valid.","type":"core.connect.v1.connect-failed"}]
+53075#432070 02:17:42.816 [Default] Warn> EPIC Received Stomp Protocol Error Message. LocalUserId=[7b9...b7b] Error=[The authentication token used for subscribing is no longer valid.]
+53075#432070 02:17:42.816 [Default] Warn> EPIC Received Stomp Connection Closed Message. LocalUserId=[7b9...b7b] Reason=[The authentication token used for subscribing is no longer valid.]
+53101#432148 02:17:44.118 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las piedras de Gehena en cooperativo.]
+54987#437754 02:19:18.030 [Default] Info> EPIC Updating Product SDK Config, Time: 7368.876953
+54995#437781 02:19:18.447 [Default] Info> EPIC SDK Config Product Update Request Completed - No Change
+54995#437781 02:19:18.447 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 7369.192383, Update Interval: 311.990112
+56099#441065 02:20:13.401 [Default] Info> OnSavingGameStarted
+56099#441081 02:20:13.672 [Default] Info> OnSavingGameFinished
+56099#441081 02:20:13.673 [Default] Info> OnSavingGameFinished done
+57399#444947 02:21:18.454 [Default] Info> OnSavingGameStarted
+57399#444959 02:21:18.657 [Default] Info> OnSavingGameFinished
+57399#444959 02:21:18.657 [Default] Info> OnSavingGameFinished done
+57523#445450 02:21:26.856 [Default] Info> EvilSceneManager.SwitchScene(MainMenu) (active: DemonStones)
+0#445452 02:21:27.152 [Default] Info> EvilSceneManager: UnloadSceneAsync took: 271.3715 ms (DemonStones -> MainMenu))
+0#445453 02:21:27.394 [Default] Info> EvilSceneManager: UnloadUnusedAssets took: 242.128 ms (DemonStones -> MainMenu))
+0#445454 02:21:27.398 [Default] Info> EvilSceneManager: PreloadScene took: 4.4705 ms (DemonStones -> MainMenu))
+0#445455 02:21:27.419 [Default] Info> Setting unity quality level 13 'ENG_HIGH_SP'
+0#445455 02:21:27.428 [Default] Info> EvilSceneManager: Instantiating new scene took: 29.2604 ms (DemonStones -> MainMenu))
+0#445455 02:21:27.431 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#445455 02:21:27.432 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#445455 02:21:27.433 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#445456 02:21:27.437 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#445456 02:21:27.437 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#445456 02:21:27.437 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#445458 02:21:27.699 [Default] Info> Set RichPresence PlayingDungeons3
+0#445459 02:21:27.712 [Default] Info> LoadAllPartitionsAsync(1) took: 5.9976 ms for 30 bundles.
+0#445459 02:21:27.712 [Default] Info> MainState.Update: PreloadWorldMap: 5.9976 (total: 5.9976)
+0#445460 02:21:27.719 [Default] Info> MainState.Update: CameraPoiAndLoop: 5.5412 (total: 13.0468)
+0#445464 02:21:27.799 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - En el menú principal]
+0#445476 02:21:27.967 [Default] Info> MainState.Update: WaitForPreloading: 247.4343 (total: 260.4811)
+0#445477 02:21:28.026 [Default] Info> ObjectEvilificationInitRequired
+0#445477 02:21:28.027 [Default] Info> Creating 3 HeightLevels out of 23 polygons:
+0#445477 02:21:28.028 [Default] Info> Created HeightLevel mesh 1 with 67 vertices
+0#445477 02:21:28.028 [Default] Info> Created 1 HeightLevel meshes
+0#445477 02:21:28.068 [Default] Info> loading: SetupRegions: 84.253 ms
+0#445477 02:21:28.068 [Default] Info> MainState.Update: SetupRegions: 101.4727 (total: 361.9538)
+0#445478 02:21:28.099 [Default] Info> AdditionalObjectCsvLoader.Parse took: 14.5313 ms
+0#445489 02:21:28.472 [Default] Info> MainState.Update: AdditionalObjectCsvLoader: 403.7003 (total: 765.6541)
+0#445490 02:21:28.485 [Default] Info> MainState.Update: InitEvilTerrains: 13.0088 (total: 778.6629)
+0#445555 02:21:29.588 [Default] Info> Quitting application: MainMenuConnector.QuitApplication() <Entity ID 0>
+0#445555 02:21:29.612 [Default] Info> GlobalsApp.OnApplicationQuit()

@@ -1,0 +1,26 @@
+﻿-1#-1 03:07:34.155 [Network] Info> <S> OUT OnClientConnected ??? [1] (Invalid) IsHosting=True
+-1#-1 03:07:34.556 [Network] Info> NetworkServer.ServerState set from [PreBoot] to: [BootingStarted]
+-1#-1 03:07:34.557 [Network] Info> NOMServer created
+-1#-1 03:07:34.560 [Network] Info> GameLogicServer.BootServer: file 'DemonStones_20260214_201549' save 'DemonStones' scene 'DemonStones' (1p Main; Ver: 0/9)
+24784#-1 03:07:35.897 [Network] Info> NetworkServer.ServerState set from [BootingStarted] to: [BootingFinished]
+24784#-1 03:07:35.897 [Network] Info> NetworkServer.ServerState set from [BootingFinished] to: [WaitForClients]
+24784#-1 03:07:51.318 [Network] Info> NetworkServer.SetServerSpeed: 1
+24784#-1 03:07:51.318 [Network] Info> NetworkServer.ServerState set from [WaitForClients] to: [GameHasStarted]
+44733#-1 03:24:28.632 [Network] Info> NetworkServer.SetServerSpeed: 0
+44733#-1 03:24:29.323 [Network] Info> NetworkServer.SetServerSpeed: 1
+55103#-1 03:33:08.368 [Network] Info> NetworkServer.SetServerSpeed: 0
+55103#-1 03:33:09.004 [Network] Info> NetworkServer.SetServerSpeed: 1
+60778#-1 03:37:53.371 [Network] Info> NetworkServer.SetServerSpeed: 1
+79940#-1 03:53:52.617 [Network] Info> NetworkServer.SetServerSpeed: 1
+92796#-1 04:04:36.264 [Network] Info> NetworkServer.SetServerSpeed: 1
+96728#-1 04:07:53.316 [Network] Info> NetworkServer.SetServerSpeed: 1
+109222#-1 04:18:18.097 [Network] Info> NetworkServer.SetServerSpeed: 1
+132813#-1 04:37:53.283 [Network] Info> NetworkServer.SetServerSpeed: 1
+168950#-1 05:07:53.311 [Network] Info> NetworkServer.SetServerSpeed: 1
+205086#-1 05:37:53.388 [Network] Info> NetworkServer.SetServerSpeed: 1
+216998#-1 05:47:46.699 [Network] Info> NetworkServer.SetServerSpeed: 0
+216998#-1 05:47:46.766 [Network] Info> NetworkServer.SetServerSpeed: 0
+216998#-1 05:47:54.519 [Network] Info> NetworkServer.ServerState set from [GameHasStarted] to: [ShutdownStarted]
+216998#-1 05:47:54.520 [Network] Info> GameLogicServer.ShutdownServer() called...
+-1#-1 05:47:54.523 [Network] Info> NOMServer disposed
+-1#-1 05:47:54.523 [Network] Info> NetworkServer.ServerState set from [ShutdownStarted] to: [ShutdownFinished]

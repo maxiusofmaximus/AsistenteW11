@@ -1,0 +1,159 @@
+﻿0#2035 22:25:06.520 [Network] Info> <C> EmbeddedNetwork.ConnectToGame(127.0.0.1, 25001): use EmbeddedServer...
+0#2037 22:25:06.552 [Network] Info> <C> EmbeddedNetwork: OnGameServerConnectionAccepted()
+0#2037 22:25:06.553 [Network] Info> <C> OUT OnGameServerConnectionAccepted
+0#2037 22:25:06.553 [Network] Info> NetworkClient.GameServerConnectionResult set from [Unknown] to: [Unknown]
+0#2038 22:25:06.575 [Network] Info> GameStateHelper.OnPlayerSlotsChanged() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#2038 22:25:06.575 [Network] Info> NetworkClient.GameServerConnectionResult set from [Unknown] to: [Success]
+0#2039 22:25:06.591 [Network] Info> GameStateHelper.OnPlayerSlotsChanged() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#2039 22:25:06.591 [Network] Info> GameStateHelper.OnPlayerSlotsChanged() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#2040 22:25:06.604 [Network] Info> GameStateHelper.OnCurrentSceneChanged(scene 'Shadow' (1p; Main; Ver: 0/0), SinglePlayer, [Mode: Conquest; StartResources: Low; TargetEvilness: Low; AvailableResources: 0; Surprises: False; LockRandomResearchesFalse; ]) <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#2040 22:25:06.604 [Network] Info> GameStateHelper.OnPlayerSlotsChanged() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#2040 22:25:06.604 [Network] Info> GameStateHelper.OnStartLoadingScene(scene 'Shadow' (1p; Main; Ver: 0/0); True; SinglePlayer; [Mode: Conquest; StartResources: Low; TargetEvilness: Low; AvailableResources: 0; Surprises: False; LockRandomResearchesFalse; ]) <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#13462 22:28:17.954 [Network] Info> GameStateHelper.OnPlayerSlotsChanged() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#13469 22:28:19.152 [Network] Info> GameStateHelper.OnServerBootingStarted(Shadow, BootingStarted)
+0#13470 22:28:19.158 [Network] Info> GameStateHelper.OnServerBootingFinished(BootingFinished) <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#13471 22:28:19.160 [Network] Info> GameStateHelper.OnPlayerSlotsChanged() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#13530 22:28:20.178 [Network] Info> GameStateHelper.OnPlayerSlotsChanged() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#13566 22:28:21.996 [Network] Info> GameStateHelper.OnPlayerSlotsChanged() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#13568 22:28:23.599 [Network] Info> GameStateHelper.OnPlayerSlotsChanged() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#13570 22:28:24.559 [Network] Info> GameStateHelper.OnPlayerSlotsChanged() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#13573 22:28:24.727 [Network] Info> NOMClient created
+0#13576 22:28:24.954 [Network] Info> HandleBootingRpcs: 0 ms, progress: 0% <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> LoadingState ]'>
+0#13577 22:28:25.007 [Network] Info> HandleBootingRpcs: 0 ms, progress: 0% <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> LoadingState ]'>
+0#13578 22:28:25.060 [Network] Info> HandleBootingRpcs: 0 ms, progress: 0% <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> LoadingState ]'>
+0#13579 22:28:25.116 [Network] Info> HandleBootingRpcs: 0 ms, progress: 0% <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> LoadingState ]'>
+0#13580 22:28:25.688 [Network] Info> HandleBootingRpcs: 525.8565 ms, progress: 63% <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> LoadingState ]'>
+0#13581 22:28:25.693 [Network] Info> GameStateHelper.OnPlayerSlotsChanged() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#13581 22:28:25.997 [Network] Info> HandleBootingRpcs: 303.3686 ms, progress: 0% <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> LoadingState ]'>
+0#13582 22:28:26.067 [Network] Info> PostSceneInit: 8.4793 ms <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> LoadingState ]'>
+0#13583 22:28:26.079 [Network] Info> FinalInit: 0 ms <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> LoadingState ]'>
+0#13584 22:28:26.158 [Network] Info> CallPendingStarts: 74.2843 ms <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> LoadingState ]'>
+0#13585 22:28:26.198 [Network] Info> FinalizingMapGen: 0 ms <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> LoadingState ]'>
+0#13586 22:28:26.216 [Network] Info> GameStateHelper.OnPlayerSlotsChanged() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#13589 22:28:26.538 [Network] Info> IsPlayerDungeonBaked() returned true <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> LoadingState ]'>
+0#13590 22:28:26.542 [Network] Info> GameStateHelper.OnPlayerSlotsChanged() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#13590 22:28:26.542 [Network] Info> GameStateHelper.OnGameServerStarted() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+6832#34004 22:34:08.520 [Network] Info> GameStateHelper.OnSavingGameStarted() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+6832#34017 22:34:08.738 [Network] Info> GameStateHelper.OnSavingGameSerialized() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+6832#34018 22:34:08.755 [Network] Info> GameStateHelper.OnSavingGameFinished() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+10760#45759 22:37:25.161 [Network] Info> GameStateHelper.OnSavingGameStarted() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+10761#45765 22:37:25.260 [Network] Info> GameStateHelper.OnSavingGameSerialized() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+10761#45766 22:37:25.277 [Network] Info> GameStateHelper.OnSavingGameFinished() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+12911#52192 22:39:12.804 [Network] Info> GameStateHelper.OnSavingGameStarted() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+12912#52198 22:39:12.904 [Network] Info> GameStateHelper.OnSavingGameSerialized() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+12912#52199 22:39:12.920 [Network] Info> GameStateHelper.OnSavingGameFinished() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+14141#55875 22:40:14.403 [Network] Info> GameStateHelper.OnServerShutdownStarted() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+14141#55875 22:40:14.404 [Network] Info> GameStateHelper.OnServerShutdownFinished() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+14141#55877 22:40:14.486 [Network] Info> NOMClient disposed
+0#66658 22:43:15.438 [Network] Info> <C> EmbeddedNetwork.ConnectToGame(127.0.0.1, 25001): use EmbeddedServer...
+0#66661 22:43:15.489 [Network] Info> <C> EmbeddedNetwork: OnGameServerConnectionAccepted()
+0#66661 22:43:15.489 [Network] Info> <C> OUT OnGameServerConnectionAccepted
+0#66661 22:43:15.489 [Network] Info> NetworkClient.GameServerConnectionResult set from [Unknown] to: [Unknown]
+0#66662 22:43:15.505 [Network] Info> GameStateHelper.OnCurrentSceneChanged(scene 'Shadow' (1p; Main; Ver: 0/0), SinglePlayer, [Mode: Conquest; StartResources: Low; TargetEvilness: Low; AvailableResources: 0; Surprises: False; LockRandomResearchesFalse; ]) <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#66662 22:43:15.505 [Network] Info> GameStateHelper.OnPlayerSlotsChanged() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#66662 22:43:15.505 [Network] Info> NetworkClient.GameServerConnectionResult set from [Unknown] to: [Success]
+0#66662 22:43:15.511 [Network] Info> GameStateHelper.OnPlayerSlotsChanged() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#66662 22:43:15.511 [Network] Info> GameStateHelper.OnPlayerSlotsChanged() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#66664 22:43:15.537 [Network] Info> GameStateHelper.OnCurrentSceneChanged(scene 'Cathedral' (1p; Main; Ver: 0/0), SinglePlayer, [Mode: Conquest; StartResources: Low; TargetEvilness: Low; AvailableResources: 0; Surprises: False; LockRandomResearchesFalse; ]) <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#66664 22:43:15.538 [Network] Info> GameStateHelper.OnPlayerSlotsChanged() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#66664 22:43:15.538 [Network] Info> GameStateHelper.OnStartLoadingScene(scene 'Cathedral' (1p; Main; Ver: 0/0); True; SinglePlayer; [Mode: Conquest; StartResources: Low; TargetEvilness: Low; AvailableResources: 0; Surprises: False; LockRandomResearchesFalse; ]) <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#66674 22:43:16.628 [Network] Info> GameStateHelper.OnServerBootingStarted(Cathedral, BootingStarted)
+0#66675 22:43:16.635 [Network] Info> GameStateHelper.OnServerBootingFinished(BootingFinished) <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#66676 22:43:16.637 [Network] Info> GameStateHelper.OnPlayerSlotsChanged() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#66738 22:43:17.660 [Network] Info> GameStateHelper.OnPlayerSlotsChanged() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#66760 22:43:19.327 [Network] Info> GameStateHelper.OnPlayerSlotsChanged() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#66762 22:43:20.844 [Network] Info> GameStateHelper.OnPlayerSlotsChanged() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#66763 22:43:21.389 [Network] Info> NOMClient created
+0#66764 22:43:21.813 [Network] Info> GameStateHelper.OnPlayerSlotsChanged() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#66768 22:43:22.509 [Network] Info> HandleBootingRpcs: 667.0486 ms, progress: 63% <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> LoadingState ]'>
+0#66769 22:43:23.022 [Network] Info> HandleBootingRpcs: 500.3767 ms, progress: 63% <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> LoadingState ]'>
+0#66770 22:43:23.030 [Network] Info> GameStateHelper.OnPlayerSlotsChanged() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#66770 22:43:23.203 [Network] Info> HandleBootingRpcs: 172.9974 ms, progress: 0% <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> LoadingState ]'>
+0#66771 22:43:23.233 [Network] Info> PostSceneInit: 2.0107 ms <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> LoadingState ]'>
+0#66772 22:43:23.239 [Network] Info> FinalInit: 0 ms <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> LoadingState ]'>
+0#66773 22:43:23.487 [Network] Info> CallPendingStarts: 244.3734 ms <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> LoadingState ]'>
+0#66774 22:43:23.527 [Network] Info> FinalizingMapGen: 0 ms <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> LoadingState ]'>
+0#66775 22:43:23.639 [Network] Info> GameStateHelper.OnPlayerSlotsChanged() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#66802 22:43:24.552 [Network] Info> GameStateHelper.OnPlayerSlotsChanged() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#66862 22:43:25.557 [Network] Info> GameStateHelper.OnPlayerSlotsChanged() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#66922 22:43:26.560 [Network] Info> GameStateHelper.OnPlayerSlotsChanged() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#66982 22:43:27.564 [Network] Info> GameStateHelper.OnPlayerSlotsChanged() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#67024 22:43:28.267 [Network] Info> IsPlayerDungeonBaked() returned true <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> LoadingState ]'>
+0#67025 22:43:28.282 [Network] Info> GameStateHelper.OnPlayerSlotsChanged() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#67025 22:43:28.282 [Network] Info> GameStateHelper.OnGameServerStarted() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+3#67029 22:43:28.692 [Network] Info> GameStateHelper.OnPlayerSlotsChanged() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+35972#174564 23:13:28.949 [Network] Info> GameStateHelper.OnSavingGameStarted() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+35972#174573 23:13:29.098 [Network] Info> GameStateHelper.OnSavingGameSerialized() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+35972#174574 23:13:29.115 [Network] Info> GameStateHelper.OnSavingGameFinished() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+71951#282818 23:43:31.982 [Network] Info> GameStateHelper.OnSavingGameStarted() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+71951#282827 23:43:32.132 [Network] Info> GameStateHelper.OnSavingGameSerialized() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+71951#282828 23:43:32.148 [Network] Info> GameStateHelper.OnSavingGameFinished() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+91356#340684 23:59:38.664 [Network] Info> GameStateHelper.OnSavingGameStarted() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+91357#340694 23:59:38.831 [Network] Info> GameStateHelper.OnSavingGameSerialized() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+91357#340696 23:59:38.866 [Network] Info> GameStateHelper.OnSavingGameFinished() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+108084#390835 00:13:31.997 [Network] Info> GameStateHelper.OnSavingGameStarted() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+108084#390845 00:13:32.163 [Network] Info> GameStateHelper.OnSavingGameSerialized() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+108084#390847 00:13:32.197 [Network] Info> GameStateHelper.OnSavingGameFinished() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+131332#460510 00:32:50.099 [Network] Info> GameStateHelper.OnSavingGameStarted() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+131333#460520 00:32:50.282 [Network] Info> GameStateHelper.OnSavingGameSerialized() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+131333#460522 00:32:50.317 [Network] Info> GameStateHelper.OnSavingGameFinished() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+132539#464116 00:33:50.427 [Network] Info> GameStateHelper.OnSavingGameStarted() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+132540#464129 00:33:50.643 [Network] Info> GameStateHelper.OnSavingGameSerialized() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+132540#464131 00:33:50.677 [Network] Info> GameStateHelper.OnSavingGameFinished() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+142547#493904 00:42:09.125 [Network] Info> GameStateHelper.OnSavingGameStarted() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+142548#493914 00:42:09.291 [Network] Info> GameStateHelper.OnSavingGameSerialized() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+142548#493916 00:42:09.327 [Network] Info> GameStateHelper.OnSavingGameFinished() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+144207#498852 00:43:32.002 [Network] Info> GameStateHelper.OnSavingGameStarted() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+144207#498861 00:43:32.150 [Network] Info> GameStateHelper.OnSavingGameSerialized() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+144207#498863 00:43:32.183 [Network] Info> GameStateHelper.OnSavingGameFinished() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+153060#525249 00:50:53.148 [Network] Info> GameStateHelper.OnSavingGameStarted() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+153061#525259 00:50:53.314 [Network] Info> GameStateHelper.OnSavingGameSerialized() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+153061#525261 00:50:53.350 [Network] Info> GameStateHelper.OnSavingGameFinished() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+154539#529647 00:52:07.006 [Network] Info> GameStateHelper.OnSavingGameStarted() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+154540#529656 00:52:07.159 [Network] Info> GameStateHelper.OnSavingGameSerialized() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+154540#529658 00:52:07.191 [Network] Info> GameStateHelper.OnSavingGameFinished() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+156847#536974 00:54:10.018 [Network] Info> GameStateHelper.OnServerShutdownStarted() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+156847#536974 00:54:10.018 [Network] Info> GameStateHelper.OnServerShutdownFinished() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+156847#536976 00:54:10.220 [Network] Info> NOMClient disposed
+0#539548 00:54:53.957 [Network] Info> <C> EmbeddedNetwork.ConnectToGame(127.0.0.1, 25001): use EmbeddedServer...
+0#539552 00:54:54.024 [Network] Info> <C> EmbeddedNetwork: OnGameServerConnectionAccepted()
+0#539552 00:54:54.024 [Network] Info> <C> OUT OnGameServerConnectionAccepted
+0#539552 00:54:54.024 [Network] Info> NetworkClient.GameServerConnectionResult set from [Unknown] to: [Unknown]
+0#539553 00:54:54.040 [Network] Info> GameStateHelper.OnCurrentSceneChanged(scene 'Cathedral' (1p; Main; Ver: 0/0), SinglePlayer, [Mode: Conquest; StartResources: Low; TargetEvilness: Low; AvailableResources: 0; Surprises: False; LockRandomResearchesFalse; ]) <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#539553 00:54:54.040 [Network] Info> GameStateHelper.OnPlayerSlotsChanged() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#539553 00:54:54.040 [Network] Info> NetworkClient.GameServerConnectionResult set from [Unknown] to: [Success]
+0#539553 00:54:54.045 [Network] Info> GameStateHelper.OnPlayerSlotsChanged() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#539553 00:54:54.046 [Network] Info> GameStateHelper.OnPlayerSlotsChanged() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#539555 00:54:54.074 [Network] Info> GameStateHelper.OnCurrentSceneChanged(scene 'DemonStones' (1p; Main; Ver: 0/0), SinglePlayer, [Mode: Conquest; StartResources: Low; TargetEvilness: Low; AvailableResources: 0; Surprises: False; LockRandomResearchesFalse; ]) <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#539555 00:54:54.074 [Network] Info> GameStateHelper.OnPlayerSlotsChanged() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#539555 00:54:54.074 [Network] Info> GameStateHelper.OnStartLoadingScene(scene 'DemonStones' (1p; Main; Ver: 0/0); True; SinglePlayer; [Mode: Conquest; StartResources: Low; TargetEvilness: Low; AvailableResources: 0; Surprises: False; LockRandomResearchesFalse; ]) <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#539564 00:54:55.126 [Network] Info> GameStateHelper.OnServerBootingStarted(DemonStones, BootingStarted)
+0#539565 00:54:55.330 [Network] Info> GameStateHelper.OnServerBootingFinished(BootingFinished) <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#539565 00:54:55.330 [Network] Info> GameStateHelper.OnPlayerSlotsChanged() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#539616 00:54:56.145 [Network] Info> GameStateHelper.OnPlayerSlotsChanged() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#539638 00:54:58.540 [Network] Info> GameStateHelper.OnPlayerSlotsChanged() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#539639 00:54:59.401 [Network] Info> NOMClient created
+0#539640 00:55:00.317 [Network] Info> GameStateHelper.OnPlayerSlotsChanged() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#539642 00:55:01.650 [Network] Info> GameStateHelper.OnPlayerSlotsChanged() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#539647 00:55:02.357 [Network] Info> HandleBootingRpcs: 642.6835 ms, progress: 63% <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> LoadingState ]'>
+0#539648 00:55:02.868 [Network] Info> HandleBootingRpcs: 500.467 ms, progress: 63% <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> LoadingState ]'>
+0#539649 00:55:02.876 [Network] Info> GameStateHelper.OnPlayerSlotsChanged() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#539649 00:55:03.054 [Network] Info> HandleBootingRpcs: 177.7068 ms, progress: 0% <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> LoadingState ]'>
+0#539650 00:55:03.088 [Network] Info> PostSceneInit: 1.9972 ms <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> LoadingState ]'>
+0#539651 00:55:03.094 [Network] Info> FinalInit: 0 ms <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> LoadingState ]'>
+0#539652 00:55:03.240 [Network] Info> CallPendingStarts: 136.5913 ms <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> LoadingState ]'>
+0#539653 00:55:03.280 [Network] Info> FinalizingMapGen: 0.9998 ms <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> LoadingState ]'>
+0#539657 00:55:03.735 [Network] Info> GameStateHelper.OnPlayerSlotsChanged() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#539700 00:55:04.459 [Network] Info> GameStateHelper.OnPlayerSlotsChanged() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#539760 00:55:05.462 [Network] Info> GameStateHelper.OnPlayerSlotsChanged() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#539820 00:55:06.466 [Network] Info> GameStateHelper.OnPlayerSlotsChanged() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#539880 00:55:07.470 [Network] Info> GameStateHelper.OnPlayerSlotsChanged() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#539902 00:55:07.837 [Network] Info> IsPlayerDungeonBaked() returned true <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> LoadingState ]'>
+0#539903 00:55:07.855 [Network] Info> GameStateHelper.OnPlayerSlotsChanged() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+0#539903 00:55:07.855 [Network] Info> GameStateHelper.OnGameServerStarted() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+24783#614034 01:15:49.862 [Network] Info> GameStateHelper.OnSavingGameStarted() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+24783#614042 01:15:49.980 [Network] Info> GameStateHelper.OnSavingGameSerialized() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+24783#614043 01:15:49.995 [Network] Info> GameStateHelper.OnSavingGameFinished() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+24795#614375 01:15:55.547 [Network] Info> GameStateHelper.OnServerShutdownStarted() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+24795#614375 01:15:55.547 [Network] Info> GameStateHelper.OnServerShutdownFinished() <MonoBehaviour GameStateHelper 'GlobalsApp (Realmforge.Internal.Client.GameStateHelper)'>
+24795#614377 01:15:55.684 [Network] Info> NOMClient disposed

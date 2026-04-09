@@ -1,0 +1,62 @@
+﻿-1#-1 22:25:06.553 [Network] Info> <S> OUT OnClientConnected ??? [1] (Invalid) IsHosting=True
+-1#-1 22:28:18.257 [Network] Info> NetworkServer.ServerState set from [PreBoot] to: [BootingStarted]
+-1#-1 22:28:18.257 [Network] Info> NOMServer created
+-1#-1 22:28:18.258 [Network] Info> GameLogicServer.BootServer: scene 'Shadow' (1p; Main; Ver: 0/0)
+0#-1 22:28:18.924 [Network] Info> NetworkServer.ServerState set from [BootingStarted] to: [BootingFinished]
+0#-1 22:28:18.924 [Network] Info> NetworkServer.ServerState set from [BootingFinished] to: [WaitForClients]
+0#-1 22:28:26.539 [Network] Info> NetworkServer.SetServerSpeed: 1
+0#-1 22:28:26.540 [Network] Info> NetworkServer.ServerState set from [WaitForClients] to: [GameHasStarted]
+6833#-1 22:34:08.746 [Network] Info> NetworkServer.SetServerSpeed: 1
+10762#-1 22:37:25.267 [Network] Info> NetworkServer.SetServerSpeed: 1
+12913#-1 22:39:12.911 [Network] Info> NetworkServer.SetServerSpeed: 1
+14142#-1 22:40:14.361 [Network] Info> NetworkServer.SetServerSpeed: 1
+14142#-1 22:40:14.389 [Network] Info> NetworkServer.ServerState set from [GameHasStarted] to: [ShutdownStarted]
+14142#-1 22:40:14.390 [Network] Info> GameLogicServer.ShutdownServer() called...
+-1#-1 22:40:14.392 [Network] Info> NOMServer disposed
+-1#-1 22:40:14.392 [Network] Info> NetworkServer.ServerState set from [ShutdownStarted] to: [ShutdownFinished]
+-1#-1 22:43:15.483 [Network] Info> <S> OUT OnClientConnected ??? [1] (Invalid) IsHosting=True
+-1#-1 22:43:15.908 [Network] Info> NetworkServer.ServerState set from [PreBoot] to: [BootingStarted]
+-1#-1 22:43:15.908 [Network] Info> NOMServer created
+-1#-1 22:43:15.909 [Network] Info> GameLogicServer.BootServer: scene 'Cathedral' (1p; Main; Ver: 0/0)
+0#-1 22:43:16.501 [Network] Info> NetworkServer.ServerState set from [BootingStarted] to: [BootingFinished]
+0#-1 22:43:16.501 [Network] Info> NetworkServer.ServerState set from [BootingFinished] to: [WaitForClients]
+0#-1 22:43:28.269 [Network] Info> NetworkServer.SetServerSpeed: 1
+0#-1 22:43:28.269 [Network] Info> NetworkServer.ServerState set from [WaitForClients] to: [GameHasStarted]
+35973#-1 23:13:29.103 [Network] Info> NetworkServer.SetServerSpeed: 1
+48816#-1 23:24:13.912 [Network] Info> NetworkServer.SetServerSpeed: 0
+48816#-1 23:24:17.005 [Network] Info> NetworkServer.SetServerSpeed: 1
+71952#-1 23:43:32.138 [Network] Info> NetworkServer.SetServerSpeed: 1
+91358#-1 23:59:38.850 [Network] Info> NetworkServer.SetServerSpeed: 1
+108085#-1 00:13:32.182 [Network] Info> NetworkServer.SetServerSpeed: 1
+131334#-1 00:32:50.303 [Network] Info> NetworkServer.SetServerSpeed: 1
+132541#-1 00:33:50.663 [Network] Info> NetworkServer.SetServerSpeed: 1
+142549#-1 00:42:09.311 [Network] Info> NetworkServer.SetServerSpeed: 1
+144208#-1 00:43:32.170 [Network] Info> NetworkServer.SetServerSpeed: 1
+153062#-1 00:50:53.335 [Network] Info> NetworkServer.SetServerSpeed: 1
+154541#-1 00:52:07.177 [Network] Info> NetworkServer.SetServerSpeed: 1
+156848#-1 00:54:02.106 [Network] Info> NetworkServer.SetServerSpeed: 0
+156848#-1 00:54:02.177 [Network] Info> NetworkServer.SetServerSpeed: 0
+156848#-1 00:54:10.006 [Network] Info> NetworkServer.ServerState set from [GameHasStarted] to: [ShutdownStarted]
+156848#-1 00:54:10.006 [Network] Info> GameLogicServer.ShutdownServer() called...
+-1#-1 00:54:10.007 [Network] Info> NOMServer disposed
+-1#-1 00:54:10.007 [Network] Info> NetworkServer.ServerState set from [ShutdownStarted] to: [ShutdownFinished]
+-1#-1 00:54:54.014 [Network] Info> <S> OUT OnClientConnected ??? [1] (Invalid) IsHosting=True
+-1#-1 00:54:54.407 [Network] Info> NetworkServer.ServerState set from [PreBoot] to: [BootingStarted]
+-1#-1 00:54:54.407 [Network] Info> NOMServer created
+-1#-1 00:54:54.407 [Network] Info> GameLogicServer.BootServer: scene 'DemonStones' (1p; Main; Ver: 0/0)
+0#-1 00:54:54.877 [Network] Info> NetworkServer.ServerState set from [BootingStarted] to: [BootingFinished]
+0#-1 00:54:54.877 [Network] Info> NetworkServer.ServerState set from [BootingFinished] to: [WaitForClients]
+0#-1 00:55:07.838 [Network] Info> NetworkServer.SetServerSpeed: 1
+0#-1 00:55:07.838 [Network] Info> NetworkServer.ServerState set from [WaitForClients] to: [GameHasStarted]
+16139#-1 01:08:31.691 [Network] Info> NetworkServer.SetServerSpeed: 0
+16139#-1 01:08:32.247 [Network] Info> NetworkServer.SetServerSpeed: 1
+17234#-1 01:09:26.788 [Network] Info> NetworkServer.SetServerSpeed: 0
+17234#-1 01:09:27.308 [Network] Info> NetworkServer.SetServerSpeed: 1
+24784#-1 01:15:43.343 [Network] Info> NetworkServer.SetServerSpeed: 0
+24784#-1 01:15:49.977 [Network] Info> NetworkServer.SetServerSpeed: 1
+24784#-1 01:15:49.985 [Network] Info> NetworkServer.SetServerSpeed: 1
+24796#-1 01:15:50.600 [Network] Info> NetworkServer.SetServerSpeed: 0
+24796#-1 01:15:55.534 [Network] Info> NetworkServer.ServerState set from [GameHasStarted] to: [ShutdownStarted]
+24796#-1 01:15:55.534 [Network] Info> GameLogicServer.ShutdownServer() called...
+-1#-1 01:15:55.537 [Network] Info> NOMServer disposed
+-1#-1 01:15:55.537 [Network] Info> NetworkServer.ServerState set from [ShutdownStarted] to: [ShutdownFinished]

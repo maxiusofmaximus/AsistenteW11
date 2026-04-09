@@ -1,0 +1,905 @@
+﻿0#0 22:24:30.656 [Default] Info> --- Environment information ---
+                                 Machine: MAX
+                                 Now: 2026-02-14 22:24:30 (UTC)
+                                 Env.OSVersion: Microsoft Windows NT 10.0.26200.0
+                                 Env.Version: 2.0.50727.1433
+                                 MonoVersion: 2.0 (Visual Studio built mono)
+                                 WorkingDirectory: C:\Program Files\Epic Games\Dungeons3
+                                 DataDirectory: C:\Program Files\Epic Games\Dungeons3\Dungeons3.app\Contents\Data
+                                 ThreadId: 1
+                                 Log: 2026.02.14-17h24m30s
+                                 Version: v1.7 build13 @c33954b
+                                 game: d3
+                                 buildtarget: StandaloneWindows64
+                                 buildtype: DEPLOY;GOLDMASTER;
+                                 hardwareplatform: WIN;
+                                 softwareplatform: EPICSTORE
+                                 otherdefines:
+                                 unityversion: 5.6.6f2
+                                 builddate: 2020-10-11 21:45:45 (UTC)
+                                 buildmachine: RFBUILD7
+                                 commitdate: 2020-10-08 11:20:12 (UTC)
+                                 githash: c33954b45fd84b3d1a0167a20dc0c89e6947f8b8
+                                 gitsubmodule: dd4167613f283ab73af5d6f0224a592934d74fce	Assets/RawData
+                                 versioninternal: d3-#43477-release_v1.7#7@c33954b
+                                 buildcommand: latest epicstore/goldmaster release/v1.7 --prio=-699
+                                 epic: v11 vcredistfix
+0#0 22:24:30.668 [Default] Info> --- System information ---
+                                 SystemInfo.deviceModel: MS-7E32 (Micro-Star International Co., Ltd.)
+                                 SystemInfo.deviceName: MAX
+                                 SystemInfo.graphicsDeviceName: NVIDIA GeForce RTX 5070
+                                 SystemInfo.graphicsDeviceType: Direct3D11
+                                 SystemInfo.graphicsDeviceVendor: NVIDIA
+                                 SystemInfo.graphicsDeviceVersion: Direct3D 11.0 [level 11.1]
+                                 SystemInfo.graphicsMemorySize: 11943
+                                 SystemInfo.graphicsMultiThreaded: True
+                                 SystemInfo.graphicsShaderLevel: 50
+                                 SystemInfo.operatingSystem: Windows 10  (10.0.0) 64bit
+                                 SystemInfo.processorCount: 20
+                                 SystemInfo.processorFrequency: 3878
+                                 SystemInfo.processorType: Intel(R) Core(TM) Ultra 7 265K
+                                 SystemInfo.supportsInstancing: True
+                                 SystemInfo.graphicsUVStartsAtTop: True
+                                 SystemInfo.supportsComputeShaders: True
+                                 SystemInfo.SupportsRenderTextureFormat(UnityEngine.RenderTextureFormat.R8): True
+                                 SystemInfo.SupportsRenderTextureFormat(UnityEngine.RenderTextureFormat.RFloat): True
+                                 SystemInfo.SupportsRenderTextureFormat(UnityEngine.RenderTextureFormat.ARGB32): True
+                                 SystemInfo.SupportsRenderTextureFormat(UnityEngine.RenderTextureFormat.ARGBHalf): True
+0#0 22:24:30.710 [Default] Info> Config loaded: <Entity ID 0>
+0#2 22:24:31.959 [Default] Info> AssetManager.OnEnable: 474.1222 ms
+0#266 22:24:32.535 [Default] Info> Patching tmpro font Combined_Arial for es with Assets/CoreAssets/Fonts/Localized/Combined_Arial_common.asset (loaded)
+0#266 22:24:32.537 [Default] Info> Patching tmpro font Combined_Dungeons for es with Assets/CoreAssets/Fonts/Localized/Combined_Dungeons_common.asset (loaded)
+0#267 22:24:32.939 [Default] Info> [GlobalsApp] Initializing managers.
+0#267 22:24:32.944 [Default] Info> Enabling PlatformManager/SaveGameManager instances of types: EpicstorePlatformManager/FileBasedSaveGameManager.
+0#267 22:24:32.945 [Default] Info> Epic set log level and install epic log writer
+0#267 22:24:32.946 [Default] Info> Epic manual marshaling of platform handle
+0#267 22:24:33.341 [Default] Info> GetAllSaveGameNames() found 5 savegame names:
+                                   	autosave_20220416_135026
+                                   	autosave_20220420_233502
+                                   	Hungry_20220411_203405
+                                   	quicksave_20220416_140246
+                                   	quicksave_20220416_140314
+0#267 22:24:33.341 [Default] Info> StartRescanSaveGamesAsync() called with a list of 5 save game names
+0#268 22:24:33.701 [Default] Info> EPIC Probing swap chain to determine device version
+0#268 22:24:33.701 [Default] Info> EPIC Probe complete, determined: D3D11
+0#268 22:24:33.701 [Default] Info> EPIC Window subclass attached to 0000000005680AB6
+0#268 22:24:33.701 [Default] Info> EPIC Creating overlay widget manager
+0#268 22:24:33.701 [Default] Info> EPIC Overlay ready. Firing 1 OnReady handlers
+0#268 22:24:33.701 [Default] Info> EPIC Enabling shared texture updates
+0#268 22:24:33.701 [Default] Info> EPIC Updating Platform SDK Config, Time: 8.808325
+0#269 22:24:33.713 [Default] Info> Stored 1366x768 Fullscreen
+0#269 22:24:33.720 [Default] Info> Set Resolution 1366x768 fullscreen=True
+0#269 22:24:33.720 [Default] Info> Init GameResolution; Ratio 1 -> 1366x768
+0#269 22:24:33.723 [Default] Info> Setting unity quality level 13 'ENG_HIGH_SP'
+0#269 22:24:33.834 [Default] Info> DialogsShared.InitAudioLength() has to create a new cache; used languages are: es <Entity ID 0>
+0#270 22:24:34.169 [Default] Info> Calling SetServerPaths([C:\Users\maxli\AppData\Local\Kalypso Media\Dungeons 3\logging\2026.02.14-17h24m30s], [Dungeons3.app/Contents/Data/server/DedicatedServer.exe], [Dungeons3.app/Contents/Data/server/mono/lib], 1, [nursery-size=16m,major=marksweep-conc])
+0#270 22:24:34.175 [Default] Info> Initializing ServerThread of type: EmbeddedServerThreadCsharp (isDebug: False)
+0#280 22:24:34.730 [Default] Info> EPIC SDK Config Platform Update Request Successful, Time: 9.722903
+0#280 22:24:34.731 [Default] Info> EPIC Start Session (User: ...)
+0#280 22:24:34.732 [Default] Info> EPIC Updating Product SDK Config, Time: 9.838928
+0#298 22:24:35.785 [Default] Info> EPIC SDK Config Product Update Request Successful, Time: 10.775978
+0#298 22:24:35.787 [Default] Info> EPIC SDK Config Data - Watermark: -287380011
+0#298 22:24:35.787 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 10.775978, Update Interval: 347.141937
+0#305 22:24:36.305 [Default] Info> EPIC NewUserToken: User ClientId: xyz...6oK AccountId: 7b9...b7b Access[Expires: 2026.02.15-00.24.36 Remaining: 7200.17] Refresh[Expires: 2026-02-15T06:24:36.173Z Remaining: 28800.17] State: Valid
+0#307 22:24:36.423 [Default] Info> EPIC GenerateUserAuth success
+0#330 22:24:36.817 [Default] Info> EPIC login/queryuserinfo success
+0#330 22:24:36.817 [Default] Info> EPIC Login Tasks Complete: 0
+0#330 22:24:36.820 [Default] Info> Epicstore auth success: 7b995abe94814e5fb7b94390b787db7b
+0#330 22:24:36.824 [Default] Info> Epic connect start
+0#353 22:24:37.238 [Default] Info> EPIC Attempting connection to Stomp. LocalUserId=[000...365] Url=[<Redacted>]
+0#360 22:24:37.349 [Default] Info> Epicstore connected
+0#366 22:24:37.447 [Default] Info> AssetBundleIndexLoads done: 3266.9874 ms for 412 AssetBundles (and preloading main scene assets) <Entity ID 0>
+0#397 22:24:37.966 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[]
+0#397 22:24:37.966 [Default] Info> EPIC Succesfully connected to Stomp. LocalUserId=[000...365]
+0#435 22:24:38.603 [Default] Info> Epicstore stats queried
+0#435 22:24:38.606 [Default] Info> Achievement ACH_D3_Campaign_Fire_Completed 'Ángel de fuego', unlocked:
+0#435 22:24:38.606 [Default] Info> Achievement ACH_D3_Campaign_Renegade_Completed 'Por un puñado de catapultas', unlocked: 04/11/2022 16:55:02 +00:00
+0#435 22:24:38.608 [Default] Info> Achievement ACH_D3_Campaign_Sacrifice_2 'Un pequeño bonus', unlocked:
+0#435 22:24:38.608 [Default] Info> Achievement ACH_D3_Campaign_Cathedral_1 'El Mal Más Maligno', unlocked: 03/22/2022 09:50:05 +00:00
+0#435 22:24:38.609 [Default] Info> Achievement ACH_D3_Campaign_FancyFoods_1 'Gobot masivos', unlocked:
+0#435 22:24:38.609 [Default] Info> Achievement ACH_D3_Campaign_Pain_2 'La gran evasión', unlocked:
+0#435 22:24:38.609 [Default] Info> Achievement ACH_D3_Campaign_FancyFoods_Completed 'La última glotonería', unlocked:
+0#435 22:24:38.609 [Default] Info> Achievement ACH_D3_Campaign_Fire_1 'Prepara la tumba', unlocked:
+0#435 22:24:38.609 [Default] Info> Achievement ACH_D3_Campaign_Graves_2 'La noche de los muertos vivientes (chutados)', unlocked:
+0#435 22:24:38.609 [Default] Info> Achievement ACH_D3_Campaign_Water_2 '¡No me interrumpas!', unlocked:
+0#435 22:24:38.609 [Default] Info> Achievement ACH_D3_Campaign_Renegade_2 '¡Me encanta el olor a catapulta!', unlocked:
+0#435 22:24:38.609 [Default] Info> Achievement ACH_D3_Campaign_DemonStones_2 'El caballero blanco', unlocked:
+0#435 22:24:38.609 [Default] Info> Achievement ACH_D3_Campaign_ColdLight_1 'Usa el terreno', unlocked:
+0#435 22:24:38.609 [Default] Info> Achievement ACH_D3_Campaign_Shadow_2 'Cazador de sombras', unlocked:
+0#435 22:24:38.609 [Default] Info> Achievement ACH_D3_Campaign_DemonStones_Completed 'Las piedras de Gehena', unlocked: 03/22/2022 13:15:09 +00:00
+0#435 22:24:38.609 [Default] Info> Achievement ACH_D3_Campaign_Graves_Completed 'Los cenagosos de las ciénagas', unlocked: 03/23/2022 22:58:28 +00:00
+0#435 22:24:38.610 [Default] Info> Achievement ACH_D3_Campaign_Fire_2 'Ni un rasguño', unlocked:
+0#435 22:24:38.610 [Default] Info> Achievement ACH_D3_Campaign_Infested_1 'Salvavidas', unlocked:
+0#435 22:24:38.610 [Default] Info> Achievement ACH_D3_Campaign_Hungry_1 'Saciador de la sed', unlocked: 04/12/2022 00:13:00 +00:00
+0#435 22:24:38.610 [Default] Info> Achievement ACH_D3_Campaign_Sacrifice_Completed 'Condenadamente bueno', unlocked: 04/09/2022 21:09:28 +00:00
+0#435 22:24:38.610 [Default] Info> Achievement ACH_D3_Campaign_Sacrifice_1 'Granja factoría', unlocked: 04/09/2022 18:00:39 +00:00
+0#435 22:24:38.610 [Default] Info> Achievement ACH_D3_Campaign_Demonicon_Completed 'Crac financiero', unlocked: 04/10/2022 11:51:21 +00:00
+0#435 22:24:38.610 [Default] Info> Achievement ACH_D3_Campaign_Hammer_1 'El Mal Reclutador De Grandes Ejércitos', unlocked: 03/29/2022 05:30:47 +00:00
+0#435 22:24:38.610 [Default] Info> Achievement ACH_D3_Campaign_Pain_1 '¡Héroes del Silencio!', unlocked:
+0#435 22:24:38.610 [Default] Info> Achievement ACH_D3_Campaign_Warlock_Completed 'No tan supercreída', unlocked: 04/11/2022 14:00:26 +00:00
+0#435 22:24:38.610 [Default] Info> Achievement ACH_D3_Campaign_Warlock_1 '¡No tenemos tiempo!', unlocked:
+0#435 22:24:38.610 [Default] Info> Achievement ACH_D3_Campaign_Darksword_1 '¡Qué divertido, voy a seguir así!', unlocked:
+0#435 22:24:38.610 [Default] Info> Achievement ACH_D3_Campaign_DayNight_1 'Maestro trampero', unlocked:
+0#435 22:24:38.610 [Default] Info> Achievement ACH_D3_Campaign_Hammer_2 '¡Fuera del corazón de la mazmorra!', unlocked:
+0#435 22:24:38.610 [Default] Info> Achievement ACH_D3_Campaign_Shadow_Completed 'La sombra ataca', unlocked: 03/22/2022 09:00:17 +00:00
+0#435 22:24:38.610 [Default] Info> Achievement ACH_D3_Campaign_Hungry_2 'No soporto ver a un ogro sangrando', unlocked:
+0#435 22:24:38.610 [Default] Info> Achievement ACH_D3_Campaign_Hammer_Completed 'Acero oxidado', unlocked:
+0#435 22:24:38.610 [Default] Info> Achievement ACH_D3_Campaign_Infested_2 'Coro de condenación', unlocked: 04/13/2022 16:34:18 +00:00
+0#435 22:24:38.610 [Default] Info> Achievement ACH_D3_Campaign_Demonicon_2 'Tormenta e ímpetu', unlocked:
+0#435 22:24:38.610 [Default] Info> Achievement ACH_D3_Campaign_DayNight_2 'Ignora los planes del diseñador del nivel', unlocked:
+0#435 22:24:38.611 [Default] Info> Achievement ACH_D3_Campaign_Graves_1 '¡Cerebroooos!', unlocked: 03/23/2022 22:20:57 +00:00
+0#435 22:24:38.611 [Default] Info> Achievement ACH_D3_Campaign_Darksword_Completed 'Relaciones familiares complicadas', unlocked: 04/21/2022 04:49:04 +00:00
+0#435 22:24:38.611 [Default] Info> Achievement ACH_D3_Campaign_Ritual_1 'No aguanto ver sangre de elfa oscura', unlocked:
+0#435 22:24:38.611 [Default] Info> Achievement ACH_D3_Campaign_Pain_Completed 'Donde hay Luz, también hay Oscuridad', unlocked:
+0#435 22:24:38.611 [Default] Info> Achievement ACH_D3_Campaign_ColdLight_Completed 'En la ladera del Monte del Destino', unlocked:
+0#435 22:24:38.611 [Default] Info> Achievement ACH_D3_Campaign_Infested_Completed 'Destruye ese chisme', unlocked: 04/13/2022 16:39:19 +00:00
+0#435 22:24:38.611 [Default] Info> Achievement ACH_D3_Campaign_TheLast_Completed 'El Mal Victorioso', unlocked:
+0#435 22:24:38.612 [Default] Info> Achievement ACH_D3_Campaign_Shadow_1 '¡Muerte y destrucción!', unlocked:
+0#435 22:24:38.612 [Default] Info> Achievement ACH_D3_Campaign_Ritual_Completed 'La Fuerza, perturbada', unlocked:
+0#435 22:24:38.612 [Default] Info> Achievement ACH_D3_Campaign_TheLast_1 'El Mal Benévolo', unlocked:
+0#435 22:24:38.612 [Default] Info> Achievement ACH_D3_Campaign_DemonStones_1 'El poder de las piedras', unlocked:
+0#435 22:24:38.612 [Default] Info> Achievement ACH_D3_Campaign_Warlock_2 'Los corazones mandan', unlocked:
+0#435 22:24:38.612 [Default] Info> Achievement ACH_D3_Campaign_Hungry_Completed '¡Solo de ogro!', unlocked: 04/12/2022 15:48:52 +00:00
+0#435 22:24:38.612 [Default] Info> Achievement ACH_D3_Campaign_Darksword_2 'Corazones de hierro', unlocked:
+0#435 22:24:38.612 [Default] Info> Achievement ACH_D3_Campaign_DayNight_Completed 'Un viaje por mar, qué divertido', unlocked: 04/03/2022 04:24:35 +00:00
+0#435 22:24:38.612 [Default] Info> Achievement ACH_D3_Campaign_Cathedral_2 '¡Hoy no tiene por qué morir nadie!', unlocked: 03/22/2022 10:08:54 +00:00
+0#435 22:24:38.612 [Default] Info> Achievement ACH_D3_Campaign_ColdLight_2 'Explorador', unlocked:
+0#435 22:24:38.612 [Default] Info> Achievement ACH_D3_Campaign_FancyFoods_2 '¡Pues que coman pasteles!', unlocked:
+0#435 22:24:38.613 [Default] Info> Achievement ACH_D3_Campaign_Water_1 'Socorrista', unlocked:
+0#435 22:24:38.613 [Default] Info> Achievement ACH_D3_Campaign_Ritual_2 '¡Sacrificios!', unlocked:
+0#435 22:24:38.613 [Default] Info> Achievement ACH_D3_Campaign_Renegade_1 'Planos como tablas', unlocked:
+0#435 22:24:38.613 [Default] Info> Achievement ACH_D3_Campaign_Demonicon_1 'Exterminador', unlocked:
+0#435 22:24:38.613 [Default] Info> Achievement ACH_D3_Campaign_Cathedral_Completed 'Tristrás ha quedado desolada', unlocked: 03/22/2022 10:08:54 +00:00
+0#435 22:24:38.613 [Default] Info> Achievement ACH_D3_Campaign_TheLast_2 'Hermanos de sangre', unlocked:
+0#435 22:24:38.613 [Default] Info> Achievement ACH_D3_Campaign_Water_Completed 'Maestro de mareas', unlocked: 04/12/2022 18:47:15 +00:00
+0#460 22:24:39.020 [Default] Info> EvilSceneManager.SwitchScene(MainMenu) (active: FirstScene)
+0#460 22:24:39.020 [Default] Info> EPIC Social Overlay: Loading: <Redacted>
+0#460 22:24:39.020 [Default] Info> EPIC Overlay loading <Redacted> in instance 17747168
+0#460 22:24:39.029 [Default] Info> EPIC LoadURL result received. [Success=1, BrowserID=1]
+0#462 22:24:39.054 [Default] Info> EvilSceneManager: UnloadSceneAsync took: 17.8384 ms (FirstScene -> MainMenu))
+0#463 22:24:39.145 [Default] Info> EvilSceneManager: UnloadUnusedAssets took: 90.7293 ms (FirstScene -> MainMenu))
+0#472 22:24:39.272 [Default] Warn> EPIC Error response received from backend. ServiceName=[Leaderboards], OperationName=[GetAllLeaderboards], Url=[<Redacted>], HttpStatus=[404], ErrorCode=[errors.com.epicgames.leaderboard.leaderboard_definition_not_found], NumericErrorCode=[UNSET], ErrorMessage=[No leaderboard definitions found], CorrId=[EOS-H8bZ9w1yGEWmZ4OThn8FdA-7ka8uxXA7keHrXzU0CBWFA-e0o1CZ2TOkqVqy4O_uJW3g]
+0#477 22:24:39.378 [Default] Warn> EPIC Failed to get leaderboards definitions. Error=EOS_NotFound
+0#477 22:24:39.379 [Default] Error> EPIC Social Overlay: Failed to get leaderboard definitions: EOS_NotFound
+0#519 22:24:40.156 [Default] Info> EPIC Social Overlay: Initial setup of friends overlay: EOS_Success
+0#526 22:24:40.311 [Default] Info> EvilSceneManager: PreloadScene took: 1166.6496 ms (FirstScene -> MainMenu))
+0#527 22:24:40.340 [Default] Info> Setting unity quality level 13 'ENG_HIGH_SP'
+0#527 22:24:40.359 [Default] Info> EvilSceneManager: Instantiating new scene took: 47.5043 ms (FirstScene -> MainMenu))
+0#527 22:24:40.362 [Default] Info> Set RichPresence PlayingDungeons3
+0#527 22:24:40.377 [Default] Info> LoadAllPartitionsAsync(1) took: 3.3989 ms for 43 bundles.
+0#527 22:24:40.378 [Default] Info> MainState.Update: PreloadWorldMap: 5.0072 (total: 5.0072)
+0#527 22:24:40.403 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#527 22:24:40.406 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#527 22:24:40.407 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#528 22:24:40.492 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - En el menú principal]
+0#528 22:24:40.498 [Default] Info> MainState.Update: CameraPoiAndLoop: 120.1524 (total: 125.1596)
+0#528 22:24:40.500 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#528 22:24:40.500 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#528 22:24:40.500 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#556 22:24:40.943 [Default] Info> MainState.Update: WaitForPreloading: 444.9188 (total: 570.0784)
+0#557 22:24:41.056 [Default] Info> ObjectEvilificationInitRequired
+0#557 22:24:41.059 [Default] Info> Creating 3 HeightLevels out of 23 polygons:
+0#557 22:24:41.074 [Default] Info> Created HeightLevel mesh 1 with 67 vertices
+0#557 22:24:41.074 [Default] Info> Created 1 HeightLevel meshes
+0#557 22:24:41.108 [Default] Info> loading: SetupRegions: 147.5343 ms
+0#557 22:24:41.109 [Default] Info> MainState.Update: SetupRegions: 164.6393 (total: 734.7177)
+0#557 22:24:41.110 [Default] Info> Recreating BlockCopyTextures: Alpha8 (128 x 128)
+0#558 22:24:41.154 [Default] Info> AdditionalObjectCsvLoader.Parse took: 27.0547 ms
+0#572 22:24:41.690 [Default] Info> MainState.Update: AdditionalObjectCsvLoader: 581.4776 (total: 1317.1962)
+0#573 22:24:41.702 [Default] Info> MainState.Update: InitEvilTerrains: 12.0247 (total: 1329.2209)
+0#2035 22:25:06.519 [Default] Info> EmbeddedServerThreadCsharp.Start(Dungeons3.app/Contents/Data/server/DedicatedServer.exe --logfolder 2026.02.14-17h24m30s --singleplayer --embedded) called; current State: ReadyToStart
+0#2038 22:25:06.576 [Default] Info> Config loaded:
+                                    disableddlc =
+                                    sound.volume.master = 0.5
+                                    sound.volume.music = 1
+                                    sound.volume.dialog = 1
+                                    sound.volume.fx = 1
+                                    sound.subtitles = True
+                                    sound.evillaughter = Laughter1
+                                    gameplay.healthbars = WhenChanged
+                                    language = es
+                                    save.autointerval = 30
+                                    campaign.achievements = 0
+                                    campaign.progress =
+                                    campaign.showevilification = null
+                                    showcontinue = False
+                                    firststart = False
+                                    goldeneggs =
+                                    quickslots =
+                                    graphic.resolution = 1366x768
+                                    wasinserverinit = False
+                                    <Entity ID 0>
+0#13463 22:28:17.971 [Default] Info> EvilSceneManager.SwitchScene(Shadow) (active: MainMenu)
+0#13465 22:28:18.035 [Default] Info> EvilSceneManager: UnloadSceneAsync took: 47.925 ms (MainMenu -> Shadow))
+0#13466 22:28:18.173 [Default] Info> EvilSceneManager: UnloadUnusedAssets took: 137.5973 ms (MainMenu -> Shadow))
+0#13466 22:28:18.218 [Default] Info> LoadAllPartitionsAsync(4) took: 39.3149 ms for 54 bundles.
+0#13467 22:28:18.246 [Default] Info> BootServer IsHostingPlayer=True Player=MaxiusOfMaximus [1] (SinglePlayer) IsHosting=True NetworkClient=Realmforge.Internal.Client.NetworkClient
+                                     Realmforge.Internal.Shared.EmbeddedNetwork
+0#13468 22:28:18.271 [Default] Info> Setting unity quality level 13 'ENG_HIGH_SP'
+0#13468 22:28:18.318 [Default] Info> ObjectEvilificationInitRequired
+0#13468 22:28:18.508 [Default] Info> Creating 3 HeightLevels out of 19 polygons:
+0#13468 22:28:18.510 [Default] Info> Created HeightLevel mesh 1 with 91 vertices
+0#13468 22:28:18.510 [Default] Info> Created HeightLevel mesh 2 with 21 vertices
+0#13468 22:28:18.510 [Default] Info> Created 2 HeightLevel meshes
+0#13468 22:28:18.527 [Default] Info> loading: SetupRegions: 248.9271 ms
+0#13572 22:28:24.668 [Default] Info> EvilSceneManager: PreloadScene took: 6494.5576 ms (MainMenu -> Shadow))
+0#13573 22:28:24.726 [Default] Info> Booting (client) SceneName 'Shadow'; PlayerCount '1'; GameMode 'SinglePlayer'; <Entity ID 0>
+0#13573 22:28:24.780 [Default] Info> EvilSceneManager: Instantiating new scene took: 112.3412 ms (MainMenu -> Shadow))
+4#13601 22:28:27.056 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+4#13601 22:28:27.057 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión La sombra del Mal Absoluto durante 0 min.]
+1224#17246 22:29:28.055 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+1224#17248 22:29:28.088 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión La sombra del Mal Absoluto durante 1 min.]
+2322#20529 22:30:22.966 [Default] Info> EPIC Updating Product SDK Config, Time: 358.075287
+2331#20555 22:30:23.400 [Default] Info> EPIC SDK Config Product Update Request Completed - No Change
+2331#20555 22:30:23.400 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 358.406830, Update Interval: 320.449829
+2424#20834 22:30:28.066 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+2425#20837 22:30:28.116 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión La sombra del Mal Absoluto durante 2 min.]
+3625#24414 22:31:28.076 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+3626#24419 22:31:28.159 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión La sombra del Mal Absoluto durante 3 min.]
+4825#28002 22:32:28.087 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+4828#28009 22:32:28.202 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión La sombra del Mal Absoluto durante 4 min.]
+6026#31590 22:33:28.096 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+6027#31595 22:33:28.181 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión La sombra del Mal Absoluto durante 5 min.]
+6832#34004 22:34:08.520 [Default] Info> OnSavingGameStarted
+6832#34017 22:34:08.738 [Default] Info> OnSavingGameSerialized
+6832#34017 22:34:08.739 [Default] Info> FileBasedSaveGameManager.PerformSave: autosave_20260214_173408
+6832#34018 22:34:08.755 [Default] Info> OnSavingGameFinished
+6832#34018 22:34:08.755 [Default] Info> OnSavingGameFinished done
+7219#35175 22:34:28.107 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+7220#35180 22:34:28.192 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión La sombra del Mal Absoluto durante 6 min.]
+8419#38763 22:35:28.117 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+8420#38766 22:35:28.168 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión La sombra del Mal Absoluto durante 7 min.]
+8781#39843 22:35:46.182 [Default] Info> EPIC Updating Product SDK Config, Time: 681.290955
+8789#39868 22:35:46.600 [Default] Info> EPIC SDK Config Product Update Request Completed - No Change
+8789#39868 22:35:46.600 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 681.607239, Update Interval: 306.894135
+9620#42349 22:36:28.128 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+9621#42354 22:36:28.211 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión La sombra del Mal Absoluto durante 8 min.]
+10246#44221 22:36:59.438 [Default] Warn> EPIC Lost connection to Stomp on 'wss://api.epicgames.dev/notifications/v1/535c631cbbcb4e5da6a37918c916a28e/connect' () - will attempt to reconnect after 4.5 seconds. LocalUserId=[000...365]
+10337#44494 22:37:04.004 [Default] Info> EPIC Attempting connection to Stomp. LocalUserId=[000...365] Url=[<Redacted>]
+10353#44540 22:37:04.773 [Default] Info> EPIC Succesfully connected to Stomp. LocalUserId=[000...365]
+10760#45759 22:37:25.161 [Default] Info> OnSavingGameStarted
+10761#45765 22:37:25.260 [Default] Info> OnSavingGameSerialized
+10761#45765 22:37:25.260 [Default] Info> FileBasedSaveGameManager.PerformSave: autosave_20260214_173725
+10761#45766 22:37:25.277 [Default] Info> OnSavingGameFinished
+10761#45766 22:37:25.278 [Default] Info> OnSavingGameFinished done
+10818#45937 22:37:28.138 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+10819#45940 22:37:28.188 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión La sombra del Mal Absoluto durante 9 min.]
+12018#49525 22:38:28.147 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+12019#49526 22:38:28.167 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión La sombra del Mal Absoluto durante 10 min.]
+12911#52192 22:39:12.804 [Default] Info> OnSavingGameStarted
+12912#52198 22:39:12.904 [Default] Info> OnSavingGameSerialized
+12912#52198 22:39:12.905 [Default] Info> FileBasedSaveGameManager.PerformSave: autosave_20260214_173912
+12912#52199 22:39:12.920 [Default] Info> OnSavingGameFinished
+12912#52199 22:39:12.921 [Default] Info> OnSavingGameFinished done
+13216#53110 22:39:28.158 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+13218#53114 22:39:28.228 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión La sombra del Mal Absoluto durante 11 min.]
+14098#55743 22:40:12.199 [Default] Info> Set Achievement ACH_D3_Campaign_Shadow_Completed
+14137#55863 22:40:14.207 [Default] Info> We've won, hurray: scene 'Shadow' (1p; Main; Ver: 0/0)
+14141#55875 22:40:14.404 [Default] Info> EvilSceneManager.SwitchScene(MainMenu) (active: Shadow)
+0#55877 22:40:14.507 [Default] Info> EvilSceneManager: UnloadSceneAsync took: 89.5081 ms (Shadow -> MainMenu))
+0#55878 22:40:14.708 [Default] Info> EvilSceneManager: UnloadUnusedAssets took: 200.883 ms (Shadow -> MainMenu))
+0#55879 22:40:14.710 [Default] Info> EvilSceneManager: PreloadScene took: 1.9997 ms (Shadow -> MainMenu))
+0#55880 22:40:14.726 [Default] Info> Setting unity quality level 13 'ENG_HIGH_SP'
+0#55880 22:40:14.734 [Default] Info> EvilSceneManager: Instantiating new scene took: 23.5809 ms (Shadow -> MainMenu))
+0#55880 22:40:14.736 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#55880 22:40:14.737 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#55880 22:40:14.738 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#55881 22:40:14.742 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#55881 22:40:14.742 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#55881 22:40:14.742 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#55882 22:40:14.746 [Default] Info> Set RichPresence PlayingDungeons3
+0#55884 22:40:14.828 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - En el menú principal]
+0#58489 22:40:58.373 [Default] Info> EPIC Updating Product SDK Config, Time: 993.483948
+0#58515 22:40:58.808 [Default] Info> EPIC SDK Config Product Update Request Completed - No Change
+0#58515 22:40:58.808 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 993.816284, Update Interval: 344.803619
+0#64334 22:42:36.271 [Default] Info> Set RichPresence PlayingDungeons3
+0#64335 22:42:36.292 [Default] Info> LoadAllPartitionsAsync(1) took: 3.0391 ms for 25 bundles.
+0#64335 22:42:36.292 [Default] Info> MainState.Update: PreloadWorldMap: 3.0391 (total: 3.0391)
+0#64336 22:42:36.377 [Default] Info> MainState.Update: CameraPoiAndLoop: 84.9262 (total: 87.9653)
+0#64336 22:42:36.378 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - En el menú principal]
+0#64351 22:42:36.599 [Default] Info> MainState.Update: WaitForPreloading: 220.8979 (total: 308.8632)
+0#64352 22:42:36.654 [Default] Info> ObjectEvilificationInitRequired
+0#64352 22:42:36.654 [Default] Info> Creating 3 HeightLevels out of 23 polygons:
+0#64352 22:42:36.655 [Default] Info> Created HeightLevel mesh 1 with 67 vertices
+0#64352 22:42:36.655 [Default] Info> Created 1 HeightLevel meshes
+0#64352 22:42:36.680 [Default] Info> loading: SetupRegions: 64.8741 ms
+0#64352 22:42:36.680 [Default] Info> MainState.Update: SetupRegions: 81.0698 (total: 390.9331)
+0#64353 22:42:36.714 [Default] Info> AdditionalObjectCsvLoader.Parse took: 12.9365 ms
+0#64363 22:42:37.044 [Default] Info> MainState.Update: AdditionalObjectCsvLoader: 364.1812 (total: 755.1143)
+0#64364 22:42:37.054 [Default] Info> MainState.Update: InitEvilTerrains: 10.0203 (total: 765.1346)
+0#66658 22:43:15.437 [Default] Info> EmbeddedServerThreadCsharp.Start(Dungeons3.app/Contents/Data/server/DedicatedServer.exe --logfolder 2026.02.14-17h24m30s --singleplayer --embedded) called; current State: ReadyToStart
+0#66662 22:43:15.506 [Default] Info> Config loaded:
+                                     disableddlc =
+                                     sound.volume.master = 0.5
+                                     sound.volume.music = 1
+                                     sound.volume.dialog = 1
+                                     sound.volume.fx = 1
+                                     sound.subtitles = True
+                                     sound.evillaughter = Laughter1
+                                     gameplay.healthbars = WhenChanged
+                                     language = es
+                                     save.autointerval = 30
+                                     campaign.achievements = 0
+                                     campaign.progress = shadow
+                                     campaign.showevilification =
+                                     showcontinue = False
+                                     firststart = False
+                                     goldeneggs =
+                                     quickslots =
+                                     graphic.resolution = 1366x768
+                                     wasinserverinit = False
+                                     <Entity ID 0>
+0#66668 22:43:15.603 [Default] Info> EvilSceneManager.SwitchScene(Cathedral) (active: MainMenu)
+0#66670 22:43:15.667 [Default] Info> EvilSceneManager: UnloadSceneAsync took: 47.2105 ms (MainMenu -> Cathedral))
+0#66671 22:43:15.839 [Default] Info> EvilSceneManager: UnloadUnusedAssets took: 171.6478 ms (MainMenu -> Cathedral))
+0#66671 22:43:15.862 [Default] Info> LoadAllPartitionsAsync(8) took: 21.7593 ms for 15 bundles.
+0#66672 22:43:15.907 [Default] Info> BootServer IsHostingPlayer=True Player=MaxiusOfMaximus [1] (SinglePlayer) IsHosting=True NetworkClient=Realmforge.Internal.Client.NetworkClient
+                                     Realmforge.Internal.Shared.EmbeddedNetwork
+0#66673 22:43:15.933 [Default] Info> Setting unity quality level 13 'ENG_HIGH_SP'
+0#66673 22:43:15.989 [Default] Info> ObjectEvilificationInitRequired
+0#66673 22:43:16.136 [Default] Info> Creating 3 HeightLevels out of 19 polygons:
+0#66673 22:43:16.137 [Default] Info> Created HeightLevel mesh 1 with 91 vertices
+0#66673 22:43:16.137 [Default] Info> Created HeightLevel mesh 2 with 21 vertices
+0#66673 22:43:16.137 [Default] Info> Created 2 HeightLevel meshes
+0#66673 22:43:16.240 [Default] Info> loading: SetupRegions: 298.9397 ms
+0#66762 22:43:20.844 [Default] Info> EvilSceneManager: PreloadScene took: 5005.0446 ms (MainMenu -> Cathedral))
+0#66763 22:43:21.389 [Default] Info> Booting (client) SceneName 'Cathedral'; PlayerCount '1'; GameMode 'SinglePlayer'; <Entity ID 0>
+0#66763 22:43:21.425 [Default] Info> EvilSceneManager: Instantiating new scene took: 581.3013 ms (MainMenu -> Cathedral))
+7#67036 22:43:28.802 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+7#67036 22:43:28.803 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 0 min.]
+1226#70683 22:44:29.798 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+1226#70684 22:44:29.818 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 1 min.]
+2425#74268 22:45:29.812 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+2426#74271 22:45:29.860 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 2 min.]
+3624#77856 22:46:29.820 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+3624#77858 22:46:29.855 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 3 min.]
+4215#79627 22:46:59.441 [Default] Info> EPIC Updating Product SDK Config, Time: 1354.550171
+4224#79653 22:46:59.876 [Default] Info> EPIC SDK Config Product Update Request Completed - No Change
+4224#79653 22:46:59.876 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 1354.867065, Update Interval: 303.556030
+4823#81441 22:47:29.829 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+4825#81447 22:47:29.930 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 4 min.]
+6022#85029 22:48:29.840 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+6022#85030 22:48:29.857 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 5 min.]
+7221#88609 22:49:29.852 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+7222#88611 22:49:29.886 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 6 min.]
+8420#92195 22:50:29.862 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+8421#92200 22:50:29.947 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 7 min.]
+9619#95774 22:51:29.871 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+9619#95776 22:51:29.906 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 8 min.]
+10673#98929 22:52:22.642 [Default] Info> EPIC Updating Product SDK Config, Time: 1677.751587
+10682#98954 22:52:23.059 [Default] Info> EPIC SDK Config Product Update Request Completed - No Change
+10682#98954 22:52:23.059 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 1678.068115, Update Interval: 308.170410
+10818#99362 22:52:29.883 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+10819#99366 22:52:29.950 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 9 min.]
+12017#102945 22:53:29.893 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+12018#102946 22:53:29.911 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 10 min.]
+13216#106533 22:54:29.904 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+13218#106538 22:54:29.988 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 11 min.]
+14415#110115 22:55:29.914 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+14416#110116 22:55:29.932 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 12 min.]
+15614#113697 22:56:29.926 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+15616#113702 22:56:30.010 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 13 min.]
+16813#117285 22:57:29.936 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+16814#117286 22:57:29.953 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 14 min.]
+17849#120379 22:58:21.750 [Default] Info> EPIC Updating Product SDK Config, Time: 2036.858887
+17857#120403 22:58:22.154 [Default] Info> EPIC SDK Config Product Update Request Completed - No Change
+17857#120403 22:58:22.154 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 2037.162231, Update Interval: 313.345123
+18012#120869 22:58:29.945 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+18013#120871 22:58:29.979 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 15 min.]
+19211#124457 22:59:29.957 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+19212#124458 22:59:29.974 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 16 min.]
+20410#128033 23:00:29.967 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+20412#128039 23:00:30.067 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 17 min.]
+21610#131617 23:01:29.978 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+21611#131622 23:01:30.063 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 18 min.]
+22809#135205 23:02:29.989 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+22809#135206 23:02:30.004 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 19 min.]
+24008#138793 23:03:29.997 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+24008#138795 23:03:30.032 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 20 min.]
+25049#141905 23:04:22.100 [Default] Info> EPIC Updating Product SDK Config, Time: 2397.216309
+25057#141931 23:04:22.533 [Default] Info> EPIC SDK Config Product Update Request Completed - No Change
+25057#141931 23:04:22.533 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 2397.548584, Update Interval: 343.291107
+25207#142378 23:04:30.008 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+25207#142380 23:04:30.043 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 21 min.]
+26406#145963 23:05:30.020 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+26407#145966 23:05:30.070 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 22 min.]
+27605#149550 23:06:30.029 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+27606#149554 23:06:30.098 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 23 min.]
+28804#153133 23:07:30.040 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+28805#153137 23:07:30.108 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 24 min.]
+30003#156714 23:08:30.050 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+30003#156715 23:08:30.066 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 25 min.]
+31202#160299 23:09:30.061 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+31204#160304 23:09:30.146 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 26 min.]
+32401#163887 23:10:30.071 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+32402#163889 23:10:30.105 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 27 min.]
+32624#164555 23:10:41.245 [Default] Info> EPIC Updating Product SDK Config, Time: 2776.367188
+32632#164580 23:10:41.662 [Default] Info> EPIC SDK Config Product Update Request Completed - No Change
+32632#164580 23:10:41.663 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 2776.684082, Update Interval: 317.985168
+33600#167462 23:11:30.083 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+33600#167463 23:11:30.099 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 28 min.]
+34799#171049 23:12:30.093 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+34800#171052 23:12:30.145 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 29 min.]
+35972#174564 23:13:28.949 [Default] Info> OnSavingGameStarted
+35972#174573 23:13:29.098 [Default] Info> OnSavingGameSerialized
+35972#174573 23:13:29.098 [Default] Info> FileBasedSaveGameManager.PerformSave: autosave_20260214_181329
+35972#174574 23:13:29.115 [Default] Info> OnSavingGameFinished
+35972#174574 23:13:29.116 [Default] Info> OnSavingGameFinished done
+35991#174633 23:13:30.102 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+35992#174636 23:13:30.154 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 30 min.]
+37181#178220 23:14:30.114 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+37183#178226 23:14:30.214 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 31 min.]
+38376#181802 23:15:30.124 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+38377#181805 23:15:30.173 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 32 min.]
+39555#185390 23:16:30.134 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+39557#185394 23:16:30.202 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 33 min.]
+39785#186079 23:16:41.659 [Default] Info> EPIC Updating Product SDK Config, Time: 3136.779053
+39793#186105 23:16:42.095 [Default] Info> EPIC SDK Config Product Update Request Completed - No Change
+39793#186105 23:16:42.095 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 3137.097656, Update Interval: 331.330292
+40751#188970 23:17:30.145 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+40753#188975 23:17:30.229 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 34 min.]
+41947#192558 23:18:30.154 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+41947#192559 23:18:30.170 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 35 min.]
+43145#196142 23:19:30.165 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+43146#196146 23:19:30.232 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 36 min.]
+44344#199728 23:20:30.176 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+44345#199731 23:20:30.225 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 37 min.]
+45543#203312 23:21:30.187 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+45545#203315 23:21:30.238 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 38 min.]
+46743#206900 23:22:30.199 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+46743#206902 23:22:30.231 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 39 min.]
+47463#209047 23:23:06.275 [Default] Info> EPIC Updating Product SDK Config, Time: 3521.395996
+47472#209073 23:23:06.709 [Default] Info> EPIC SDK Config Product Update Request Completed - No Change
+47472#209073 23:23:06.710 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 3521.729004, Update Interval: 349.848328
+47942#210478 23:23:30.209 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+47944#210484 23:23:30.309 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 40 min.]
+48062#210837 23:23:36.230 [Default] Info> Epic auth expiration imminent. Reconnecting.
+48062#210837 23:23:36.230 [Default] Info> Epic reconnect start
+48075#210875 23:23:36.865 [Default] Info> Epicstore connected
+49078#214056 23:24:30.218 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+49079#214059 23:24:30.268 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 41 min.]
+50278#217642 23:25:30.229 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+50280#217648 23:25:30.330 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 42 min.]
+51476#221225 23:26:30.231 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+51478#221231 23:26:30.324 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 43 min.]
+52675#224832 23:27:30.242 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+52676#224835 23:27:30.292 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 44 min.]
+53874#228454 23:28:30.245 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+53876#228460 23:28:30.345 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 45 min.]
+55073#232069 23:29:30.248 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+55075#232073 23:29:30.314 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 46 min.]
+55327#232836 23:29:42.955 [Default] Info> EPIC Updating Product SDK Config, Time: 3918.080566
+55348#232899 23:29:43.999 [Default] Info> EPIC SDK Config Product Update Request Completed - No Change
+55348#232899 23:29:43.999 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 3919.007080, Update Interval: 340.333862
+56272#235691 23:30:30.253 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+56274#235698 23:30:30.369 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 47 min.]
+57471#239313 23:31:30.259 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+57472#239316 23:31:30.308 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 48 min.]
+58670#242926 23:32:30.270 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+58672#242931 23:32:30.353 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 49 min.]
+59870#246526 23:33:30.284 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+59872#246532 23:33:30.385 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 50 min.]
+61075#250148 23:34:30.290 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+61076#250153 23:34:30.371 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 51 min.]
+62280#253762 23:35:30.292 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+62280#253763 23:35:30.308 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 52 min.]
+63063#256115 23:36:09.294 [Default] Info> EPIC Updating Product SDK Config, Time: 4304.415527
+63072#256142 23:36:09.740 [Default] Info> EPIC SDK Config Product Update Request Completed - No Change
+63072#256142 23:36:09.740 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 4304.746582, Update Interval: 331.623291
+63484#257383 23:36:30.300 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+63487#257390 23:36:30.416 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 53 min.]
+64689#261005 23:37:30.304 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+64690#261008 23:37:30.354 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 54 min.]
+65894#264621 23:38:30.312 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+65895#264625 23:38:30.379 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 55 min.]
+67099#268243 23:39:30.317 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+67101#268250 23:39:30.433 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 56 min.]
+68304#271865 23:40:30.322 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+68304#271867 23:40:30.354 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 57 min.]
+69509#275481 23:41:30.330 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+69510#275485 23:41:30.396 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 58 min.]
+70713#279103 23:42:30.336 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+70714#279106 23:42:30.384 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 59 min.]
+70882#279609 23:42:38.717 [Default] Info> EPIC Updating Product SDK Config, Time: 4693.831055
+70891#279637 23:42:39.182 [Default] Info> EPIC SDK Config Product Update Request Completed - No Change
+70891#279637 23:42:39.182 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 4694.179199, Update Interval: 307.183441
+71918#282719 23:43:30.342 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+71921#282726 23:43:30.459 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 60 min.]
+71951#282818 23:43:31.982 [Default] Info> OnSavingGameStarted
+71951#282827 23:43:32.132 [Default] Info> OnSavingGameSerialized
+71951#282827 23:43:32.133 [Default] Info> FileBasedSaveGameManager.PerformSave: autosave_20260214_184332
+71951#282828 23:43:32.148 [Default] Info> OnSavingGameFinished
+71951#282828 23:43:32.148 [Default] Info> OnSavingGameFinished done
+73119#286341 23:44:30.347 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+73121#286345 23:44:30.413 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 61 min.]
+74324#289963 23:45:30.351 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+74326#289970 23:45:30.467 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 62 min.]
+75529#293578 23:46:30.352 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+75530#293582 23:46:30.419 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 63 min.]
+76734#297196 23:47:30.363 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+76735#297200 23:47:30.428 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 64 min.]
+77812#300428 23:48:24.081 [Default] Info> EPIC Updating Product SDK Config, Time: 5039.195801
+77820#300452 23:48:24.483 [Default] Info> EPIC SDK Config Product Update Request Completed - No Change
+77820#300452 23:48:24.483 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 5039.497070, Update Interval: 348.976715
+77938#300804 23:48:30.368 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+77939#300805 23:48:30.386 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 65 min.]
+79143#304383 23:49:30.379 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+79145#304389 23:49:30.480 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 66 min.]
+80348#307957 23:50:30.390 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+80349#307960 23:50:30.440 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 67 min.]
+81553#311536 23:51:30.400 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+81555#311542 23:51:30.501 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 68 min.]
+82758#315112 23:52:30.410 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+82759#315116 23:52:30.479 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 69 min.]
+83963#318691 23:53:30.421 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+83964#318694 23:53:30.471 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 70 min.]
+85168#322278 23:54:30.431 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+85168#322279 23:54:30.449 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 71 min.]
+85788#324124 23:55:01.308 [Default] Info> EPIC Updating Product SDK Config, Time: 5436.428223
+85796#324150 23:55:01.744 [Default] Info> EPIC SDK Config Product Update Request Completed - No Change
+85796#324150 23:55:01.744 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 5436.746582, Update Interval: 346.394836
+86373#325856 23:55:30.443 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+86374#325859 23:55:30.495 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 72 min.]
+87577#329444 23:56:30.453 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+87578#329445 23:56:30.472 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 73 min.]
+88782#333024 23:57:30.465 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+88784#333029 23:57:30.547 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 74 min.]
+89987#336612 23:58:30.474 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+89989#336618 23:58:30.574 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 75 min.]
+91192#340195 23:59:30.483 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+91193#340197 23:59:30.518 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 76 min.]
+91356#340684 23:59:38.665 [Default] Info> OnSavingGameStarted
+91357#340694 23:59:38.831 [Default] Info> OnSavingGameSerialized
+91357#340694 23:59:38.831 [Default] Info> FileBasedSaveGameManager.PerformSave: autosave_20260214_185938
+91357#340696 23:59:38.866 [Default] Info> OnSavingGameFinished
+91357#340696 23:59:38.866 [Default] Info> OnSavingGameFinished done
+92393#343779 00:00:30.486 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+92395#343785 00:00:30.587 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 77 min.]
+93444#346916 00:01:22.863 [Default] Info> EPIC Updating Product SDK Config, Time: 5817.975586
+93453#346942 00:01:23.297 [Default] Info> EPIC SDK Config Product Update Request Completed - No Change
+93453#346942 00:01:23.297 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 5818.309082, Update Interval: 324.696198
+93598#347372 00:01:30.489 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+93598#347374 00:01:30.521 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 78 min.]
+94803#350965 00:02:30.504 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+94803#350966 00:02:30.520 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 79 min.]
+96007#354562 00:03:30.508 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+96009#354568 00:03:30.611 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 80 min.]
+97212#358171 00:04:30.525 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+97213#358174 00:04:30.573 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 81 min.]
+98417#361787 00:05:30.533 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+98420#361794 00:05:30.648 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 82 min.]
+99622#365409 00:06:30.537 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+99623#365411 00:06:30.570 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 83 min.]
+100827#369031 00:07:30.544 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+100829#369036 00:07:30.627 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 84 min.]
+100893#369229 00:07:33.825 [Default] Info> EPIC Updating Product SDK Config, Time: 6188.938965
+100902#369257 00:07:34.289 [Default] Info> EPIC SDK Config Product Update Request Completed - No Change
+100902#369257 00:07:34.289 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 6189.286621, Update Interval: 352.618805
+102032#372646 00:08:30.551 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+102034#372653 00:08:30.668 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 85 min.]
+103237#376268 00:09:30.556 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+103237#376269 00:09:30.572 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 86 min.]
+104441#379890 00:10:30.560 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+104442#379892 00:10:30.594 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 87 min.]
+104546#380202 00:10:35.729 [Default] Info> Set Achievement ACH_D3_Campaign_Cathedral_1
+105646#383505 00:11:30.563 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+105647#383506 00:11:30.577 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 88 min.]
+106851#387127 00:12:30.567 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+106853#387132 00:12:30.650 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 89 min.]
+108056#390749 00:13:30.571 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+108056#390750 00:13:30.589 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 90 min.]
+108084#390835 00:13:31.997 [Default] Info> OnSavingGameStarted
+108084#390845 00:13:32.163 [Default] Info> OnSavingGameSerialized
+108084#390845 00:13:32.163 [Default] Info> FileBasedSaveGameManager.PerformSave: autosave_20260214_191332
+108084#390847 00:13:32.197 [Default] Info> OnSavingGameFinished
+108084#390847 00:13:32.197 [Default] Info> OnSavingGameFinished done
+108586#392357 00:13:57.211 [Default] Info> EPIC Updating Product SDK Config, Time: 6572.333008
+108595#392385 00:13:57.674 [Default] Info> EPIC SDK Config Product Update Request Completed - No Change
+108595#392385 00:13:57.674 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 6572.681152, Update Interval: 356.281006
+109256#394364 00:14:30.576 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+109257#394367 00:14:30.627 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 91 min.]
+110460#397986 00:15:30.581 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+110461#397987 00:15:30.598 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 92 min.]
+111665#401608 00:16:30.585 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+111666#401610 00:16:30.618 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 93 min.]
+112870#405230 00:17:30.590 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+112870#405231 00:17:30.607 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 94 min.]
+114075#408846 00:18:30.600 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+114077#408851 00:18:30.682 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 95 min.]
+115280#412460 00:19:30.610 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+115281#412465 00:19:30.694 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 96 min.]
+116485#416039 00:20:30.622 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+116486#416043 00:20:30.689 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 97 min.]
+116643#416510 00:20:38.516 [Default] Info> EPIC Updating Product SDK Config, Time: 6973.643555
+116652#416535 00:20:38.933 [Default] Info> EPIC SDK Config Product Update Request Completed - No Change
+116652#416535 00:20:38.933 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 6973.960938, Update Interval: 353.743103
+117689#419644 00:21:30.626 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+117691#419648 00:21:30.693 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 98 min.]
+118895#423260 00:22:30.640 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+118895#423262 00:22:30.674 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 99 min.]
+118996#423566 00:22:35.710 [Default] Info> Epic auth expiration imminent. Reconnecting.
+118996#423566 00:22:35.710 [Default] Info> Epic reconnect start
+119010#423608 00:22:36.405 [Default] Info> Epicstore connected
+119424#424853 00:22:57.031 [Default] Info> EPIC NewUserToken: User ClientId: xyz...6oK AccountId: 7b9...b7b Access[Expires: 2026.02.15-02.22.56 Remaining: 7200.93] Refresh[Expires: 2026-02-15T08:22:56.935Z Remaining: 28800.93] State: Valid
+120099#426882 00:23:30.645 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+120101#426887 00:23:30.730 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 100 min.]
+121304#430497 00:24:30.659 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+121306#430501 00:24:30.724 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 101 min.]
+122100#432887 00:25:10.307 [Default] Warn> EPIC Received Stomp ERROR. Message=[{"correlationId":"135096d4-11c9-49e9-aa76-4ba0e643a069","timestamp":1771115110299,"statusCode":4019,"message":"The authentication token used for subscribing is no longer valid.","type":"core.connect.v1.connect-failed"}]
+122100#432887 00:25:10.307 [Default] Warn> EPIC Received Stomp Protocol Error Message. LocalUserId=[7b9...b7b] Error=[The authentication token used for subscribing is no longer valid.]
+122100#432887 00:25:10.307 [Default] Warn> EPIC Received Stomp Connection Closed Message. LocalUserId=[7b9...b7b] Reason=[The authentication token used for subscribing is no longer valid.]
+122128#432971 00:25:11.699 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 101 min.]
+122509#434116 00:25:30.668 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+122510#434119 00:25:30.717 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 102 min.]
+123714#437724 00:26:30.670 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+123715#437727 00:26:30.719 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 103 min.]
+124689#440655 00:27:19.228 [Default] Info> EPIC Updating Product SDK Config, Time: 7374.368652
+124698#440683 00:27:19.692 [Default] Info> EPIC SDK Config Product Update Request Completed - No Change
+124698#440683 00:27:19.692 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 7374.715820, Update Interval: 308.756378
+124919#441346 00:27:30.674 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+124920#441349 00:27:30.724 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 104 min.]
+126124#444968 00:28:30.682 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+126126#444974 00:28:30.781 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 105 min.]
+127328#448583 00:29:30.682 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+127329#448584 00:29:30.699 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 106 min.]
+128533#452189 00:30:30.693 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+128535#452193 00:30:30.760 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 107 min.]
+129738#455768 00:31:30.703 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+129739#455771 00:31:30.752 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 108 min.]
+130943#459356 00:32:30.712 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+130945#459361 00:32:30.798 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 109 min.]
+131332#460510 00:32:50.099 [Default] Info> OnSavingGameStarted
+131333#460520 00:32:50.282 [Default] Info> OnSavingGameSerialized
+131333#460520 00:32:50.282 [Default] Info> FileBasedSaveGameManager.PerformSave: autosave_20260214_193250
+131333#460522 00:32:50.317 [Default] Info> OnSavingGameFinished
+131333#460522 00:32:50.318 [Default] Info> OnSavingGameFinished done
+131839#462031 00:33:15.553 [Default] Info> EPIC Updating Product SDK Config, Time: 7730.696289
+131860#462092 00:33:16.574 [Default] Info> EPIC SDK Config Product Update Request Completed - No Change
+131860#462092 00:33:16.574 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 7731.600586, Update Interval: 341.443542
+132144#462938 00:33:30.724 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+132144#462939 00:33:30.740 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 110 min.]
+132539#464116 00:33:50.427 [Default] Info> OnSavingGameStarted
+132540#464129 00:33:50.643 [Default] Info> OnSavingGameSerialized
+132540#464129 00:33:50.643 [Default] Info> FileBasedSaveGameManager.PerformSave: autosave_20260214_193350
+132540#464131 00:33:50.677 [Default] Info> OnSavingGameFinished
+132540#464131 00:33:50.678 [Default] Info> OnSavingGameFinished done
+133344#466521 00:34:30.736 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+133344#466523 00:34:30.768 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 111 min.]
+134549#470109 00:35:30.744 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+134550#470114 00:35:30.830 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 112 min.]
+135754#473691 00:36:30.757 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+135756#473697 00:36:30.855 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 113 min.]
+136958#477279 00:37:30.766 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+136960#477284 00:37:30.849 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 114 min.]
+138163#480861 00:38:30.776 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+138164#480863 00:38:30.809 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 115 min.]
+139368#484449 00:39:30.786 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+139370#484455 00:39:30.886 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 116 min.]
+139867#485928 00:39:55.607 [Default] Info> EPIC Updating Product SDK Config, Time: 8130.747070
+139875#485953 00:39:56.025 [Default] Info> EPIC SDK Config Product Update Request Completed - No Change
+139875#485953 00:39:56.025 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 8131.066406, Update Interval: 344.688263
+140573#488032 00:40:30.796 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+140574#488034 00:40:30.831 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 117 min.]
+141778#491613 00:41:30.807 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+141780#491618 00:41:30.893 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 118 min.]
+142547#493904 00:42:09.125 [Default] Info> OnSavingGameStarted
+142548#493914 00:42:09.292 [Default] Info> OnSavingGameSerialized
+142548#493914 00:42:09.292 [Default] Info> FileBasedSaveGameManager.PerformSave: autosave_20260214_194209
+142548#493916 00:42:09.327 [Default] Info> OnSavingGameFinished
+142548#493916 00:42:09.327 [Default] Info> OnSavingGameFinished done
+142979#495201 00:42:30.818 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+142979#495202 00:42:30.834 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 119 min.]
+144184#498782 00:43:30.828 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+144186#498787 00:43:30.911 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 120 min.]
+144207#498852 00:43:32.002 [Default] Info> OnSavingGameStarted
+144207#498861 00:43:32.150 [Default] Info> OnSavingGameSerialized
+144207#498861 00:43:32.150 [Default] Info> FileBasedSaveGameManager.PerformSave: autosave_20260214_194332
+144207#498863 00:43:32.183 [Default] Info> OnSavingGameFinished
+144207#498863 00:43:32.184 [Default] Info> OnSavingGameFinished done
+145384#502348 00:44:30.857 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+145386#502352 00:44:30.927 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 121 min.]
+146589#505966 00:45:30.871 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+146591#505972 00:45:30.970 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 122 min.]
+147794#509588 00:46:30.875 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+147795#509590 00:46:30.908 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 123 min.]
+147860#509785 00:46:34.139 [Default] Info> EPIC Updating Product SDK Config, Time: 8529.285156
+147869#509813 00:46:34.604 [Default] Info> EPIC SDK Config Product Update Request Completed - No Change
+147869#509813 00:46:34.604 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 8529.632812, Update Interval: 316.075317
+148999#513171 00:47:30.888 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+149001#513177 00:47:30.991 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 124 min.]
+150204#516754 00:48:30.897 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+150204#516755 00:48:30.913 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 125 min.]
+151409#520340 00:49:30.907 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+151411#520346 00:49:31.009 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 126 min.]
+152614#523920 00:50:30.919 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+152614#523921 00:50:30.937 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 127 min.]
+153060#525249 00:50:53.148 [Default] Info> OnSavingGameStarted
+153061#525259 00:50:53.314 [Default] Info> OnSavingGameSerialized
+153061#525259 00:50:53.314 [Default] Info> FileBasedSaveGameManager.PerformSave: autosave_20260214_195053
+153061#525261 00:50:53.350 [Default] Info> OnSavingGameFinished
+153061#525261 00:50:53.350 [Default] Info> OnSavingGameFinished done
+153815#527498 00:51:30.931 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+153816#527501 00:51:30.979 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 128 min.]
+154539#529647 00:52:07.006 [Default] Info> OnSavingGameStarted
+154540#529656 00:52:07.159 [Default] Info> OnSavingGameSerialized
+154540#529656 00:52:07.159 [Default] Info> FileBasedSaveGameManager.PerformSave: autosave_20260214_195207
+154540#529658 00:52:07.191 [Default] Info> OnSavingGameFinished
+154540#529658 00:52:07.191 [Default] Info> OnSavingGameFinished done
+154920#530781 00:52:26.113 [Default] Info> Set Achievement ACH_D3_Campaign_Cathedral_Completed
+154920#530781 00:52:26.113 [Default] Info> Set Achievement ACH_D3_Campaign_Cathedral_2
+154942#530849 00:52:27.407 [Default] Warn> Trying to play a disabled audioSource: skill_heal_beam_loop [55]
+154997#531005 00:52:29.985 [Default] Info> EPIC Updating Product SDK Config, Time: 8885.169922
+155005#531030 00:52:30.405 [Default] Info> EPIC SDK Config Product Update Request Completed - No Change
+155005#531030 00:52:30.405 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 8885.490234, Update Interval: 323.167206
+155016#531062 00:52:30.939 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+155018#531068 00:52:31.039 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 129 min.]
+156221#534644 00:53:30.950 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+156223#534650 00:53:31.050 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las ruinas de Tristrás durante 130 min.]
+156843#536497 00:54:01.952 [Default] Info> We've won, hurray: scene 'Cathedral' (1p; Main; Ver: 0/0)
+156847#536974 00:54:10.019 [Default] Info> EvilSceneManager.SwitchScene(MainMenu) (active: Cathedral)
+0#536976 00:54:10.381 [Default] Info> EvilSceneManager: UnloadSceneAsync took: 347.2549 ms (Cathedral -> MainMenu))
+0#536977 00:54:10.645 [Default] Info> EvilSceneManager: UnloadUnusedAssets took: 264.7043 ms (Cathedral -> MainMenu))
+0#536978 00:54:10.649 [Default] Info> EvilSceneManager: PreloadScene took: 3.0008 ms (Cathedral -> MainMenu))
+0#536979 00:54:10.670 [Default] Info> Setting unity quality level 13 'ENG_HIGH_SP'
+0#536979 00:54:10.679 [Default] Info> EvilSceneManager: Instantiating new scene took: 30.0595 ms (Cathedral -> MainMenu))
+0#536979 00:54:10.682 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#536979 00:54:10.684 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#536979 00:54:10.684 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#536980 00:54:10.689 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#536980 00:54:10.689 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#536980 00:54:10.689 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#536981 00:54:10.691 [Default] Info> Set RichPresence PlayingDungeons3
+0#536982 00:54:10.706 [Default] Info> LoadAllPartitionsAsync(1) took: 3.5909 ms for 27 bundles.
+0#536982 00:54:10.706 [Default] Info> MainState.Update: PreloadWorldMap: 3.5909 (total: 3.5909)
+0#536983 00:54:10.732 [Default] Info> MainState.Update: CameraPoiAndLoop: 25.5571 (total: 29.148)
+0#536985 00:54:10.755 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - En el menú principal]
+0#536998 00:54:10.953 [Default] Info> MainState.Update: WaitForPreloading: 221.1975 (total: 251.3519)
+0#536999 00:54:11.010 [Default] Info> ObjectEvilificationInitRequired
+0#536999 00:54:11.010 [Default] Info> Creating 3 HeightLevels out of 23 polygons:
+0#536999 00:54:11.011 [Default] Info> Created HeightLevel mesh 1 with 67 vertices
+0#536999 00:54:11.011 [Default] Info> Created 1 HeightLevel meshes
+0#536999 00:54:11.043 [Default] Info> loading: SetupRegions: 72.1858 ms
+0#536999 00:54:11.043 [Default] Info> MainState.Update: SetupRegions: 89.3222 (total: 340.6741)
+0#537000 00:54:11.079 [Default] Info> AdditionalObjectCsvLoader.Parse took: 12.0176 ms
+0#537012 00:54:11.531 [Default] Info> MainState.Update: AdditionalObjectCsvLoader: 487.6308 (total: 828.3049)
+0#537013 00:54:11.541 [Default] Info> MainState.Update: InitEvilTerrains: 9.8979 (total: 839.2029)
+0#539548 00:54:53.956 [Default] Info> EmbeddedServerThreadCsharp.Start(Dungeons3.app/Contents/Data/server/DedicatedServer.exe --logfolder 2026.02.14-17h24m30s --singleplayer --embedded) called; current State: ReadyToStart
+0#539553 00:54:54.040 [Default] Info> Config loaded:
+                                      disableddlc =
+                                      sound.volume.master = 0.5
+                                      sound.volume.music = 1
+                                      sound.volume.dialog = 1
+                                      sound.volume.fx = 1
+                                      sound.subtitles = True
+                                      sound.evillaughter = Laughter1
+                                      gameplay.healthbars = WhenChanged
+                                      language = es
+                                      save.autointerval = 30
+                                      campaign.achievements = 0
+                                      campaign.progress = cathedral shadow
+                                      campaign.showevilification =
+                                      showcontinue = False
+                                      firststart = False
+                                      goldeneggs =
+                                      quickslots =
+                                      graphic.resolution = 1366x768
+                                      wasinserverinit = False
+                                      showreviewnag = Show
+                                      <Entity ID 0>
+0#539559 00:54:54.139 [Default] Info> EvilSceneManager.SwitchScene(DemonStones) (active: MainMenu)
+0#539561 00:54:54.200 [Default] Info> EvilSceneManager: UnloadSceneAsync took: 44.0793 ms (MainMenu -> DemonStones))
+0#539562 00:54:54.389 [Default] Info> EvilSceneManager: UnloadUnusedAssets took: 189.0641 ms (MainMenu -> DemonStones))
+0#539562 00:54:54.404 [Default] Info> LoadAllPartitionsAsync(10) took: 14.8168 ms for 12 bundles.
+0#539563 00:54:54.406 [Default] Info> BootServer IsHostingPlayer=True Player=MaxiusOfMaximus [1] (SinglePlayer) IsHosting=True NetworkClient=Realmforge.Internal.Client.NetworkClient
+                                      Realmforge.Internal.Shared.EmbeddedNetwork
+0#539564 00:54:55.137 [Default] Info> Setting unity quality level 13 'ENG_HIGH_SP'
+0#539564 00:54:55.214 [Default] Info> ObjectEvilificationInitRequired
+0#539564 00:54:55.302 [Default] Info> Creating 3 HeightLevels out of 10 polygons:
+0#539564 00:54:55.303 [Default] Info> Created HeightLevel mesh 1 with 84 vertices
+0#539564 00:54:55.303 [Default] Info> Created HeightLevel mesh 2 with 13 vertices
+0#539564 00:54:55.303 [Default] Info> Created 2 HeightLevel meshes
+0#539564 00:54:55.323 [Default] Info> loading: SetupRegions: 177.7685 ms
+0#539638 00:54:58.540 [Default] Info> EvilSceneManager: PreloadScene took: 4151.2434 ms (MainMenu -> DemonStones))
+0#539639 00:54:59.401 [Default] Info> Booting (client) SceneName 'DemonStones'; PlayerCount '1'; GameMode 'SinglePlayer'; <Entity ID 0>
+0#539639 00:54:59.444 [Default] Info> EvilSceneManager: Instantiating new scene took: 904.2289 ms (MainMenu -> DemonStones))
+5#539914 00:55:08.190 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+5#539916 00:55:08.223 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las piedras de Gehena durante 0 min.]
+1229#543557 00:56:09.188 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+1231#543563 00:56:09.288 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las piedras de Gehena durante 1 min.]
+2434#547141 00:57:09.198 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+2436#547147 00:57:09.299 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las piedras de Gehena durante 2 min.]
+3639#550723 00:58:09.208 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+3641#550729 00:58:09.308 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las piedras de Gehena durante 3 min.]
+4485#553241 00:58:51.357 [Default] Info> EPIC Updating Product SDK Config, Time: 9266.597656
+4494#553267 00:58:51.792 [Default] Info> EPIC SDK Config Product Update Request Completed - No Change
+4494#553267 00:58:51.792 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 9266.916992, Update Interval: 352.768951
+4844#554306 00:59:09.219 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+4844#554307 00:59:09.237 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las piedras de Gehena durante 4 min.]
+6049#557894 01:00:09.229 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+6051#557900 01:00:09.330 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las piedras de Gehena durante 5 min.]
+7254#561476 01:01:09.240 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+7256#561482 01:01:09.342 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las piedras de Gehena durante 6 min.]
+8459#565051 01:02:09.251 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+8459#565053 01:02:09.285 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las piedras de Gehena durante 7 min.]
+9664#568632 01:03:09.262 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+9665#568636 01:03:09.328 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las piedras de Gehena durante 8 min.]
+10869#572217 01:04:09.274 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+10870#572220 01:04:09.322 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las piedras de Gehena durante 9 min.]
+12074#575801 01:05:09.282 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+12074#575802 01:05:09.299 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las piedras de Gehena durante 10 min.]
+12247#576318 01:05:17.930 [Default] Info> EPIC Updating Product SDK Config, Time: 9653.173828
+12256#576344 01:05:18.364 [Default] Info> EPIC SDK Config Product Update Request Completed - No Change
+12256#576344 01:05:18.364 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 9653.491211, Update Interval: 349.742126
+13278#579383 01:06:09.297 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+13281#579390 01:06:09.412 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las piedras de Gehena durante 11 min.]
+14483#582967 01:07:09.304 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+14484#582968 01:07:09.320 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las piedras de Gehena durante 12 min.]
+15688#586551 01:08:09.313 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+15689#586553 01:08:09.347 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las piedras de Gehena durante 13 min.]
+16137#587879 01:08:31.698 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+16137#587879 01:08:31.699 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+16138#587880 01:08:31.709 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+16138#587880 01:08:31.709 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+16882#590131 01:09:09.325 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+16883#590133 01:09:09.359 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las piedras de Gehena durante 14 min.]
+17232#591173 01:09:26.788 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+17232#591173 01:09:26.788 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+18076#593717 01:10:09.335 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+18077#593720 01:10:09.386 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las piedras de Gehena durante 15 min.]
+19281#597300 01:11:09.347 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+19282#597303 01:11:09.396 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las piedras de Gehena durante 16 min.]
+20105#599746 01:11:50.388 [Default] Info> EPIC Updating Product SDK Config, Time: 10045.651367
+20113#599770 01:11:50.790 [Default] Info> EPIC SDK Config Product Update Request Completed - No Change
+20113#599770 01:11:50.790 [Default] Info> EPIC ScheduleNextSDKConfigDataUpdate - Time: 10045.954102, Update Interval: 345.623962
+20486#600880 01:12:09.356 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+20487#600882 01:12:09.390 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las piedras de Gehena durante 17 min.]
+21691#604462 01:13:09.365 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+21693#604468 01:13:09.466 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las piedras de Gehena durante 18 min.]
+22896#608043 01:14:09.377 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+22897#608045 01:14:09.411 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las piedras de Gehena durante 19 min.]
+24101#611631 01:15:09.389 [Default] Info> Set RichPresence PlayingDungeons3Campaign
+24103#611638 01:15:09.504 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - Jugando la misión Las piedras de Gehena durante 20 min.]
+24783#613661 01:15:43.344 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+24783#613661 01:15:43.344 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+24783#613778 01:15:45.370 [Default] Info> Got a total of 5 savegames:
+                                          file 'quicksave_20220416_140314' save 'quicksave' scene 'Darksword' (1p Main; Ver: 0/9)
+                                          file 'quicksave_20220416_140246' save 'quicksave' scene 'Darksword' (1p Main; Ver: 0/9)
+                                          file 'autosave_20260214_195207' save 'autosave' scene 'Cathedral' (1p Main; Ver: 0/9)
+                                          file 'autosave_20260214_195053' save 'autosave' scene 'Cathedral' (1p Main; Ver: 0/9)
+                                          file 'Hungry_20220411_203405' save 'Hungry' scene 'Hungry' (1p Main; Ver: 0/9)
+24783#614034 01:15:49.863 [Default] Info> OnSavingGameStarted
+24783#614042 01:15:49.980 [Default] Info> OnSavingGameSerialized
+24783#614042 01:15:49.980 [Default] Info> FileBasedSaveGameManager.PerformSave: DemonStones_20260214_201549
+24783#614043 01:15:49.995 [Default] Info> OnSavingGameFinished
+24783#614043 01:15:49.995 [Default] Info> OnSavingGameFinished done
+24795#614079 01:15:50.601 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+24795#614079 01:15:50.601 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+24795#614375 01:15:55.547 [Default] Info> EvilSceneManager.SwitchScene(MainMenu) (active: DemonStones)
+0#614377 01:15:55.755 [Default] Info> EvilSceneManager: UnloadSceneAsync took: 192.1491 ms (DemonStones -> MainMenu))
+0#614378 01:15:55.988 [Default] Info> EvilSceneManager: UnloadUnusedAssets took: 232.3771 ms (DemonStones -> MainMenu))
+0#614379 01:15:55.991 [Default] Info> EvilSceneManager: PreloadScene took: 3.004 ms (DemonStones -> MainMenu))
+0#614380 01:15:56.084 [Default] Info> Setting unity quality level 13 'ENG_HIGH_SP'
+0#614380 01:15:56.095 [Default] Info> EvilSceneManager: Instantiating new scene took: 104.1463 ms (DemonStones -> MainMenu))
+0#614380 01:15:56.099 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#614380 01:15:56.101 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#614380 01:15:56.101 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#614381 01:15:56.108 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#614381 01:15:56.108 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#614381 01:15:56.108 [Default] Info> [ActiveUserDependent] ComputeSatisfied: True
+0#614382 01:15:56.110 [Default] Info> Set RichPresence PlayingDungeons3
+0#614383 01:15:56.118 [Default] Info> LoadAllPartitionsAsync(1) took: 2.9965 ms for 30 bundles.
+0#614383 01:15:56.118 [Default] Info> MainState.Update: PreloadWorldMap: 2.9965 (total: 2.9965)
+0#614384 01:15:56.122 [Default] Info> MainState.Update: CameraPoiAndLoop: 4.0141 (total: 7.0106)
+0#614390 01:15:56.218 [Default] Info> EPIC Updating Presence to Online. LocalUserId=[7b9...b7b] RichText=[Dungeons 3 - En el menú principal]
+0#614400 01:15:56.398 [Default] Info> MainState.Update: WaitForPreloading: 276.6391 (total: 283.6497)
+0#614401 01:15:56.454 [Default] Info> ObjectEvilificationInitRequired
+0#614401 01:15:56.454 [Default] Info> Creating 3 HeightLevels out of 23 polygons:
+0#614401 01:15:56.455 [Default] Info> Created HeightLevel mesh 1 with 67 vertices
+0#614401 01:15:56.455 [Default] Info> Created 1 HeightLevel meshes
+0#614401 01:15:56.488 [Default] Info> loading: SetupRegions: 72.5955 ms
+0#614401 01:15:56.488 [Default] Info> MainState.Update: SetupRegions: 89.3982 (total: 373.0479)
+0#614402 01:15:56.514 [Default] Info> AdditionalObjectCsvLoader.Parse took: 12.4166 ms
+0#614413 01:15:56.875 [Default] Info> MainState.Update: AdditionalObjectCsvLoader: 387.5484 (total: 760.5963)
+0#614414 01:15:56.885 [Default] Info> MainState.Update: InitEvilTerrains: 10.0205 (total: 770.6168)
+0#614433 01:15:57.223 [Default] Info> Quitting application: MainMenuConnector.QuitApplication() <Entity ID 0>
+0#614433 01:15:57.242 [Default] Info> GlobalsApp.OnApplicationQuit()

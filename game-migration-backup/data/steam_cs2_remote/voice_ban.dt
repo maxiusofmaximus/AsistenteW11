@@ -1,0 +1,169 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	users = 
+	[
+		{
+			flags = 3
+			steamid = 76561199565844092
+		},
+		{
+			flags = 3
+			steamid = 76561199803021542
+		},
+		{
+			flags = 3
+			steamid = 76561198870060612
+		},
+		{
+			flags = 3
+			steamid = 76561199055450867
+		},
+		{
+			flags = 3
+			steamid = 76561199788146003
+		},
+		{
+			flags = 3
+			steamid = 76561199000194419
+		},
+		{
+			flags = 3
+			steamid = 76561198030067256
+		},
+		{
+			flags = 3
+			steamid = 76561199060969426
+		},
+		{
+			flags = 3
+			steamid = 76561199278010113
+		},
+		{
+			flags = 3
+			steamid = 76561198874059975
+		},
+		{
+			flags = 3
+			steamid = 76561199087005027
+		},
+		{
+			flags = 3
+			steamid = 76561198763522599
+		},
+		{
+			flags = 3
+			steamid = 76561198759174143
+		},
+		{
+			flags = 3
+			steamid = 76561199039022292
+		},
+		{
+			flags = 3
+			steamid = 76561199508042575
+		},
+		{
+			flags = 3
+			steamid = 76561198755555992
+		},
+		{
+			flags = 3
+			steamid = 76561199091552367
+		},
+		{
+			flags = 3
+			steamid = 76561198758052597
+		},
+		{
+			flags = 3
+			steamid = 76561199001001134
+		},
+		{
+			flags = 3
+			steamid = 76561199373473103
+		},
+		{
+			flags = 3
+			steamid = 76561198746837813
+		},
+		{
+			flags = 3
+			steamid = 76561198131039413
+		},
+		{
+			flags = 3
+			steamid = 76561198090307324
+		},
+		{
+			flags = 3
+			steamid = 76561199207733908
+		},
+		{
+			flags = 3
+			steamid = 76561199189712036
+		},
+		{
+			flags = 3
+			steamid = 76561198085638216
+		},
+		{
+			flags = 3
+			steamid = 76561198083857987
+		},
+		{
+			flags = 3
+			steamid = 76561199861170286
+		},
+		{
+			flags = 3
+			steamid = 76561199028973819
+		},
+		{
+			flags = 3
+			steamid = 76561198787837977
+		},
+		{
+			flags = 3
+			steamid = 76561199572896506
+		},
+		{
+			flags = 3
+			steamid = 76561199072999253
+		},
+		{
+			flags = 3
+			steamid = 76561198736487897
+		},
+		{
+			flags = 3
+			steamid = 76561198742184269
+		},
+		{
+			flags = 3
+			steamid = 76561198731444299
+		},
+		{
+			flags = 3
+			steamid = 76561199468267938
+		},
+		{
+			flags = 3
+			steamid = 76561198961245942
+		},
+		{
+			flags = 3
+			steamid = 76561198727476908
+		},
+		{
+			flags = 3
+			steamid = 76561199101176020
+		},
+	]
+	player_volume_map = 
+	[
+		{
+			accountid = 1523814597
+			volume = 0.0
+		},
+	]
+}

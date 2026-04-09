@@ -1,0 +1,12 @@
+﻿0#10224 00:19:33.884 [Sound] Error> became visible, but sound already playing: NA (guid: 0) <MonoBehaviour SoundLoopedEvilficatable 'atmo_swamp_lake NonMesh(Clone) (Realmforge.Client.Audio.SoundLoopedEvilficatable)'>
+0#10224 00:19:33.884 [Sound] Error> became visible, but sound already playing: NA (guid: 0) <MonoBehaviour SoundLoopedEvilficatable 'atmo_worldmap_sacrifice NonMesh(Clone) (Realmforge.Client.Audio.SoundLoopedEvilficatable)'>
+0#10257 00:19:34.430 [Sound] Error> became visible, but sound already playing: NA (guid: 0) <MonoBehaviour SoundLoopedEvilficatable 'atmo_swamp_lake NonMesh(Clone) (Realmforge.Client.Audio.SoundLoopedEvilficatable)'>
+0#10406 00:19:36.928 [Sound] Error> became visible, but sound already playing: NA (guid: 0) <MonoBehaviour SoundLoopedEvilficatable 'atmo_swamp_lake NonMesh(Clone) (Realmforge.Client.Audio.SoundLoopedEvilficatable)'>
+0#10424 00:19:37.229 [Sound] Error> became visible, but sound already playing: NA (guid: 0) <MonoBehaviour SoundLoopedEvilficatable 'atmo_worldmap_warlock NonMesh(Clone) (Realmforge.Client.Audio.SoundLoopedEvilficatable)'>
+0#10445 00:19:37.580 [Sound] Error> became visible, but sound already playing: NA (guid: 0) <MonoBehaviour SoundLoopedEvilficatable 'atmo_worldmap_demonicon NonMesh(Clone) (Realmforge.Client.Audio.SoundLoopedEvilficatable)'>
+0#10500 00:19:38.499 [Sound] Error> became visible, but sound already playing: NA (guid: 0) <MonoBehaviour SoundLoopedEvilficatable 'atmo_lava_forest NonMesh(Clone) (Realmforge.Client.Audio.SoundLoopedEvilficatable)'>
+0#10508 00:19:38.632 [Sound] Error> became visible, but sound already playing: NA (guid: 0) <MonoBehaviour SoundLoopedEvilficatable 'atmo_swamp_lake NonMesh(Clone) (Realmforge.Client.Audio.SoundLoopedEvilficatable)'>
+0#17161 00:21:30.075 [Sound] Warn> Audio Bus ("Master") is already unmuted.
+2607#25071 00:23:48.935 [Sound] Warn> Attempting to play "unit_snore_loop" as a looped playback, the Audio Sample isn't configured as such! Check your clip file names.
+0#51384 00:31:09.664 [Sound] Warn> Audio Bus ("Master") is already unmuted.
+0#59835 00:33:31.184 [Sound] Warn> Audio Bus ("Master") is already unmuted.

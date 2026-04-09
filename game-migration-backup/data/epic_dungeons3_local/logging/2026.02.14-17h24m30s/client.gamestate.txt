@@ -1,0 +1,245 @@
+﻿0#267 22:24:32.887 [GameState] Info> ClientStateManager.Push: [FirstState] Args:  (Current stack: [ ]) <MonoBehaviour ClientStateManager '[ ]'>
+0#268 22:24:33.686 [GameState] Info> MainState: CheckHardware took: 797.4518 ms Next: InitConfig
+0#269 22:24:33.834 [GameState] Info> MainState: InitConfig took: 148.3265 ms Next: PreInitServer
+0#270 22:24:34.175 [GameState] Info> MainState: PreInitServer took: 341.1926 ms Next: StartPreloading
+0#271 22:24:34.181 [GameState] Info> MainState: StartPreloading took: 6.001 ms Next: EntityFactory
+0#308 22:24:36.484 [GameState] Info> MainState: EntityFactory took: 2302.7026 ms Next: WaitForPreloading
+0#459 22:24:39.008 [GameState] Info> MainState: WaitForPreloading took: 2524.0129 ms Next: ParseArgs
+0#460 22:24:39.020 [GameState] Info> MainState: ParseArgs took: 11.9289 ms Next: WaitForSceneLoaded
+0#527 22:24:40.360 [GameState] Info> ClientStateManager.Pop: [FirstState; idx: 0] (Current stack: [ -> FirstState ]) <MonoBehaviour ClientStateManager '[ -> FirstState ]'>
+0#527 22:24:40.360 [GameState] Info> MainState: WaitForSceneLoaded took: 1340.0682 ms Next: Left
+0#527 22:24:40.361 [GameState] Info> ClientStateManager.Push: [MainState] Args:  (Current stack: [ ]) <MonoBehaviour ClientStateManager '[ ]'>
+0#527 22:24:40.364 [GameState] Info> MainState: Idle took: 3.1346 ms Next: PreloadWorldMap
+0#527 22:24:40.378 [GameState] Info> MainState: PreloadWorldMap took: 13.5174 ms Next: CameraPoiAndLoop
+0#528 22:24:40.498 [GameState] Info> MainState: CameraPoiAndLoop took: 120.1524 ms Next: WaitForPreloading
+0#556 22:24:40.943 [GameState] Info> MainState: WaitForPreloading took: 444.9188 ms Next: SetupRegions
+0#557 22:24:41.109 [GameState] Info> MainState: SetupRegions took: 165.6402 ms Next: AdditionalObjectCsvLoader
+0#572 22:24:41.690 [GameState] Info> MainState: AdditionalObjectCsvLoader took: 581.4776 ms Next: InitEvilTerrains
+0#573 22:24:41.703 [GameState] Info> MainState: InitEvilTerrains took: 12.0247 ms Next: Prewarm
+0#583 22:24:42.132 [GameState] Info> MainState: Prewarm took: 429.8914 ms Next: Finalize
+0#584 22:24:42.201 [GameState] Info> MainState: Finalize took: 69.0904 ms Next: Finished
+0#2033 22:25:06.488 [GameState] Info> ClientStateManager.TransitTo: [TransitTo SP game: [Scene: scene 'Shadow' (1p; Main; Ver: 0/0)]] (Current stack: [ -> MainState ]) <MonoBehaviour ClientStateManager '[ -> MainState ]'>
+0#2034 22:25:06.502 [GameState] Info> ClientStateManager.Push: [SinglePlayerState] Args: [Scene: scene 'Shadow' (1p; Main; Ver: 0/0)] (Current stack: [ -> MainState ]) <MonoBehaviour ClientStateManager '[ -> MainState ]'>
+0#2035 22:25:06.518 [GameState] Info> ClientStateManager.currentTransitTo finished: [TransitTo SP game: [Scene: scene 'Shadow' (1p; Main; Ver: 0/0)]] (Current stack: [ -> MainState -> SinglePlayerState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState ]'>
+0#2035 22:25:06.521 [GameState] Info> ClientStateManager.AddNotificationMsg: PreparingSinglePlayerGameMsg (Current stack: [ -> MainState -> SinglePlayerState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState ]'>
+0#2039 22:25:06.590 [GameState] Info> ClientStateManager.RemoveNotificationMsg: PreparingSinglePlayerGameMsg (Current stack: [ -> MainState -> SinglePlayerState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState ]'>
+0#2040 22:25:06.604 [GameState] Info> ClientStateManager.Push: [LoadingState] Args: [Scene: scene 'Shadow' (1p; Main; Ver: 0/0)] (Current stack: [ -> MainState -> SinglePlayerState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState ]'>
+0#2040 22:25:06.607 [GameState] Info> LoadingState: Uninitialized took: 33719.7064 ms Next: VerifySceneInfo
+0#2040 22:25:06.610 [GameState] Info> LoadingState: VerifySceneInfo took: 2.9974 ms Next: StartMovie
+0#2041 22:25:06.622 [GameState] Info> ClientStateManager.Push: [MovieState] Args: Realmforge.Internal.Client.GameStates.MovieArgs (Current stack: [ -> MainState -> SinglePlayerState -> LoadingState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> LoadingState ]'>
+0#2041 22:25:06.622 [GameState] Info> LoadingState: StartMovie took: 12.4621 ms Next: WatchingMovie
+0#13461 22:28:17.939 [GameState] Info> ClientStateManager.Pop: [MovieState; idx: 3] (Current stack: [ -> MainState -> SinglePlayerState -> LoadingState -> MovieState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> LoadingState -> MovieState ]'>
+0#13461 22:28:17.940 [GameState] Info> LoadingState: WatchingMovie took: 191317.495 ms Next: StartLoadSavegameData
+0#13462 22:28:17.954 [GameState] Info> LoadingState: StartLoadSavegameData took: 14.3374 ms Next: SwitchScene
+0#13463 22:28:17.972 [GameState] Info> MainState: Finished took: 215770.52 ms Next: Idle
+0#13463 22:28:17.972 [GameState] Info> LoadingState: SwitchScene took: 17.5578 ms Next: InitAudioLength
+0#13465 22:28:18.037 [GameState] Info> LoadingState: InitAudioLength took: 65.7806 ms Next: GenerateMap
+0#13466 22:28:18.218 [GameState] Info> LoadingState: GenerateMap took: 180.437 ms Next: BootServer
+0#13467 22:28:18.250 [GameState] Info> LoadingState: BootServer took: 32.4759 ms Next: PreInitRegion
+0#13468 22:28:18.527 [GameState] Info> LoadingState: PreInitRegion took: 276.7504 ms Next: WaitForDecoPreloaded
+0#13563 22:28:20.760 [GameState] Info> LoadingState: WaitForDecoPreloaded took: 2232.574 ms Next: LoadOutsideDeco
+0#13569 22:28:24.500 [GameState] Info> LoadingState: LoadOutsideDeco took: 3740.223 ms Next: WaitForServerBooted
+0#13570 22:28:24.559 [GameState] Info> LoadingState: WaitForServerBooted took: 58.6855 ms Next: WaitForClientSceneLoaded
+0#13573 22:28:24.782 [GameState] Info> LoadingState: WaitForClientSceneLoaded took: 223.464 ms Next: WaitForGeneratedData
+0#13574 22:28:24.845 [GameState] Info> LoadingState: WaitForGeneratedData took: 63.0709 ms Next: ApplyGeneratedTerrain
+0#13575 22:28:24.900 [GameState] Info> LoadingState: ApplyGeneratedTerrain took: 54.9335 ms Next: HandleBootingRpcs
+0#13581 22:28:25.997 [GameState] Info> LoadingState: HandleBootingRpcs took: 1096.7337 ms Next: HandlePostSceneInit
+0#13582 22:28:26.067 [GameState] Info> LoadingState: HandlePostSceneInit took: 68.8899 ms Next: HandleFinalInit
+0#13583 22:28:26.079 [GameState] Info> LoadingState: HandleFinalInit took: 13.8498 ms Next: CallPendingStarts
+0#13584 22:28:26.158 [GameState] Info> LoadingState: CallPendingStarts took: 78.1419 ms Next: FinalizeMapGen
+0#13585 22:28:26.198 [GameState] Info> LoadingState: FinalizeMapGen took: 40.576 ms Next: AdditionalObjectCsvLoader
+0#13586 22:28:26.216 [GameState] Info> LoadingState: AdditionalObjectCsvLoader took: 17.4528 ms Next: InitEvilTerrains
+0#13587 22:28:26.236 [GameState] Info> LoadingState: InitEvilTerrains took: 20.0922 ms Next: UnloadResources
+0#13588 22:28:26.270 [GameState] Info> LoadingState: UnloadResources took: 33.9612 ms Next: WaitForBucketBaker
+0#13589 22:28:26.538 [GameState] Info> LoadingState: WaitForBucketBaker took: 267.9018 ms Next: WaitForGameServerStarted
+0#13590 22:28:26.542 [GameState] Info> LoadingState: WaitForGameServerStarted took: 4.6733 ms Next: Prewarm
+0#13590 22:28:26.542 [GameState] Info> Prewarm - 13590/13600
+0#13591 22:28:26.546 [GameState] Info> Prewarm - 13591/13600
+0#13592 22:28:26.705 [GameState] Info> Prewarm - 13592/13600
+1#13593 22:28:26.899 [GameState] Info> Prewarm - 13593/13600
+1#13594 22:28:26.941 [GameState] Info> Prewarm - 13594/13600
+2#13595 22:28:26.980 [GameState] Info> Prewarm - 13595/13600
+2#13596 22:28:26.991 [GameState] Info> Prewarm - 13596/13600
+3#13597 22:28:27.005 [GameState] Info> Prewarm - 13597/13600
+3#13598 22:28:27.011 [GameState] Info> Prewarm - 13598/13600
+3#13599 22:28:27.026 [GameState] Info> Prewarm - 13599/13600
+3#13600 22:28:27.038 [GameState] Info> Prewarm - 13600/13600
+3#13600 22:28:27.038 [GameState] Info> LoadingState: Prewarm took: 495.6695 ms Next: Finished
+4#13601 22:28:27.054 [GameState] Info> ClientStateManager.Pop: [LoadingState; idx: 2] (Current stack: [ -> MainState -> SinglePlayerState -> LoadingState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> LoadingState ]'>
+4#13601 22:28:27.055 [GameState] Info> LoadingState: Finished took: 17.0264 ms Next: Left
+4#13601 22:28:27.056 [GameState] Info> ClientStateManager.Push: [PlayingState] Args:  (Current stack: [ -> MainState -> SinglePlayerState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState ]'>
+6832#34004 22:34:08.520 [GameState] Info> ClientStateManager.AddNotificationMsg: SavingMsg (Current stack: [ -> MainState -> SinglePlayerState -> PlayingState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> PlayingState ]'>
+6832#34018 22:34:08.755 [GameState] Info> ClientStateManager.RemoveNotificationMsg: SavingMsg (Current stack: [ -> MainState -> SinglePlayerState -> PlayingState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> PlayingState ]'>
+10760#45759 22:37:25.161 [GameState] Info> ClientStateManager.AddNotificationMsg: SavingMsg (Current stack: [ -> MainState -> SinglePlayerState -> PlayingState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> PlayingState ]'>
+10761#45766 22:37:25.277 [GameState] Info> ClientStateManager.RemoveNotificationMsg: SavingMsg (Current stack: [ -> MainState -> SinglePlayerState -> PlayingState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> PlayingState ]'>
+12911#52192 22:39:12.804 [GameState] Info> ClientStateManager.AddNotificationMsg: SavingMsg (Current stack: [ -> MainState -> SinglePlayerState -> PlayingState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> PlayingState ]'>
+12912#52199 22:39:12.920 [GameState] Info> ClientStateManager.RemoveNotificationMsg: SavingMsg (Current stack: [ -> MainState -> SinglePlayerState -> PlayingState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> PlayingState ]'>
+14141#55872 22:40:14.356 [GameState] Info> ClientStateManager.Push: [WinLoseState] Args: Realmforge.Internal.Client.GameStates.WinLoseStateArgs (Current stack: [ -> MainState -> SinglePlayerState -> PlayingState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> PlayingState ]'>
+14141#55872 22:40:14.360 [GameState] Info> ClientStateManager.TransitTo: [TransitToMainMenu] (Current stack: [ -> MainState -> SinglePlayerState -> PlayingState -> WinLoseState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> PlayingState -> WinLoseState ]'>
+14141#55873 22:40:14.371 [GameState] Info> ClientStateManager.Pop: [WinLoseState; idx: 3] (Current stack: [ -> MainState -> SinglePlayerState -> PlayingState -> WinLoseState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> PlayingState -> WinLoseState ]'>
+14141#55874 22:40:14.386 [GameState] Info> ClientStateManager.Pop: [PlayingState; idx: 2] (Current stack: [ -> MainState -> SinglePlayerState -> PlayingState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> PlayingState ]'>
+14141#55874 22:40:14.386 [GameState] Info> ClientStateManager.Push: [UnloadSceneState] Args:  (Current stack: [ -> MainState -> SinglePlayerState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState ]'>
+0#55881 22:40:14.741 [GameState] Info> ClientStateManager.Pop: [UnloadSceneState; idx: 2] (Current stack: [ -> MainState -> SinglePlayerState -> UnloadSceneState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> UnloadSceneState ]'>
+0#55882 22:40:14.745 [GameState] Info> ClientStateManager.Pop: [SinglePlayerState; idx: 1] (Current stack: [ -> MainState -> SinglePlayerState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState ]'>
+0#55883 22:40:14.751 [GameState] Info> ClientStateManager.Push: [MovieState] Args: Realmforge.Internal.Client.GameStates.MovieArgs (Current stack: [ -> MainState ]) <MonoBehaviour ClientStateManager '[ -> MainState ]'>
+0#64334 22:42:36.271 [GameState] Info> ClientStateManager.Pop: [MovieState; idx: 1] (Current stack: [ -> MainState -> MovieState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> MovieState ]'>
+0#64335 22:42:36.281 [GameState] Info> MainState: Idle took: 858309.6245 ms Next: PreloadWorldMap
+0#64335 22:42:36.289 [GameState] Info> ClientStateManager.currentTransitTo finished: [TransitToMainMenu] (Current stack: [ -> MainState ]) <MonoBehaviour ClientStateManager '[ -> MainState ]'>
+0#64335 22:42:36.292 [GameState] Info> MainState: PreloadWorldMap took: 10.8099 ms Next: CameraPoiAndLoop
+0#64336 22:42:36.377 [GameState] Info> MainState: CameraPoiAndLoop took: 84.9262 ms Next: WaitForPreloading
+0#64351 22:42:36.599 [GameState] Info> MainState: WaitForPreloading took: 221.898 ms Next: SetupRegions
+0#64352 22:42:36.680 [GameState] Info> MainState: SetupRegions took: 81.0698 ms Next: AdditionalObjectCsvLoader
+0#64363 22:42:37.044 [GameState] Info> MainState: AdditionalObjectCsvLoader took: 364.1812 ms Next: InitEvilTerrains
+0#64364 22:42:37.054 [GameState] Info> MainState: InitEvilTerrains took: 10.0203 ms Next: Prewarm
+0#64374 22:42:37.235 [GameState] Info> MainState: Prewarm took: 180.6262 ms Next: Finalize
+0#64375 22:42:37.253 [GameState] Info> MainState: Finalize took: 18.4465 ms Next: Finished
+0#66656 22:43:15.406 [GameState] Info> ClientStateManager.TransitTo: [TransitTo SP game: [Scene: scene 'Cathedral' (1p; Main; Ver: 0/0)]] (Current stack: [ -> MainState ]) <MonoBehaviour ClientStateManager '[ -> MainState ]'>
+0#66657 22:43:15.420 [GameState] Info> ClientStateManager.Push: [SinglePlayerState] Args: [Scene: scene 'Cathedral' (1p; Main; Ver: 0/0)] (Current stack: [ -> MainState ]) <MonoBehaviour ClientStateManager '[ -> MainState ]'>
+0#66658 22:43:15.437 [GameState] Info> ClientStateManager.currentTransitTo finished: [TransitTo SP game: [Scene: scene 'Cathedral' (1p; Main; Ver: 0/0)]] (Current stack: [ -> MainState -> SinglePlayerState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState ]'>
+0#66658 22:43:15.438 [GameState] Info> ClientStateManager.AddNotificationMsg: PreparingSinglePlayerGameMsg (Current stack: [ -> MainState -> SinglePlayerState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState ]'>
+0#66663 22:43:15.521 [GameState] Info> ClientStateManager.RemoveNotificationMsg: PreparingSinglePlayerGameMsg (Current stack: [ -> MainState -> SinglePlayerState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState ]'>
+0#66664 22:43:15.538 [GameState] Info> ClientStateManager.Push: [LoadingState] Args: [Scene: scene 'Cathedral' (1p; Main; Ver: 0/0)] (Current stack: [ -> MainState -> SinglePlayerState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState ]'>
+0#66664 22:43:15.538 [GameState] Info> LoadingState: Left took: 888483.3459 ms Next: VerifySceneInfo
+0#66664 22:43:15.539 [GameState] Info> LoadingState: VerifySceneInfo took: 0.9991 ms Next: StartMovie
+0#66665 22:43:15.555 [GameState] Info> LoadingState: StartMovie took: 15.8083 ms Next: WatchingMovie
+0#66666 22:43:15.570 [GameState] Info> LoadingState: WatchingMovie took: 15.1281 ms Next: StartLoadSavegameData
+0#66667 22:43:15.586 [GameState] Info> LoadingState: StartLoadSavegameData took: 15.9456 ms Next: SwitchScene
+0#66668 22:43:15.603 [GameState] Info> MainState: Finished took: 38350.1567 ms Next: Idle
+0#66668 22:43:15.603 [GameState] Info> LoadingState: SwitchScene took: 17.169 ms Next: InitAudioLength
+0#66670 22:43:15.668 [GameState] Info> LoadingState: InitAudioLength took: 64.7345 ms Next: GenerateMap
+0#66671 22:43:15.862 [GameState] Info> LoadingState: GenerateMap took: 193.4073 ms Next: BootServer
+0#66672 22:43:15.907 [GameState] Info> LoadingState: BootServer took: 45.4563 ms Next: PreInitRegion
+0#66673 22:43:16.241 [GameState] Info> LoadingState: PreInitRegion took: 333.3086 ms Next: WaitForDecoPreloaded
+0#66757 22:43:18.030 [GameState] Info> LoadingState: WaitForDecoPreloaded took: 1789.3917 ms Next: LoadOutsideDeco
+0#66763 22:43:21.797 [GameState] Info> LoadingState: LoadOutsideDeco took: 3767.6162 ms Next: WaitForServerBooted
+0#66764 22:43:21.813 [GameState] Info> LoadingState: WaitForServerBooted took: 15.6612 ms Next: WaitForClientSceneLoaded
+0#66765 22:43:21.818 [GameState] Info> LoadingState: WaitForClientSceneLoaded took: 4.9991 ms Next: WaitForGeneratedData
+0#66766 22:43:21.821 [GameState] Info> LoadingState: WaitForGeneratedData took: 3.5053 ms Next: ApplyGeneratedTerrain
+0#66767 22:43:21.825 [GameState] Info> LoadingState: ApplyGeneratedTerrain took: 3.5349 ms Next: HandleBootingRpcs
+0#66770 22:43:23.203 [GameState] Info> LoadingState: HandleBootingRpcs took: 1377.3588 ms Next: HandlePostSceneInit
+0#66771 22:43:23.232 [GameState] Info> LoadingState: HandlePostSceneInit took: 29.8459 ms Next: HandleFinalInit
+0#66772 22:43:23.239 [GameState] Info> LoadingState: HandleFinalInit took: 6.6479 ms Next: CallPendingStarts
+0#66773 22:43:23.487 [GameState] Info> LoadingState: CallPendingStarts took: 248.3867 ms Next: FinalizeMapGen
+0#66774 22:43:23.527 [GameState] Info> LoadingState: FinalizeMapGen took: 39.3324 ms Next: AdditionalObjectCsvLoader
+0#66775 22:43:23.639 [GameState] Info> LoadingState: AdditionalObjectCsvLoader took: 112.7622 ms Next: InitEvilTerrains
+0#66776 22:43:23.656 [GameState] Info> LoadingState: InitEvilTerrains took: 15.7846 ms Next: UnloadResources
+0#66777 22:43:23.707 [GameState] Info> LoadingState: UnloadResources took: 51.8422 ms Next: WaitForBucketBaker
+0#67024 22:43:28.267 [GameState] Info> LoadingState: WaitForBucketBaker took: 4560.0439 ms Next: WaitForGameServerStarted
+0#67025 22:43:28.282 [GameState] Info> LoadingState: WaitForGameServerStarted took: 15.3035 ms Next: Prewarm
+0#67025 22:43:28.282 [GameState] Info> Prewarm - 67025/67035
+0#67026 22:43:28.299 [GameState] Info> Prewarm - 67026/67035
+1#67027 22:43:28.474 [GameState] Info> Prewarm - 67027/67035
+3#67028 22:43:28.637 [GameState] Info> Prewarm - 67028/67035
+5#67029 22:43:28.692 [GameState] Info> Prewarm - 67029/67035
+5#67030 22:43:28.715 [GameState] Info> Prewarm - 67030/67035
+6#67031 22:43:28.732 [GameState] Info> Prewarm - 67031/67035
+6#67032 22:43:28.744 [GameState] Info> Prewarm - 67032/67035
+6#67033 22:43:28.753 [GameState] Info> Prewarm - 67033/67035
+6#67034 22:43:28.769 [GameState] Info> Prewarm - 67034/67035
+7#67035 22:43:28.786 [GameState] Info> Prewarm - 67035/67035
+7#67035 22:43:28.786 [GameState] Info> LoadingState: Prewarm took: 503.6364 ms Next: Finished
+7#67036 22:43:28.802 [GameState] Info> ClientStateManager.Pop: [LoadingState; idx: 2] (Current stack: [ -> MainState -> SinglePlayerState -> LoadingState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> LoadingState ]'>
+7#67036 22:43:28.802 [GameState] Info> LoadingState: Finished took: 15.5552 ms Next: Left
+7#67036 22:43:28.802 [GameState] Info> ClientStateManager.Push: [PlayingState] Args:  (Current stack: [ -> MainState -> SinglePlayerState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState ]'>
+35972#174564 23:13:28.949 [GameState] Info> ClientStateManager.AddNotificationMsg: SavingMsg (Current stack: [ -> MainState -> SinglePlayerState -> PlayingState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> PlayingState ]'>
+35972#174574 23:13:29.115 [GameState] Info> ClientStateManager.RemoveNotificationMsg: SavingMsg (Current stack: [ -> MainState -> SinglePlayerState -> PlayingState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> PlayingState ]'>
+71951#282818 23:43:31.982 [GameState] Info> ClientStateManager.AddNotificationMsg: SavingMsg (Current stack: [ -> MainState -> SinglePlayerState -> PlayingState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> PlayingState ]'>
+71951#282828 23:43:32.148 [GameState] Info> ClientStateManager.RemoveNotificationMsg: SavingMsg (Current stack: [ -> MainState -> SinglePlayerState -> PlayingState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> PlayingState ]'>
+91356#340684 23:59:38.665 [GameState] Info> ClientStateManager.AddNotificationMsg: SavingMsg (Current stack: [ -> MainState -> SinglePlayerState -> PlayingState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> PlayingState ]'>
+91357#340696 23:59:38.866 [GameState] Info> ClientStateManager.RemoveNotificationMsg: SavingMsg (Current stack: [ -> MainState -> SinglePlayerState -> PlayingState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> PlayingState ]'>
+108084#390835 00:13:31.997 [GameState] Info> ClientStateManager.AddNotificationMsg: SavingMsg (Current stack: [ -> MainState -> SinglePlayerState -> PlayingState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> PlayingState ]'>
+108084#390847 00:13:32.197 [GameState] Info> ClientStateManager.RemoveNotificationMsg: SavingMsg (Current stack: [ -> MainState -> SinglePlayerState -> PlayingState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> PlayingState ]'>
+131332#460510 00:32:50.099 [GameState] Info> ClientStateManager.AddNotificationMsg: SavingMsg (Current stack: [ -> MainState -> SinglePlayerState -> PlayingState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> PlayingState ]'>
+131333#460522 00:32:50.317 [GameState] Info> ClientStateManager.RemoveNotificationMsg: SavingMsg (Current stack: [ -> MainState -> SinglePlayerState -> PlayingState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> PlayingState ]'>
+132539#464116 00:33:50.427 [GameState] Info> ClientStateManager.AddNotificationMsg: SavingMsg (Current stack: [ -> MainState -> SinglePlayerState -> PlayingState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> PlayingState ]'>
+132540#464131 00:33:50.678 [GameState] Info> ClientStateManager.RemoveNotificationMsg: SavingMsg (Current stack: [ -> MainState -> SinglePlayerState -> PlayingState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> PlayingState ]'>
+142547#493904 00:42:09.125 [GameState] Info> ClientStateManager.AddNotificationMsg: SavingMsg (Current stack: [ -> MainState -> SinglePlayerState -> PlayingState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> PlayingState ]'>
+142548#493916 00:42:09.327 [GameState] Info> ClientStateManager.RemoveNotificationMsg: SavingMsg (Current stack: [ -> MainState -> SinglePlayerState -> PlayingState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> PlayingState ]'>
+144207#498852 00:43:32.002 [GameState] Info> ClientStateManager.AddNotificationMsg: SavingMsg (Current stack: [ -> MainState -> SinglePlayerState -> PlayingState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> PlayingState ]'>
+144207#498863 00:43:32.183 [GameState] Info> ClientStateManager.RemoveNotificationMsg: SavingMsg (Current stack: [ -> MainState -> SinglePlayerState -> PlayingState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> PlayingState ]'>
+153060#525249 00:50:53.148 [GameState] Info> ClientStateManager.AddNotificationMsg: SavingMsg (Current stack: [ -> MainState -> SinglePlayerState -> PlayingState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> PlayingState ]'>
+153061#525261 00:50:53.350 [GameState] Info> ClientStateManager.RemoveNotificationMsg: SavingMsg (Current stack: [ -> MainState -> SinglePlayerState -> PlayingState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> PlayingState ]'>
+154539#529647 00:52:07.006 [GameState] Info> ClientStateManager.AddNotificationMsg: SavingMsg (Current stack: [ -> MainState -> SinglePlayerState -> PlayingState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> PlayingState ]'>
+154540#529658 00:52:07.191 [GameState] Info> ClientStateManager.RemoveNotificationMsg: SavingMsg (Current stack: [ -> MainState -> SinglePlayerState -> PlayingState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> PlayingState ]'>
+156847#536505 00:54:02.089 [GameState] Info> ClientStateManager.Push: [WinLoseState] Args: Realmforge.Internal.Client.GameStates.WinLoseStateArgs (Current stack: [ -> MainState -> SinglePlayerState -> PlayingState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> PlayingState ]'>
+156847#536971 00:54:09.972 [GameState] Info> ClientStateManager.TransitTo: [TransitToMainMenu] (Current stack: [ -> MainState -> SinglePlayerState -> PlayingState -> WinLoseState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> PlayingState -> WinLoseState ]'>
+156847#536972 00:54:09.986 [GameState] Info> ClientStateManager.Pop: [WinLoseState; idx: 3] (Current stack: [ -> MainState -> SinglePlayerState -> PlayingState -> WinLoseState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> PlayingState -> WinLoseState ]'>
+156847#536973 00:54:10.003 [GameState] Info> ClientStateManager.Pop: [PlayingState; idx: 2] (Current stack: [ -> MainState -> SinglePlayerState -> PlayingState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> PlayingState ]'>
+156847#536973 00:54:10.003 [GameState] Info> ClientStateManager.Push: [UnloadSceneState] Args:  (Current stack: [ -> MainState -> SinglePlayerState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState ]'>
+0#536980 00:54:10.688 [GameState] Info> ClientStateManager.Pop: [UnloadSceneState; idx: 2] (Current stack: [ -> MainState -> SinglePlayerState -> UnloadSceneState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> UnloadSceneState ]'>
+0#536981 00:54:10.691 [GameState] Info> ClientStateManager.Pop: [SinglePlayerState; idx: 1] (Current stack: [ -> MainState -> SinglePlayerState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState ]'>
+0#536982 00:54:10.695 [GameState] Info> MainState: Idle took: 7855091.0836 ms Next: PreloadWorldMap
+0#536982 00:54:10.702 [GameState] Info> ClientStateManager.currentTransitTo finished: [TransitToMainMenu] (Current stack: [ -> MainState ]) <MonoBehaviour ClientStateManager '[ -> MainState ]'>
+0#536982 00:54:10.706 [GameState] Info> MainState: PreloadWorldMap took: 11.095 ms Next: CameraPoiAndLoop
+0#536983 00:54:10.732 [GameState] Info> MainState: CameraPoiAndLoop took: 26.5635 ms Next: WaitForPreloading
+0#536998 00:54:10.953 [GameState] Info> MainState: WaitForPreloading took: 221.1975 ms Next: SetupRegions
+0#536999 00:54:11.043 [GameState] Info> MainState: SetupRegions took: 89.3222 ms Next: AdditionalObjectCsvLoader
+0#537012 00:54:11.531 [GameState] Info> MainState: AdditionalObjectCsvLoader took: 488.6309 ms Next: InitEvilTerrains
+0#537013 00:54:11.541 [GameState] Info> MainState: InitEvilTerrains took: 9.8979 ms Next: Prewarm
+0#537023 00:54:11.725 [GameState] Info> MainState: Prewarm took: 182.8377 ms Next: Finalize
+0#537024 00:54:11.742 [GameState] Info> MainState: Finalize took: 17.0386 ms Next: Finished
+0#539546 00:54:53.926 [GameState] Info> ClientStateManager.TransitTo: [TransitTo SP game: [Scene: scene 'DemonStones' (1p; Main; Ver: 0/0)]] (Current stack: [ -> MainState ]) <MonoBehaviour ClientStateManager '[ -> MainState ]'>
+0#539547 00:54:53.940 [GameState] Info> ClientStateManager.Push: [SinglePlayerState] Args: [Scene: scene 'DemonStones' (1p; Main; Ver: 0/0)] (Current stack: [ -> MainState ]) <MonoBehaviour ClientStateManager '[ -> MainState ]'>
+0#539548 00:54:53.956 [GameState] Info> ClientStateManager.currentTransitTo finished: [TransitTo SP game: [Scene: scene 'DemonStones' (1p; Main; Ver: 0/0)]] (Current stack: [ -> MainState -> SinglePlayerState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState ]'>
+0#539548 00:54:53.957 [GameState] Info> ClientStateManager.AddNotificationMsg: PreparingSinglePlayerGameMsg (Current stack: [ -> MainState -> SinglePlayerState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState ]'>
+0#539554 00:54:54.056 [GameState] Info> ClientStateManager.RemoveNotificationMsg: PreparingSinglePlayerGameMsg (Current stack: [ -> MainState -> SinglePlayerState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState ]'>
+0#539555 00:54:54.074 [GameState] Info> ClientStateManager.Push: [LoadingState] Args: [Scene: scene 'DemonStones' (1p; Main; Ver: 0/0)] (Current stack: [ -> MainState -> SinglePlayerState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState ]'>
+0#539555 00:54:54.074 [GameState] Info> LoadingState: Left took: 7885272.6684 ms Next: VerifySceneInfo
+0#539555 00:54:54.076 [GameState] Info> LoadingState: VerifySceneInfo took: 2.0117 ms Next: StartMovie
+0#539556 00:54:54.090 [GameState] Info> LoadingState: StartMovie took: 14.1624 ms Next: WatchingMovie
+0#539557 00:54:54.105 [GameState] Info> LoadingState: WatchingMovie took: 14.6522 ms Next: StartLoadSavegameData
+0#539558 00:54:54.122 [GameState] Info> LoadingState: StartLoadSavegameData took: 17.0606 ms Next: SwitchScene
+0#539559 00:54:54.139 [GameState] Info> MainState: Finished took: 42397.5852 ms Next: Idle
+0#539559 00:54:54.139 [GameState] Info> LoadingState: SwitchScene took: 16.582 ms Next: InitAudioLength
+0#539561 00:54:54.200 [GameState] Info> LoadingState: InitAudioLength took: 61.1225 ms Next: GenerateMap
+0#539562 00:54:54.404 [GameState] Info> LoadingState: GenerateMap took: 204.3863 ms Next: BootServer
+0#539563 00:54:54.406 [GameState] Info> LoadingState: BootServer took: 2.0009 ms Next: PreInitRegion
+0#539564 00:54:55.323 [GameState] Info> LoadingState: PreInitRegion took: 916.5332 ms Next: WaitForDecoPreloaded
+0#539635 00:54:56.550 [GameState] Info> LoadingState: WaitForDecoPreloaded took: 1227.4817 ms Next: LoadOutsideDeco
+0#539642 00:55:01.684 [GameState] Info> LoadingState: LoadOutsideDeco took: 5133.6674 ms Next: WaitForServerBooted
+0#539643 00:55:01.688 [GameState] Info> LoadingState: WaitForServerBooted took: 3.9955 ms Next: WaitForClientSceneLoaded
+0#539644 00:55:01.690 [GameState] Info> LoadingState: WaitForClientSceneLoaded took: 1.9987 ms Next: WaitForGeneratedData
+0#539645 00:55:01.694 [GameState] Info> LoadingState: WaitForGeneratedData took: 3.7685 ms Next: ApplyGeneratedTerrain
+0#539646 00:55:01.697 [GameState] Info> LoadingState: ApplyGeneratedTerrain took: 3.7213 ms Next: HandleBootingRpcs
+0#539649 00:55:03.054 [GameState] Info> LoadingState: HandleBootingRpcs took: 1356.6912 ms Next: HandlePostSceneInit
+0#539650 00:55:03.088 [GameState] Info> LoadingState: HandlePostSceneInit took: 33.6612 ms Next: HandleFinalInit
+0#539651 00:55:03.094 [GameState] Info> LoadingState: HandleFinalInit took: 6.6858 ms Next: CallPendingStarts
+0#539652 00:55:03.240 [GameState] Info> LoadingState: CallPendingStarts took: 145.6091 ms Next: FinalizeMapGen
+0#539653 00:55:03.280 [GameState] Info> LoadingState: FinalizeMapGen took: 39.0076 ms Next: AdditionalObjectCsvLoader
+0#539654 00:55:03.309 [GameState] Info> LoadingState: AdditionalObjectCsvLoader took: 29.7819 ms Next: InitEvilTerrains
+0#539655 00:55:03.324 [GameState] Info> LoadingState: InitEvilTerrains took: 15.037 ms Next: UnloadResources
+0#539656 00:55:03.431 [GameState] Info> LoadingState: UnloadResources took: 106.086 ms Next: WaitForBucketBaker
+0#539902 00:55:07.838 [GameState] Info> LoadingState: WaitForBucketBaker took: 4406.7451 ms Next: WaitForGameServerStarted
+0#539903 00:55:07.855 [GameState] Info> LoadingState: WaitForGameServerStarted took: 18.8215 ms Next: Prewarm
+0#539903 00:55:07.855 [GameState] Info> Prewarm - 539903/539913
+0#539904 00:55:07.871 [GameState] Info> Prewarm - 539904/539913
+1#539905 00:55:07.999 [GameState] Info> Prewarm - 539905/539913
+2#539906 00:55:08.090 [GameState] Info> Prewarm - 539906/539913
+3#539907 00:55:08.099 [GameState] Info> Prewarm - 539907/539913
+3#539908 00:55:08.116 [GameState] Info> Prewarm - 539908/539913
+3#539909 00:55:08.126 [GameState] Info> Prewarm - 539909/539913
+3#539910 00:55:08.136 [GameState] Info> Prewarm - 539910/539913
+4#539911 00:55:08.146 [GameState] Info> Prewarm - 539911/539913
+4#539912 00:55:08.156 [GameState] Info> Prewarm - 539912/539913
+4#539913 00:55:08.174 [GameState] Info> Prewarm - 539913/539913
+4#539913 00:55:08.174 [GameState] Info> LoadingState: Prewarm took: 318.5213 ms Next: Finished
+5#539914 00:55:08.190 [GameState] Info> ClientStateManager.Pop: [LoadingState; idx: 2] (Current stack: [ -> MainState -> SinglePlayerState -> LoadingState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> LoadingState ]'>
+5#539914 00:55:08.190 [GameState] Info> LoadingState: Finished took: 16.0467 ms Next: Left
+5#539914 00:55:08.190 [GameState] Info> ClientStateManager.Push: [PlayingState] Args:  (Current stack: [ -> MainState -> SinglePlayerState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState ]'>
+24783#614034 01:15:49.863 [GameState] Info> ClientStateManager.AddNotificationMsg: SavingMsg (Current stack: [ -> MainState -> SinglePlayerState -> PlayingState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> PlayingState ]'>
+24783#614043 01:15:49.995 [GameState] Info> ClientStateManager.RemoveNotificationMsg: SavingMsg (Current stack: [ -> MainState -> SinglePlayerState -> PlayingState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> PlayingState ]'>
+24795#614373 01:15:55.517 [GameState] Info> ClientStateManager.TransitTo: [TransitToMainMenu] (Current stack: [ -> MainState -> SinglePlayerState -> PlayingState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> PlayingState ]'>
+24795#614374 01:15:55.531 [GameState] Info> ClientStateManager.Pop: [PlayingState; idx: 2] (Current stack: [ -> MainState -> SinglePlayerState -> PlayingState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> PlayingState ]'>
+24795#614374 01:15:55.531 [GameState] Info> ClientStateManager.Push: [UnloadSceneState] Args:  (Current stack: [ -> MainState -> SinglePlayerState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState ]'>
+0#614381 01:15:56.107 [GameState] Info> ClientStateManager.Pop: [UnloadSceneState; idx: 2] (Current stack: [ -> MainState -> SinglePlayerState -> UnloadSceneState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState -> UnloadSceneState ]'>
+0#614382 01:15:56.110 [GameState] Info> ClientStateManager.Pop: [SinglePlayerState; idx: 1] (Current stack: [ -> MainState -> SinglePlayerState ]) <MonoBehaviour ClientStateManager '[ -> MainState -> SinglePlayerState ]'>
+0#614383 01:15:56.113 [GameState] Info> MainState: Idle took: 1261974.7902 ms Next: PreloadWorldMap
+0#614383 01:15:56.115 [GameState] Info> ClientStateManager.currentTransitTo finished: [TransitToMainMenu] (Current stack: [ -> MainState ]) <MonoBehaviour ClientStateManager '[ -> MainState ]'>
+0#614383 01:15:56.118 [GameState] Info> MainState: PreloadWorldMap took: 4.082 ms Next: CameraPoiAndLoop
+0#614384 01:15:56.122 [GameState] Info> MainState: CameraPoiAndLoop took: 4.0141 ms Next: WaitForPreloading
+0#614400 01:15:56.398 [GameState] Info> MainState: WaitForPreloading took: 276.6391 ms Next: SetupRegions
+0#614401 01:15:56.488 [GameState] Info> MainState: SetupRegions took: 89.3982 ms Next: AdditionalObjectCsvLoader
+0#614413 01:15:56.875 [GameState] Info> MainState: AdditionalObjectCsvLoader took: 387.5484 ms Next: InitEvilTerrains
+0#614414 01:15:56.885 [GameState] Info> MainState: InitEvilTerrains took: 10.0205 ms Next: Prewarm
+0#614424 01:15:57.090 [GameState] Info> MainState: Prewarm took: 204.9941 ms Next: Finalize
+0#614425 01:15:57.096 [GameState] Info> MainState: Finalize took: 6.3027 ms Next: Finished
